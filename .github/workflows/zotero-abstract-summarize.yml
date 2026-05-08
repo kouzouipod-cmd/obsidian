@@ -1,0 +1,180 @@
+name: Zotero Abstract Summarize
+
+on:
+  # Run daily at 1:00 AM JST (16:00 UTC previous day)
+  schedule:
+    - cron: '0 16 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  detect-and-summarize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for git log analysis
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      - name: Detect new BibTeX entries (last 24 hours)
+        id: detect
+        run: |
+          python scripts/detect_new_bib_entries.py
+          if [ -f new_entries.json ]; then
+            COUNT=$(python -c "import json; print(len(json.load(open('new_entries.json'))))")
+            KEYS=$(python -c "import json; entries=json.load(open('new_entries.json')); print(','.join([e['entry_key'] for e in entries]))")
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+            echo "entry_keys=$KEYS" >> $GITHUB_OUTPUT
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            echo "Found $COUNT new entries with abstracts: $KEYS"
+          else
+            echo "count=0" >> $GITHUB_OUTPUT
+            echo "entry_keys=" >> $GITHUB_OUTPUT
+            echo "has_new=false" >> $GITHUB_OUTPUT
+            echo "No new entries found"
+          fi
+      - name: Process new entries with Claude and Gemini
+        if: steps.detect.outputs.has_new == 'true'
+        uses: anthropics/claude-code-action@beta
+        with:
+          mode: 'agent'
+          model: 'sonnet'
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Read,Write,Bash(python:*),Bash(ls:*),Bash(cat:*),Bash(mkdir:*)"
+          direct_prompt: |
+            新規文献エントリの処理を行います。
+            ## 重要な制約
+            - **処理対象は以下のエントリキーのみです**: `${{ steps.detect.outputs.entry_keys }}`
+            - 処理件数: **${{ steps.detect.outputs.count }}件のみ**
+            - このリスト以外のエントリ（.bibファイルや既存の10_article/ファイル）は絶対に処理しないでください
+            ## タスク
+            ### 1. new_entries.jsonを読み込む（必須・最初に実行）
+            ```bash
+            cat new_entries.json
+            ```
+            このJSONファイルに含まれるエントリ**のみ**を処理してください。各エントリには entry_key, author, title, journal, year, abstract が含まれます。
+            ### 2. 各エントリに対して以下を実行：
+            #### 2-1. AI要約の生成
+            以下のフォーマットでabstractから要約を作成：
+            ```markdown
+            ## AI要約
+            ### **研究の概要**
+            - 本研究の目的および主要な提案内容をtl;drでごく簡単に記述。
+            ### **先行研究との差異および優位性**
+            - 本研究が先行研究と比較して新規性を有する点や、優れている点を示。
+            ### **研究手法**
+            - 本研究のMethodsについて簡潔に説明してください。研究デザイン（観察研究・ランダム化比較試験など）、主要評価項目、副次評価項目、統計手法について記載。
+            ### **結果**
+            - 主要評価項目、副次評価項目を簡潔に記載。
+            ### **考察および課題**
+            - 研究成果に関する議論、limitation、今後の研究課題について記載。
+            ### **キーワード**
+            - 本研究に関連するキーワードを複数挙げる。 #keywords1, #keywords2の形式で出力する。
+            ```
+            注意:
+            - キーワードは原則英語で出力、略語を使用してよい
+            - obsidianで検索することを意識した重要単語の選定
+            - キーワードはそれぞれ最大5個まで
+            #### 2-2. インフォグラフィック画像の生成
+            以下のPythonスクリプトを実行して画像を生成：
+            ```bash
+            python scripts/generate_infographic_gemini.py \
+              --entry-key "エントリキー" \
+              --title "論文タイトル" \
+              --author "著者名" \
+              --journal "ジャーナル名" \
+              --year "年" \
+              --abstract "Abstract全文" \
+              --summary "生成した要約テキスト" \
+              --output "90_attachments/エントリキー/infographic.png"
+            ```
+            環境変数 GEMINI_API_KEY は自動的に設定されています。
+            **画像生成後、必ず以下のコマンドでファイルの存在を確認してください：**
+            ```bash
+            ls -la 90_attachments/エントリキー/infographic.png
+            ```
+            ファイルが存在しない場合はエラーをログに記録し、次のエントリの処理に進んでください。
+            #### 2-3. Markdownファイルの作成
+            `10_article/@{entry_key}.md` を作成（entry_keyをそのままファイル名に使用）。
+            **注意**: 既存ファイルは絶対に読み込まないでください。以下のテンプレートのみを使用：
+            **【重要】テンプレート内の `![[90_attachments/エントリキー/infographic.png]]` の行は必ずそのまま含めてください。エントリキー部分のみ実際の値に置換し、それ以外の記法は一切変更しないでください。**
+            ```markdown
+            ---
+            tags:
+              - PMID/{{PMID if available}}
+            citekey: "エントリキー"
+            dateread: '2026-01-29'
+            read: false
+            ---
+            > [!Data]
+            > **PDF**.
+            > **Link**
+            > {{doi URLまたはpubmed URL if available}}
+            # 1 AI要約
+            ![[90_attachments/エントリキー/infographic.png]]
+            [ここに2-1で生成した要約を挿入]
+            ### **wikilink**
+            - 関連するwikilink（要約から抽出したキーワードに基づく）
+            # 2 Citation
+            著者名. 論文タイトル. ジャーナル名. 年;volume(issue):pages.
+            # 3 Related
+            >[!Info]
+            > **FirstAuthor**:: 著者名
+            > **Title**: 論文タイトル
+            > **Year**: 年
+            > **Citekey**: エントリキー
+            > **itemType**: journalArticle
+            > **Journal**: *ジャーナル名*
+            > **Volume**: {{volume if available}}
+            > **Issue**: {{issue if available}}
+            > [!Abstract]
+            >
+            > Abstract全文
+            ```
+            **ファイル命名規則**:
+            - Citation Keyをそのまま使用: `@{entry_key}.md`
+            - 例: `@smith_Nature_2025.md`
+            ### 3. 全エントリ処理完了後
+            - 生成したファイル一覧を表示
+            - 処理サマリーを出力（画像生成の成功/失敗も含める）
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Commit and push changes
+        if: steps.detect.outputs.has_new == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add 10_article/ 90_attachments/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add AI summaries and infographics for ${{ steps.detect.outputs.count }} new papers ($(date -u +'%Y-%m-%d'))"
+            git pull --rebase origin main || true
+            git push
+          fi
+      - name: Upload processing results as artifact
+        if: steps.detect.outputs.has_new == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: processing-results-${{ github.run_number }}
+          path: |
+            new_entries.json
+            10_article/**/*.md
+            90_attachments/**/*.png
+          retention-days: 30
