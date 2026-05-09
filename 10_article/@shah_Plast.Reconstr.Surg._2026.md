@@ -56,3 +56,18 @@ Shah, Pushti and Parise, Suhas and Saffari, Tiam M. and Noorbakhsh, Seth and Ign
 > [!Abstract]
 >
 > Background:~           Carpal tunnel syndrome is the most common upper extremity compression neuropathy, often requiring surgical intervention. Although open carpal tunnel release is effective, it has been associated with greater scarring and morbidity. Ultrasound-guided carpal tunnel release (USCTR) has emerged as a minimally invasive alternative. This systematic review and meta-analysis aimed to evaluate the efficacy and safety of USCTR compared with open techniques.           Methods:~           PubMed, Embase, ScienceDirect, and the CENTRAL databases were searched for studies describing USCTR with complete transverse carpal ligament release. Risk of bias was performed using the Cochrane risk-of-bias, Newcastle Ottawa, and Joanna Briggs Institute tools. Extracted data included patient demographics, functional outcomes, advanced imaging and nerve conduction metrics, patient-reported outcomes, and complications or reoperations. Meta-analyses were conducted on studies comparing USCTR with open techniques.           Results:~           Forty-three articles were included in this study, with 4097 patients. USCTR demonstrated significant improvements in functional outcomes, nerve conduction metrics, and patient-reported outcomes, exceeding minimal clinically important differences. Meta-analyses revealed no differences in motor latency, sensory conduction velocity, or complication rates between USCTR and open techniques. USCTR patients returned to work 10.15 days earlier (P = 0.02) and resumed normal activities 21 days earlier (P {$<$} 0.001) compared with open techniques. Complication and reoperation rates for USCTR were 1.57\% and 0.34\%, respectively.           Conclusions:~           USCTR is a safe and effective alternative to open techniques, offering comparable outcomes with shorter recovery times and earlier return to work. Large-scale prospective studies should further evaluate its role in the treatment of carpal tunnel syndrome.
+
+
+---
+title: "Efficacy and Safety of Ultrasound-Guided Carpal Tunnel... : Plastic and Reconstructive Surgery"
+source: "https://journals.lww.com/plasreconsurg/abstract/2026/05000/efficacy_and_safety_of_ultrasound_guided_carpal.19.aspx?context=featuredarticles&collectionid=2"
+author:
+published:
+created: 2026-05-09
+description: "Background: Carpal tunnel syndrome is the most common upper extremity compression neuropathy, oft"
+tags:
+  - "clippings"
+---
+Plain Language SummaryThis study reviewed 43 articles including 4097 patients to evaluate ultrasound-guided carpal tunnel release (USCTR), a minimally invasive method, and to compare it with traditional open surgery when such comparisons were available. USCTR led to significant improvements in functional outcomes, nerve conduction metrics, and patient-reported outcomes that exceeded minimal clinically important differences. In studies directly comparing USCTR with open techniques, there were no differences in motor latency, sensory conduction velocity, or complication rates. However, patients treated with USCTR returned to work 10.15 days earlier and resumed normal activities 21 days earlier than those who had open surgery. Overall complication and reoperation rates for USCTR were low at 1.57% and 0.34%, suggesting it is a safe and effective alternative to open surgery.
+
+*Text is machine generated and may contain inaccuracies.* [FAQ](https://lww.com/Pages/plainlanguagesummaries.aspx)
