@@ -9,9 +9,9 @@ read: false
 > **Link**
 >[A Targeted Approach to Post-Mastectomy Pain and Persistent Pain following Breast Cancer Treatment](https://pmc.ncbi.nlm.nih.gov/articles/PMC8534110/)
 
-
+![[Pasted image 20260530110856.png]]
 # 1 AI要約
-![[乳がん術後疼痛の個別化治療.png]]
+
 
 **概要** 乳がん治療後に生じる持続的な痛みは、一般に「乳房切除後疼痛症候群（PMPS）」と総称されますが、実際には神経障害や筋骨格系の問題など、複数の根本的な原因が複雑に絡み合って発生します。本論文は、痛みの原因を解剖学的な部位やメカニズムに基づいて明確に分類し、それぞれの診断方法と的を絞った治療アプローチ（標的アプローチ）を提示しています。
 
