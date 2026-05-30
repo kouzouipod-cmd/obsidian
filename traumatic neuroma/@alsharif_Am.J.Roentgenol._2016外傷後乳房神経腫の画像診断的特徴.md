@@ -9,7 +9,7 @@ read: false
 > **Link**
 >[Imaging Features Associated With Posttraumatic Breast Neuromas](https://ajronline.org/doi/10.2214/AJR.14.14035)
 
-
+![[Pasted image 20260530113322.png]]
 # 1 AI要約
 
 **概要** 本論文は、乳がんなどの乳房手術を受けた後に生じる非常に稀な「外傷性神経腫」について、その画像診断（超音波、MRI、マンモグラフィ）の特徴を明らかにするための後方視的レビューです。乳がんの手術痕付近にできるしこりは「がんの再発」と間違われやすいため、画像上の特徴を把握して的確に生検（組織採取）を行うことが重要であるとしています。
