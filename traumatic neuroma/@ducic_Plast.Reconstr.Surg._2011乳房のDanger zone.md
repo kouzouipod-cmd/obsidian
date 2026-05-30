@@ -9,7 +9,7 @@ read: false
 > **Link**
 >[Chronic postoperative breast pain: danger zones for nerve injuries](https://pubmed.ncbi.nlm.nih.gov/21200198/)
 
-
+![[Pasted image 20260530111319.png]]
 # 1 AI要約
 
 **概要** 乳房手術を受けた女性の約50％が術後の痛みを経験し、それが日常生活（運動、仕事、社会生活など）に大きな支障をきたすことがあります。本論文は、漠然と「乳房の痛み」として扱われがちなこの問題に対し、乳房のどの部分に神経が通っていて、どの術式でどの神経を損傷しやすいかという**「危険地帯（Danger Zones）」**を解剖学的にマッピングした研究です。
