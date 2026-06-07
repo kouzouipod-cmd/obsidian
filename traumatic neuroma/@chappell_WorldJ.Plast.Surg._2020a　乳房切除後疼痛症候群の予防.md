@@ -9,7 +9,7 @@ read: false
 > **Link**
 >[Post-Mastectomy Pain Syndrome: Defining Perioperative Etiologies to Guide New Methods of Prevention for Plastic Surgeons](https://pmc.ncbi.nlm.nih.gov/articles/PMC7734930/)
 
-
+![[Pasted image 20260607175815.png]]
 # 1 AI要約
 
 「乳房切除後疼痛症候群（PMPS）：形成外科医のための新たな予防法を導く周術期病因の定義（Chappellら、2020年）」の要約は以下の通りです。
