@@ -8,8 +8,8 @@ read: false
 > [Kim_2021_surgical_treatment_ICBN_pain_PRSGlobOpen](file://C:\Users\user\Zotero\storage\TH4I4Z66\Kim_2021_surgical_treatment_ICBN_pain_PRSGlobOpen.pdf).
 > **Link**
 >[Surgical Treatment of Intercostal Brachial Nerve Pain after Mastectomy and Axillary Dissection](https://pmc.ncbi.nlm.nih.gov/articles/PMC8594654/)
-![[肋間上腕神経痛外科的治療の有効性.png]]
-![[肋間上腕神経痛外科的治療の有効性 1.png]]
+
+![[Pasted image 20260607180906.png]]
 # 1 AI要約
 
 「乳房切除および腋窩郭清後の肋間上腕神経痛に対する外科的治療（Kimら、2021年）」の要約は以下の通りです。
