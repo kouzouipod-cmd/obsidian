@@ -1,6 +1,12 @@
 ---
 type: concept
-topic: traumatic_neuroma
+category:
+  - 神経
+  - 手技
+tags:
+  - 概念/神経
+  - 概念/手技
+source_topic: traumatic_neuroma
 aliases:
   - "TMR"
   - "RPNI"
@@ -9,7 +15,6 @@ aliases:
   - "再生末梢神経インターフェース"
   - "断端再建"
 ---
-
 # TMR・RPNI
 
 ## 定義
@@ -32,3 +37,4 @@ aliases:
 - [[神経腫の外科的切除]]
 - [[医原性神経損傷]]
 - [[乳房手術後疼痛症候群]]
+

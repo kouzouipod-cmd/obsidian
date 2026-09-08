@@ -1,6 +1,10 @@
 ---
 type: concept
-topic: maxillary_reconstruction
+category:
+  - 評価
+tags:
+  - 概念/評価
+source_topic: maxillary_reconstruction
 aliases:
   - "Quality of Life"
   - "QOL"
@@ -8,7 +12,6 @@ aliases:
   - "健康関連QOL"
   - "患者報告アウトカム"
 ---
-
 # 術後QOL
 
 ## 定義
@@ -30,3 +33,4 @@ aliases:
 - [[皮弁生着率]]
 - [[再建プレート合併症]]
 - [[顎義歯]]
+

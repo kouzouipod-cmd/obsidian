@@ -1,12 +1,15 @@
 ---
 type: concept
-topic: maxillary_reconstruction
+category:
+  - 横断
+tags:
+  - 概念/横断
+source_topic: maxillary_reconstruction
 aliases:
   - "Bone Flap vs Soft Tissue Flap"
   - "骨皮弁 vs 軟部皮弁"
   - "bone versus soft tissue"
 ---
-
 # 骨移植 vs 軟部再建
 
 ## 定義
@@ -32,3 +35,4 @@ aliases:
 - [[前外側大腿皮弁]]
 - [[頬骨インプラント]]
 - [[ダブルフラップ]]
+

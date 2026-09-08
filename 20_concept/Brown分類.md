@@ -1,12 +1,15 @@
 ---
 type: concept
-topic: maxillary_reconstruction
+category:
+  - 評価
+tags:
+  - 概念/評価
+source_topic: maxillary_reconstruction
 aliases:
   - "Brown Classification"
   - "Brown分類"
   - "Brown and Shaw classification"
 ---
-
 # Brown分類
 
 ## 定義
@@ -32,3 +35,4 @@ aliases:
 - [[上顎再建]]
 - [[顎義歯]]
 - [[眼窩底再建]]
+

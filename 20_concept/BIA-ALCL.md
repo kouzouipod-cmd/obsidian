@@ -1,12 +1,15 @@
 ---
 type: concept
-topic: traumatic_neuroma
+category:
+  - 合併症
+tags:
+  - 概念/合併症
+source_topic: traumatic_neuroma
 aliases:
   - "BIA-ALCL"
   - "乳房インプラント関連未分化大細胞型リンパ腫"
   - "Breast Implant-Associated Anaplastic Large Cell Lymphoma"
 ---
-
 # BIA-ALCL
 
 ## 定義
@@ -30,3 +33,4 @@ aliases:
 - [[被膜病変]]
 - [[乳房インプラント]]
 - [[乳房再建]]
+

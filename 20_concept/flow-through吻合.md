@@ -1,12 +1,15 @@
 ---
 type: concept
-topic: maxillary_reconstruction
+category:
+  - 手技
+tags:
+  - 概念/手技
+source_topic: maxillary_reconstruction
 aliases:
   - "Flow-through Anastomosis"
   - "flow-through"
   - "フロースルー"
 ---
-
 # flow-through吻合
 
 ## 定義
@@ -28,3 +31,4 @@ aliases:
 - [[受容血管]]
 - [[遊離腓骨皮弁]]
 - [[前外側大腿皮弁]]
+

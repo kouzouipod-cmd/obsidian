@@ -1,11 +1,14 @@
 ---
 type: concept
-topic: maxillary_reconstruction
+category:
+  - 評価
+tags:
+  - 概念/評価
+source_topic: maxillary_reconstruction
 aliases:
   - "Cordeiro Classification"
   - "Cordeiro分類"
 ---
-
 # Cordeiro分類
 
 ## 定義
@@ -24,3 +27,4 @@ Brown分類との対応づけが必要。異なる分類を使う研究を統合
 
 - [[Brown分類]]
 - [[上顎再建]]
+
