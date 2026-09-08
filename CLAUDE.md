@@ -229,7 +229,11 @@ Zoteroが生成・再生成する領域。手で直すと次回の再生成で�
    抄録に無い数値（追跡期間・欠損サイズ・骨長・救済手術の有無）はここにある。
    保存前に `<license>` を確認し、CC-BY等でなければ要約作成にのみ使う
 4. 追加分RISを作る — `export_ris_subset.ps1`（**`-Command` で呼ぶこと**）
-5. Zoteroへ取り込む — `curl.exe -X POST http://127.0.0.1:23119/connector/import`
+5. **Zoteroへ取り込む。コレクションを判定して指定する**（次項参照）
+
+```bash
+pwsh -File C:\Users\user\claude\papers\zotero_import.ps1 -Ris <path> -Collection "Head & Neck"
+```
 
 ### ルートB — 有料誌（PDFはユーザーが1キーで取る）
 
@@ -252,6 +256,28 @@ Zoteroが生成・再生成する領域。手で直すと次回の再生成で�
    `build_vault_notes.ps1` → `build_concepts.ps1` を実行
 8. **既存の概念ノートに新しい論文への言及を足す。** これを忘れると孤立したノートになる
 9. リンク解決を検証する（未解決0件を確認）
+
+### Zoteroのコレクション振り分け
+
+ユーザーはZoteroを**形成外科の主要分類**で整理している。取り込むときに判定して入れる。
+
+振り分け定義は **`papers\zotero_collections.json`**。判定ルールもそこにある。
+
+**2種類が混在していることに注意する。**
+
+| 種類 | コレクション | 自動振り分け |
+|---|---|---|
+| **分類** | Head & Neck / Breast / Flap / lymphedema / Sarcoma | **する** |
+| **プロジェクト** | maxillary_reconstruction / Breast Implant Neuroma / CAPS_freeflap_references | **しない** |
+
+プロジェクトはRQに沿って選別した集合なので、機械判定で汚すと選別の意味が失われる。
+**ユーザーが明示的に指示したときだけ**追加する。上顎の論文も自動では
+`Head & Neck` に入れ、`maxillary_reconstruction` には入れない。
+
+どのルールにも当たらなければ**コレクションに入れず、ユーザーに判断を仰ぐ**。推測で入れない。
+
+コレクションIDは `zotero_import.ps1 -ListCollections` で確認する。
+**C番号を決め打ちしない** — 名前から解決すること。
 
 ### プロジェクトに属さない論文の置き場
 
@@ -284,6 +310,8 @@ JSON構文・PLACEHOLDERの残存・citekeyの実在・PDFのmagic bytes・拡�
 | やりたいこと | 手段 | 可否 |
 |---|---|---|
 | Zoteroへの取り込み | `POST http://127.0.0.1:23119/connector/import` に RIS を投げる | **可**（Zotero起動中） |
+| コレクションの一覧取得 | `POST /connector/getSelectedCollection` が全ツリーを返す | **可** |
+| 取り込み先コレクションの指定 | 取り込み後に `POST /connector/updateSession` に `{sessionID, target}` | **可** |
 | citekey の取得 | `15_zotero\zotero.bib` を読む | **可** |
 | PMC論文の全文取得 | E-utilities の `efetch.fcgi?db=pmc` | **可**（XML／本文テキスト） |
 | PMCからのPDF取得 | Chromeでページ内fetch＋`<a download>` | **可（1本ずつなら）**。連続だとブロックされる |
