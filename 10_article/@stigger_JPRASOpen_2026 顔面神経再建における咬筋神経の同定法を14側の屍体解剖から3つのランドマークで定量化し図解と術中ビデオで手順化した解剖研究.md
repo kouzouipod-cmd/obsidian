@@ -10,7 +10,7 @@ arm: surgical-anatomy
 ---
 > [!Data]
 > **PDF**
-> [Stigger_2026_masseteric_nerve_guide_JPRASOpen.txt](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Stigger_2026_masseteric_nerve_guide_JPRASOpen.txt) ※PMC全文テキスト（PDFではない）
+> [Stigger_2026_masseteric_nerve_guide_JPRASOpen.pdf](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Stigger_2026_masseteric_nerve_guide_JPRASOpen.pdf)
 > **Link**
 > https://doi.org/10.1016/j.jpra.2026.07.042
 
