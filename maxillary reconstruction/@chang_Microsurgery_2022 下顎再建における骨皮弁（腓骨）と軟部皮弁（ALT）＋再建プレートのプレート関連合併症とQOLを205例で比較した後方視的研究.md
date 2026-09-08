@@ -10,7 +10,7 @@ arm: bone-flap-vs-soft-tissue-flap
 ---
 > [!Data]
 > **PDF**
-> （PDFなし）
+> （全文なし）
 > **Link**
 > https://doi.org/10.1002/micr.30893
 

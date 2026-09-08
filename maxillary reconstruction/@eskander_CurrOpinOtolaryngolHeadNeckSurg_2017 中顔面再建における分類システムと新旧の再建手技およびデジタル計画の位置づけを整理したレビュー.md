@@ -10,7 +10,7 @@ arm: review-overview
 ---
 > [!Data]
 > **PDF**
-> （PDFなし）
+> （全文なし）
 > **Link**
 > https://doi.org/10.1097/MOO.0000000000000396
 

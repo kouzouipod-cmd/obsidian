@@ -10,7 +10,7 @@ arm: single-flap-and-composite
 ---
 > [!Data]
 > **PDF**
-> （PDFなし）
+> （全文なし）
 > **Link**
 > https://doi.org/10.1097/SCS.0000000000008399
 

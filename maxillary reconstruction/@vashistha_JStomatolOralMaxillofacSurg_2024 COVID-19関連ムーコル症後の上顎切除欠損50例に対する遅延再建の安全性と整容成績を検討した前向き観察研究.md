@@ -10,7 +10,7 @@ arm: single-flap
 ---
 > [!Data]
 > **PDF**
-> （PDFなし）
+> （全文なし）
 > **Link**
 > https://doi.org/10.1016/j.jormas.2024.102067
 

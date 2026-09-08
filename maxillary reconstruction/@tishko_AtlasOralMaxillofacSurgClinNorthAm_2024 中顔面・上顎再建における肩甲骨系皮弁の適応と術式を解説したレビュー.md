@@ -10,7 +10,7 @@ arm: single-flap-chimeric-alternative
 ---
 > [!Data]
 > **PDF**
-> （PDFなし）
+> （全文なし）
 > **Link**
 > https://doi.org/10.1016/j.cxom.2024.01.004
 

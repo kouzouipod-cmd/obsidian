@@ -10,7 +10,7 @@ arm: classification
 ---
 > [!Data]
 > **PDF**
-> （PDFなし）
+> （全文なし）
 > **Link**
 > https://doi.org/10.1016/S1470-2045(10)70113-3
 
