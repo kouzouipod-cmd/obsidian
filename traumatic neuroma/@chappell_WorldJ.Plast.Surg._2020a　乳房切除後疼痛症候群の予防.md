@@ -1,6 +1,7 @@
 ---
 citekey: "chappell_WorldJ.Plast.Surg._2020a"
 dateread: '2026-06-07'
+topic: traumatic_neuroma
 read: false
 ---
  > [!Data]
@@ -30,6 +31,14 @@ read: false
 
 **結論** PMPSを防ぎ、乳がん患者の術後の生活の質（QOL）を向上させるためには、解剖学に基づく神経保護と、神経切断時のTMRやRPNIといった予防的処置、そして多職種連携による徹底した疼痛管理が不可欠です。形成外科医は、単に乳房の形を作るだけでなく、神経を再建することで「慢性痛をなくす」という重要な役割を担うことができると結論づけています。
 
+### **wikilink**
+- [[乳房手術後疼痛症候群]]
+- [[TMR・RPNI]]
+- [[肋間上腕神経]]
+- [[神経ブロック]]
+- [[医原性神経損傷]]
+
+
 
 
 
@@ -46,3 +55,4 @@ read: false
 > **Issue**: 3
 
 > [!Abstract]# 4 Main Text
+

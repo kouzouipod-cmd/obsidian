@@ -1,6 +1,7 @@
 ---
 citekey: "remy_Surgery_2024"
 dateread: '2026-08-20'
+topic: traumatic_neuroma
 read: false
 ---
  > [!Data]
@@ -60,6 +61,13 @@ read: false
 
 疼痛を伴う外傷性神経腫は、四肢だけでなく全身に極めて強い痛みをもたらしますが、その大部分は**「予防可能・回避可能な手術（医原性）による神経損傷」が原因**です。 外科医が手術時に愛護的な操作（神経温存）を標準化すること、またやむを得ず切断した場合はTMRなどの予防的断端再建を行うこと、そして術後の慢性痛に対して速やかに神経腫を鑑別に挙げて末梢神経外科などの専門医と連携することが、治療の遅れ（患者の長期にわたる苦痛）を防ぐために不可欠であると強く結論づけています
 
+### **wikilink**
+- [[外傷性神経腫]]
+- [[医原性神経損傷]]
+- [[TMR・RPNI]]
+- [[神経腫の外科的切除]]
+
+
 
 
 
@@ -86,3 +94,4 @@ read: false
 > Painful neuromas are predominantly reported in the extremities yet may occur throughout the body primarily after iatrogenic injury. Knowledge of their anatomic distribution from head to toe will encourage awareness to avoid injury and expedite diagnosis to prevent treatment delay.
 
 # 4 Main Text
+

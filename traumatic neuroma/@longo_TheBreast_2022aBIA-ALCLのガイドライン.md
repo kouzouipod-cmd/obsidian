@@ -1,6 +1,7 @@
 ---
 citekey: "longo_TheBreast_2022a"
 dateread: '2026-05-30'
+topic: traumatic_neuroma
 read: false
 ---
  > [!Data]
@@ -33,6 +34,13 @@ read: false
 
 **結論** BIA-ALCLは、適切な診断と被膜を含めた完全な外科的切除を行えば、予後は非常に良好な疾患です。疑わしい症状が出た際の速やかな画像診断と、多職種チームによる的確な治療アプローチが不可欠であると結論づけています。
 
+### **wikilink**
+- [[BIA-ALCL]]
+- [[被膜病変]]
+- [[乳房インプラント]]
+- [[乳房再建]]
+
+
 
 
 
@@ -48,3 +56,4 @@ read: false
 > **Volume**: 66
 
 > [!Abstract]# 4 Main Text
+

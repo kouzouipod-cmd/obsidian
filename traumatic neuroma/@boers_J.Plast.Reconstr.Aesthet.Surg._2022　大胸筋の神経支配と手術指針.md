@@ -1,6 +1,7 @@
 ---
 citekey: "boers_J.Plast.Reconstr.Aesthet.Surg._2022"
 dateread: '2026-06-07'
+topic: traumatic_neuroma
 read: false
 ---
  > [!Data]
@@ -36,6 +37,12 @@ read: false
 
 **結論** 全ての患者に当てはまる完璧な「骨の目印」を設定することは個人差のため不可能でしたが、本研究の解剖学的マッピングに従うことで、外科医は術中に重要な神経を正確に特定（切除または温存）できるようになり、アニメーション変形や術後の不快感を最小限に抑える手術が可能になるとしています。
 
+### **wikilink**
+- [[胸筋神経]]
+- [[選択的除神経]]
+- [[乳房インプラント]]
+
+
 
 
 
@@ -52,3 +59,4 @@ read: false
 > **Issue**: 1
 
 > [!Abstract]# 4 Main Text
+

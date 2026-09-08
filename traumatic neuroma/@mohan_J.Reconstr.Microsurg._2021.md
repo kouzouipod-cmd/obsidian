@@ -1,6 +1,7 @@
 ---
 citekey: "mohan_J.Reconstr.Microsurg._2021"
 dateread: '2026-06-07'
+topic: traumatic_neuroma
 read: false
 ---
  > [!Data]
@@ -11,6 +12,12 @@ read: false
 
 
 # 1 AI要約
+
+### **wikilink**
+- [[感覚再建]]
+- [[肋間神経]]
+- [[乳房再建]]
+
 
 
 
@@ -30,3 +37,4 @@ read: false
 > **Issue**: 2
 
 > [!Abstract]# 4 Main Text
+

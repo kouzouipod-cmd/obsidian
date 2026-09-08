@@ -1,6 +1,7 @@
 ---
 citekey: "vorstenbosch_Plast.Reconstr.Surg._2023a"
 dateread: '2026-05-30'
+topic: traumatic_neuroma
 read: false
 ---
  > [!Data]
@@ -36,6 +37,12 @@ read: false
 
 **結論** 医師は、遅発性の腫れやしこりに対して「BIA-ALCLかどうか」だけでなく、滑膜化生や二重被膜といった良性疾患、あるいは扁平上皮癌のような極めて危険な悪性腫瘍まで、**幅広い鑑別診断の知識を持っておくことが不可欠**であると結論づけています。
 
+### **wikilink**
+- [[被膜病変]]
+- [[乳房インプラント]]
+- [[BIA-ALCL]]
+
+
 
 
 
@@ -54,3 +61,4 @@ read: false
 > **Issue**: 1
 
 > [!Abstract]# 4 Main Text
+
