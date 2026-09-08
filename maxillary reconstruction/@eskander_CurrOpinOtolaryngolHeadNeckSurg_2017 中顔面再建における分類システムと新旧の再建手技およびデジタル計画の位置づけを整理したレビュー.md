@@ -5,6 +5,7 @@ citekey: "eskander_CurrOpinOtolaryngolHeadNeckSurg_2017"
 dateread: '2026-09-08'
 read: false
 topic: maxillary_reconstruction
+domain: head_neck
 relevance: high
 arm: review-overview
 ---

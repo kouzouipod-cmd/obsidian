@@ -5,6 +5,7 @@ citekey: "strohl_FacialPlastSurgClinNorthAm_2024"
 dateread: '2026-09-08'
 read: false
 topic: maxillary_reconstruction
+domain: head_neck
 relevance: high
 arm: review-overview
 ---

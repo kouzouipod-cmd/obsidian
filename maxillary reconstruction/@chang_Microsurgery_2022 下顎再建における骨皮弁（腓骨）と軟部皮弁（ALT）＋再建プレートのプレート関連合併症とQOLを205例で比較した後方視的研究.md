@@ -5,6 +5,7 @@ citekey: "chang_Microsurgery_2022"
 dateread: '2026-09-08'
 read: false
 topic: maxillary_reconstruction
+domain: head_neck
 relevance: core
 arm: bone-flap-vs-soft-tissue-flap
 ---

@@ -5,6 +5,7 @@ citekey: "rogers_EurArchOtorhinolaryngol_2022"
 dateread: '2026-09-08'
 read: false
 topic: maxillary_reconstruction
+domain: head_neck
 relevance: core
 arm: single-flap-practice-pattern
 ---

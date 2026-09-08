@@ -5,6 +5,7 @@ citekey: "yu_JCraniofacSurg_2021"
 dateread: '2026-09-08'
 read: false
 topic: maxillary_reconstruction
+domain: head_neck
 relevance: high
 arm: single-flap-and-composite
 ---

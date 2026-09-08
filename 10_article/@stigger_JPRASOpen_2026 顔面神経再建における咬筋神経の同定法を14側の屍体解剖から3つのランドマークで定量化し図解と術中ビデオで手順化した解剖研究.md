@@ -5,6 +5,7 @@ citekey: "stigger_JPRASOpen_2026"
 dateread: '2026-09-08'
 read: false
 topic: head_neck_general
+domain: craniofacial
 relevance: medium
 arm: surgical-anatomy
 ---
