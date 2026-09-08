@@ -10,11 +10,19 @@ arm: selection-algorithm
 ---
 > [!Data]
 > **PDF**
-> [Mallik_2026_osteocutaneous_maxillary_defects_Cureus.txt](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Mallik_2026_osteocutaneous_maxillary_defects_Cureus.txt) ※PMC全文テキスト（PDFではない）
+> [Mallik_2026_osteocutaneous_maxillary_defects_Cureus.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Mallik_2026_osteocutaneous_maxillary_defects_Cureus.pdf)
 > **Link**
 > https://doi.org/10.7759/cureus.113987
 
 # 1 AI要約
+
+## 要約
+
+インドの単一施設が2年間に経験した、複雑な上顎欠損3例の再建報告である。3例とも眼窩を巻き込む広範な欠損で、うち2例は前額皮弁による前回の再建が破綻したあとの再再建だった。著者らは改訂Brown分類の型に応じて皮弁を選び、IIIb型と一方のV型には遊離腓骨骨皮弁（腓骨10cmと9cm）を、糖尿病合併でムーコル症後の軟部要求が主体だったもう一方のV型には橈側前腕骨皮弁（橈骨6cm）を用いた。いずれも骨で上顎バットレスと眼窩支持を再建し、皮島を口腔内被覆や眼窩の内張りに充てている。
+
+結果は3例とも皮弁生着で、6ヶ月の時点で発語・嚥下・眼球位置が保たれていた。著者は「顎義歯単独では保持・安定性・衛生管理・輪郭回復のいずれも不十分だったため皮弁を選んだ」と、補綴を除外した理由まで明記している。
+
+ただし本文を読むと話はそう単純ではない。症例1では鼻上顎部に辺縁壊死が生じて対側の前額皮弁で再被覆しており、症例2でも残存する上内側眼窩欠損を同側前額皮弁で補っている。症例3も6ヶ月時に脂肪注入で輪郭を修正した。つまり3例とも遊離皮弁1本だけでは終わっておらず、局所皮弁か脂肪移植を段階的に足している。抄録だけを読むと「骨皮弁1本で完結した」と誤読しかねない点に注意が要る。
 
 ## AI要約
 ### **研究の概要**
