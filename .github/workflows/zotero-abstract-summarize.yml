@@ -53,7 +53,7 @@ jobs:
         uses: anthropics/claude-code-action@beta
         with:
           mode: 'agent'
-          model: 'sonnet'
+          model: 'claude-sonnet-4-6'
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_tools: "Read,Write,Bash(python:*),Bash(ls:*),Bash(cat:*),Bash(mkdir:*)"
           direct_prompt: |
