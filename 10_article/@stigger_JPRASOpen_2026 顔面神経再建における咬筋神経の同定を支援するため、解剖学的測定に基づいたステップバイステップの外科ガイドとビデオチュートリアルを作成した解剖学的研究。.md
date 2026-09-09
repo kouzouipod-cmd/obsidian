@@ -1,9 +1,11 @@
 ---
 tags:
   - PMID/
-citekey: "stigger_JPRASOpen_2026"
-dateread: '2026-01-29'
+citekey: stigger_JPRASOpen_2026
+dateread: 2026-01-29
 read: false
+category:
+topic: head_neck_general
 ---
 > [!Data]
 > **PDF**.
