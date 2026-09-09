@@ -2,7 +2,7 @@
 tags:
   - PMID/20932492
 citekey: "brown_LancetOncol_2010"
-dateread: '2026-09-08'
+dateread: '2026-09-09'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -11,7 +11,7 @@ arm: classification
 ---
 > [!Data]
 > **PDF**
-> （全文なし）
+> [Brown_2010_maxilla_midface_classification_LancetOncol.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Brown_2010_maxilla_midface_classification_LancetOncol.pdf)
 > **Link**
 > https://doi.org/10.1016/S1470-2045(10)70113-3
 

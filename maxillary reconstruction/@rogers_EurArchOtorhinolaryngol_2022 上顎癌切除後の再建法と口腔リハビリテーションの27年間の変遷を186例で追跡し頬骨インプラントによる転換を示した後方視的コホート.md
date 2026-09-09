@@ -2,7 +2,7 @@
 tags:
   - PMID/35106619
 citekey: "rogers_EurArchOtorhinolaryngol_2022"
-dateread: '2026-09-08'
+dateread: '2026-09-09'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

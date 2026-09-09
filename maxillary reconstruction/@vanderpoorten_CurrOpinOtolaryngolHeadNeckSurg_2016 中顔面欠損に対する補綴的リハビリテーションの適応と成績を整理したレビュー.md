@@ -2,7 +2,7 @@
 tags:
   - PMID/26785170
 citekey: "vanderpoorten_CurrOpinOtolaryngolHeadNeckSurg_2016"
-dateread: '2026-09-08'
+dateread: '2026-09-09'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

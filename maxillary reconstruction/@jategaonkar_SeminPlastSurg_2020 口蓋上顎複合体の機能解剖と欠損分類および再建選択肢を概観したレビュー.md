@@ -2,7 +2,7 @@
 tags:
   - PMID/32390773
 citekey: "jategaonkar_SeminPlastSurg_2020"
-dateread: '2026-09-08'
+dateread: '2026-09-09'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

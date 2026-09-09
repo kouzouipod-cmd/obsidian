@@ -235,6 +235,15 @@ Zoteroが生成・再生成する領域。手で直すと次回の再生成で�
 pwsh -File C:\Users\user\claude\papers\zotero_import.ps1 -Ris <path> -Collection "Head & Neck"
 ```
 
+### ⚠️ Ovid の論文はルートBを使わない
+
+DOIが `10.1097/` で始まる論文（Wolters Kluwer / Ovid。PRS、Ann Plast Surg、PRS-GO など）は、
+**Zotero Connector が論文として認識せずウェブページとして保存する。**
+citekey が `_Ovid_` になり、添付もPDFでなくHTMLになる。2026-09-08と09-09に2回発生。
+
+→ **RIS経由（ルートA の手順4-5）で取り込む。** PDFはユーザーが別途ダウンロードして
+`fulltext\<libid>.pdf` に置く。
+
 ### ルートB — 有料誌（PDFはユーザーが1キーで取る）
 
 **Zotero Connectorは私からは起動できない。** 拡張のショートカットはブラウザ本体が

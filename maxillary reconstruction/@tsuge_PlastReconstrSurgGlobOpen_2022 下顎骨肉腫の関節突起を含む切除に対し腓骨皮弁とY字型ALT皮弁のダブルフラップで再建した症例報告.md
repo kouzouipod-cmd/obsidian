@@ -2,7 +2,7 @@
 tags:
   - PMID/36405050
 citekey: "tsuge_PlastReconstrSurgGlobOpen_2022"
-dateread: '2026-09-08'
+dateread: '2026-09-09'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
