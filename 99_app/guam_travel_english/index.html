@@ -1,0 +1,1093 @@
+<title>ハファデイ英会話</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+  :root{
+    /* --- light: 石灰岩の紙にラグーンの青緑 --- */
+    --paper:#EDF0EF;
+    --paper-2:#E3E8E7;
+    --surface:#F8FAF9;
+    --line:#D1DBD9;
+    --line-soft:#DFE6E4;
+    --ink:#111D20;
+    --ink-2:#44605F;
+    --ink-3:#7A908F;
+    --sea:#0D5A61;
+    --sea-2:#127A82;
+    --sea-wash:#DCE9E8;
+    --bougain:#A81F57;
+    --bougain-wash:#F5E1E8;
+    --sun:#B9712A;
+    --ok:#24715A;
+    --ok-wash:#DCEAE3;
+    --shadow:0 1px 2px rgba(17,29,32,.06), 0 8px 24px -16px rgba(17,29,32,.25);
+    --r:10px;
+    --maxw:45rem;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0D1618;
+      --paper-2:#131F22;
+      --surface:#162327;
+      --line:#27373B;
+      --line-soft:#1E2D31;
+      --ink:#E7EFED;
+      --ink-2:#A5B8B6;
+      --ink-3:#74898C;
+      --sea:#56C4C8;
+      --sea-2:#7FD8D9;
+      --sea-wash:#13312F;
+      --bougain:#F4779F;
+      --bougain-wash:#331420;
+      --sun:#E3A059;
+      --ok:#5FC48C;
+      --ok-wash:#12301F;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0D1618;
+    --paper-2:#131F22;
+    --surface:#162327;
+    --line:#27373B;
+    --line-soft:#1E2D31;
+    --ink:#E7EFED;
+    --ink-2:#A5B8B6;
+    --ink-3:#74898C;
+    --sea:#56C4C8;
+    --sea-2:#7FD8D9;
+    --sea-wash:#13312F;
+    --bougain:#F4779F;
+    --bougain-wash:#331420;
+    --sun:#E3A059;
+    --ok:#5FC48C;
+    --ok-wash:#12301F;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.8);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    font-size:15px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:20px}
+  .en{font-family:"Epilogue","Helvetica Neue",Arial,sans-serif;letter-spacing:-.01em}
+  .mincho{font-family:"Zen Old Mincho",serif}
+  .eyebrow{
+    font-family:"Epilogue",sans-serif;font-size:10.5px;font-weight:600;
+    letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+  }
+  h1,h2,h3{margin:0;text-wrap:balance;font-weight:700}
+  button{font:inherit;color:inherit;cursor:pointer;background:none;border:none}
+  :focus-visible{outline:2px solid var(--sea);outline-offset:2px;border-radius:4px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(120% 90% at 82% 0%, var(--sea-wash) 0%, transparent 62%),
+      var(--paper);
+  }
+  .masthead .wrap{padding-block:28px 22px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start}
+  h1{font-family:"Zen Old Mincho",serif;font-size:clamp(30px,8vw,44px);line-height:1.1;letter-spacing:.02em}
+  .lede{margin:10px 0 0;color:var(--ink-2);font-size:13.5px;max-width:32em}
+  .lede b{color:var(--ink);font-weight:500}
+  .stone{width:66px;height:auto;flex:none;color:var(--sea)}
+  .stone-cap{fill:currentColor;opacity:.9}
+  .stone-col{fill:currentColor;opacity:.42}
+  .stone-label{font-family:"Epilogue",sans-serif;font-size:7px;letter-spacing:.1em;fill:var(--ink-3)}
+
+  /* ---------- progress meter ---------- */
+  .meter{
+    display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+    border-top:1px solid var(--line-soft);margin-top:18px;padding-top:14px;
+  }
+  .meter .count{font-family:"Epilogue",sans-serif;font-variant-numeric:tabular-nums;font-weight:700;font-size:20px;color:var(--sea)}
+  .meter .of{color:var(--ink-3);font-size:12px}
+  .bar{flex:1 1 140px;min-width:120px;height:5px;border-radius:99px;background:var(--paper-2);overflow:hidden}
+  .bar i{display:block;height:100%;background:var(--sea);border-radius:99px;transition:width .35s ease}
+  .sync{font-family:"Epilogue",sans-serif;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+
+  /* ---------- tabs ---------- */
+  .modes{position:sticky;top:0;z-index:20;background:var(--paper);background:color-mix(in srgb, var(--paper) 92%, transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .modes .wrap{display:flex;gap:2px;overflow-x:auto;padding-block:0;scrollbar-width:none}
+  .modes .wrap::-webkit-scrollbar{display:none}
+  .tab{
+    padding:13px 12px 11px;border-bottom:2px solid transparent;white-space:nowrap;
+    color:var(--ink-2);font-weight:500;font-size:13.5px;
+  }
+  .tab .n{font-family:"Epilogue",sans-serif;font-size:10px;letter-spacing:.1em;color:var(--ink-3);margin-right:6px;font-variant-numeric:tabular-nums}
+  .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--sea)}
+  .tab[aria-selected="true"] .n{color:var(--sea)}
+
+  /* ---------- today strip ---------- */
+  .today{
+    margin-top:24px;border:1px solid var(--line);border-radius:var(--r);
+    background:var(--surface);box-shadow:var(--shadow);overflow:hidden;
+  }
+  .today header{padding:12px 16px 10px;border-bottom:1px solid var(--line-soft);display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .today h2{font-family:"Zen Old Mincho",serif;font-size:15px;letter-spacing:.04em}
+  .today .dateline{font-family:"Epilogue",sans-serif;font-size:10.5px;letter-spacing:.1em;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .today ol{list-style:none;margin:0;padding:4px 0}
+  .today li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:center;padding:8px 16px}
+  .today li + li{border-top:1px dashed var(--line-soft)}
+  .today .idx{font-family:"Epilogue",sans-serif;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .today .t-en{font-family:"Epilogue",sans-serif;font-size:15px;font-weight:500}
+  .today .t-ja{grid-column:2;font-size:12px;color:var(--ink-2);margin-top:-4px}
+
+  /* ---------- toolbar ---------- */
+  .toolbar{margin-top:26px;display:flex;flex-direction:column;gap:10px}
+  .searchrow{display:flex;gap:8px;flex-wrap:wrap}
+  input[type="search"]{
+    flex:1 1 180px;min-width:0;font:inherit;font-size:14px;padding:9px 12px;
+    border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--ink);
+  }
+  input[type="search"]::placeholder{color:var(--ink-3)}
+  .toggle{
+    border:1px solid var(--line);border-radius:var(--r);padding:8px 12px;font-size:12.5px;
+    background:var(--surface);color:var(--ink-2);white-space:nowrap;
+  }
+  .toggle[aria-pressed="true"]{background:var(--sea);border-color:var(--sea);color:var(--paper)}
+  .chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{
+    border:1px solid var(--line);border-radius:99px;padding:5px 12px;font-size:12px;
+    white-space:nowrap;color:var(--ink-2);background:transparent;
+  }
+  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+  .chip .cn{font-family:"Epilogue",sans-serif;font-size:10px;letter-spacing:.08em;opacity:.65;margin-right:5px}
+
+  /* ---------- scene sections ---------- */
+  .scene{margin-top:36px;scroll-margin-top:64px}
+  .scene > h2{
+    display:grid;grid-template-columns:auto 1fr;gap:0 12px;align-items:baseline;
+    padding-bottom:10px;border-bottom:2px solid var(--ink);
+  }
+  .scene .no{
+    font-family:"Epilogue",sans-serif;font-weight:700;font-size:12px;letter-spacing:.08em;
+    color:var(--sea);font-variant-numeric:tabular-nums;
+  }
+  .scene .sja{font-family:"Zen Old Mincho",serif;font-size:21px;letter-spacing:.03em}
+  .scene .sen{grid-column:2;font-family:"Epilogue",sans-serif;font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+  .tip{
+    margin:12px 0 0;padding:11px 14px;border-left:3px solid var(--sun);
+    background:var(--paper-2);border-radius:0 6px 6px 0;font-size:12.5px;color:var(--ink-2);
+  }
+  .tip b{color:var(--ink);font-weight:500}
+
+  /* ---------- phrase rows ---------- */
+  .rows{display:flex;flex-direction:column}
+  .row{
+    display:grid;grid-template-columns:1fr auto auto;grid-template-areas:"en sp st" "ja sp st" "kana sp st";
+    gap:0 6px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line-soft);
+  }
+  .row.is-mastered{background:linear-gradient(90deg,var(--ok-wash),transparent 55%)}
+  .p-en{grid-area:en;font-family:"Epilogue",sans-serif;font-size:17px;font-weight:500;line-height:1.35;letter-spacing:-.012em}
+  .p-ja{grid-area:ja;font-size:13px;color:var(--ink-2);margin-top:3px}
+  .p-kana{grid-area:kana;font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:3px}
+  .theirs .p-en{font-style:italic;color:var(--ink-2)}
+  .who{
+    font-family:"Epilogue",sans-serif;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+    border:1px solid var(--line);border-radius:99px;padding:1px 7px;color:var(--ink-3);
+    vertical-align:2px;margin-right:7px;white-space:nowrap;
+  }
+  .speak{
+    grid-area:sp;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+    display:grid;place-items:center;color:var(--sea);background:var(--surface);flex:none;
+  }
+  .speak:hover{border-color:var(--sea)}
+  .speak.is-on{background:var(--sea);color:var(--paper);border-color:var(--sea)}
+  .speak svg{width:15px;height:15px;fill:currentColor}
+  .star{grid-area:st;width:34px;height:38px;display:grid;place-items:center;color:var(--ink-3);font-size:17px;line-height:1}
+  .star[aria-pressed="true"]{color:var(--sun)}
+  .hits{font-family:"Epilogue",sans-serif;font-size:10.5px;color:var(--ink-3);font-variant-numeric:tabular-nums;margin-left:8px}
+  .empty{padding:40px 0;color:var(--ink-3);text-align:center;font-size:13px}
+
+  /* ---------- dialogues ---------- */
+  .dlg{margin-top:30px;border-top:2px solid var(--ink);padding-top:14px}
+  .dlg h3{font-family:"Zen Old Mincho",serif;font-size:19px;letter-spacing:.03em}
+  .dlg .setting{font-size:12.5px;color:var(--ink-2);margin:4px 0 0}
+  .dlg .playall{margin-top:12px;border:1px solid var(--sea);color:var(--sea);border-radius:99px;padding:6px 16px;font-size:12.5px;font-weight:500}
+  .dlg .playall.is-on{background:var(--sea);color:var(--paper)}
+  .lines{margin-top:14px;display:flex;flex-direction:column;gap:14px}
+  .line{display:grid;grid-template-columns:auto 1fr;gap:0 12px;padding:6px 0 6px 0}
+  .line .role{
+    font-family:"Epilogue",sans-serif;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-3);padding-top:5px;width:3.6em;
+  }
+  .line.you .role{color:var(--sea)}
+  .line.you{border-left:2px solid var(--sea);padding-left:12px;margin-left:-14px}
+  .line .l-en{font-family:"Epilogue",sans-serif;font-size:15.5px;line-height:1.4}
+  .line .l-ja{font-size:12px;color:var(--ink-2);margin-top:2px}
+  .line.is-speaking .l-en{color:var(--sea);font-weight:600}
+
+  /* ---------- quiz ---------- */
+  .quizbox{margin-top:26px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow);padding:20px 18px}
+  .qhead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px solid var(--line-soft);padding-bottom:10px}
+  .qcount{font-family:"Epilogue",sans-serif;font-size:11px;letter-spacing:.1em;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .qscore{font-family:"Epilogue",sans-serif;font-size:11px;letter-spacing:.1em;color:var(--sea);font-variant-numeric:tabular-nums}
+  .qprompt{margin:18px 0 6px;font-size:13px;color:var(--ink-3)}
+  .qbig{font-family:"Zen Kaku Gothic New",sans-serif;font-size:19px;font-weight:500;line-height:1.5}
+  .qbig.en{font-family:"Epilogue",sans-serif;font-size:22px;font-weight:500}
+  .qlisten{display:flex;align-items:center;gap:12px;margin:8px 0 2px}
+  .qlisten .speak{width:54px;height:54px;grid-area:auto}
+  .qlisten .speak svg{width:20px;height:20px}
+  .qlisten span{font-size:12px;color:var(--ink-3);flex:1 1 auto}
+  .qlisten .toggle{padding:6px 10px;font-size:11.5px}
+  .opts{display:flex;flex-direction:column;gap:8px;margin-top:18px}
+  .opt{
+    text-align:left;border:1px solid var(--line);border-radius:var(--r);padding:11px 14px;
+    background:var(--paper);font-size:14px;line-height:1.45;display:flex;gap:10px;align-items:flex-start;
+  }
+  .opt .key{font-family:"Epilogue",sans-serif;font-size:11px;color:var(--ink-3);padding-top:3px;flex:none}
+  .opt.en-opt .body{font-family:"Epilogue",sans-serif;font-size:15px}
+  .opt:hover:not(:disabled){border-color:var(--sea)}
+  .opt.correct{border-color:var(--ok);background:var(--ok-wash)}
+  .opt.wrong{border-color:var(--bougain);background:var(--bougain-wash)}
+  .opt:disabled{cursor:default}
+  .verdict{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
+  .verdict .v-head{font-weight:700;font-size:14px}
+  .verdict .v-head.ng{color:var(--bougain)}
+  .verdict .v-head.ok{color:var(--ok)}
+  .verdict .v-en{font-family:"Epilogue",sans-serif;font-size:16px;margin-top:6px}
+  .verdict .v-kana{font-size:11.5px;color:var(--ink-3);letter-spacing:.06em}
+  .btn{
+    border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:99px;
+    padding:9px 20px;font-size:13px;font-weight:500;
+  }
+  .btn.ghost{background:transparent;color:var(--ink)}
+  .btn:disabled{opacity:.45;cursor:default}
+  .btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;align-items:center}
+  .result{text-align:center;padding:10px 0 4px}
+  .result .big{font-family:"Epilogue",sans-serif;font-size:46px;font-weight:700;color:var(--sea);font-variant-numeric:tabular-nums;line-height:1}
+  .result .msg{margin-top:8px;font-size:13.5px;color:var(--ink-2)}
+  .weaklist{margin-top:18px;border-top:1px solid var(--line-soft);padding-top:14px;text-align:left}
+  .weaklist h4{margin:0 0 8px;font-size:12px;letter-spacing:.04em;color:var(--ink-3);font-weight:500}
+  .weaklist div{font-family:"Epilogue",sans-serif;font-size:14px;padding:3px 0}
+  .weaklist div span{font-family:"Zen Kaku Gothic New",sans-serif;font-size:11.5px;color:var(--ink-3);margin-left:8px}
+
+  /* ---------- compose (sample) ---------- */
+  .compose{margin-top:26px}
+  .compose textarea{
+    width:100%;font:inherit;font-size:15px;padding:12px 14px;border:1px solid var(--line);
+    border-radius:var(--r);background:var(--surface);color:var(--ink);resize:vertical;min-height:88px;
+  }
+  .compose .hint{font-size:12px;color:var(--ink-3);margin:8px 0 0}
+  .answer{margin-top:20px;border-left:3px solid var(--sea);padding:4px 0 4px 16px}
+  .answer .a-en{font-family:"Epilogue",sans-serif;font-size:20px;font-weight:500;line-height:1.35}
+  .answer .a-kana{font-size:12px;color:var(--ink-3);letter-spacing:.06em;margin-top:5px}
+  .answer .a-note{font-size:12.5px;color:var(--ink-2);margin-top:10px}
+  .answer .a-alt{font-size:12.5px;color:var(--ink-2);margin-top:6px}
+  .answer .a-alt b{font-family:"Epilogue",sans-serif;font-weight:500;color:var(--ink)}
+  .saved{margin-top:26px;border-top:1px solid var(--line);padding-top:14px}
+  .saved h3{font-size:12px;letter-spacing:.04em;color:var(--ink-3);font-weight:500}
+  .made{display:grid;grid-template-columns:1fr auto;align-items:start;gap:0 6px;padding:12px 0;border-bottom:1px solid var(--line-soft)}
+  .made .m-en{font-family:"Epilogue",sans-serif;font-size:16px;font-weight:500;line-height:1.35}
+  .made .m-ja{font-size:12px;color:var(--ink-2);margin-top:3px}
+  .made .m-kana{font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:2px}
+  .made .speak{grid-area:auto;grid-row:1 / span 3}
+  .notice{
+    margin-top:18px;padding:12px 14px;border:1px dashed var(--line);border-radius:var(--r);
+    font-size:12.5px;color:var(--ink-2);background:var(--paper-2);
+  }
+
+  footer{margin-top:48px;border-top:1px solid var(--line);padding-block:20px 36px;color:var(--ink-3);font-size:11.5px}
+  footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:baseline}
+  footer b{font-family:"Zen Old Mincho",serif;color:var(--ink-2);font-weight:400}
+
+  @media (max-width:520px){
+    .masthead .wrap{grid-template-columns:1fr}
+    .stone{order:-1;width:54px}
+    .row{grid-template-columns:1fr auto auto}
+    .p-en{font-size:16px}
+  }
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Guam &middot; Tumon Bay &middot; Travel English</div>
+      <h1>ハファデイ英会話</h1>
+      <p class="lede">
+        グアムで実際に口から出す英語だけを、<b>旅の順番どおりに</b>並べました。
+        機内から入国審査、レストラン、ビーチ、困ったときまで全119フレーズ。
+        発音はカタカナではなく<b>つながった音</b>で書いています（Could I have → クダイ ハヴ）。
+      </p>
+    </div>
+    <svg class="stone" viewBox="0 0 60 78" role="img" aria-label="ラッテストーン（グアムの石柱）">
+      <ellipse class="stone-cap" cx="30" cy="17" rx="20" ry="13"></ellipse>
+      <path class="stone-col" d="M20 26 h20 l5 40 h-30 z"></path>
+      <rect class="stone-col" x="11" y="66" width="38" height="4" rx="2"></rect>
+      <text class="stone-label" x="30" y="77" text-anchor="middle">LATTE STONE</text>
+    </svg>
+    <div class="meter" style="grid-column:1/-1">
+      <span class="count" id="mCount">0</span>
+      <span class="of">/ <span id="mTotal">0</span> フレーズを「覚えた」に</span>
+      <span class="bar"><i id="mBar" style="width:0%"></i></span>
+      <span class="sync" id="mSync">記録を読み込み中</span>
+    </div>
+  </div>
+</header>
+
+<nav class="modes">
+  <div class="wrap" role="tablist" aria-label="学習モード">
+    <button class="tab" role="tab" id="tab-phrases" aria-controls="panel-phrases" aria-selected="true"><span class="n">01</span>フレーズ</button>
+    <button class="tab" role="tab" id="tab-dialogue" aria-controls="panel-dialogue" aria-selected="false"><span class="n">02</span>会話を通す</button>
+    <button class="tab" role="tab" id="tab-quiz" aria-controls="panel-quiz" aria-selected="false"><span class="n">03</span>聞き取りクイズ</button>
+    <button class="tab" role="tab" id="tab-compose" aria-controls="panel-compose" aria-selected="false"><span class="n">04</span>言いたいことを英語に</button>
+  </div>
+</nav>
+
+<main>
+  <!-- ============ 01 フレーズ ============ -->
+  <section class="wrap" id="panel-phrases" role="tabpanel" aria-labelledby="tab-phrases">
+    <div class="today">
+      <header>
+        <h2>今日の5フレーズ</h2>
+        <span class="dateline" id="todayDate"></span>
+      </header>
+      <ol id="todayList"></ol>
+    </div>
+
+    <div class="toolbar">
+      <div class="searchrow">
+        <input type="search" id="q" placeholder="日本語・英語で探す（例: 氷なし / check）" aria-label="フレーズを検索">
+        <button class="toggle" id="tStar" aria-pressed="false">☆ だけ</button>
+        <button class="toggle" id="tSlow" aria-pressed="false">ゆっくり発音</button>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="場面でしぼる"></div>
+    </div>
+
+    <div id="sceneList"></div>
+  </section>
+
+  <!-- ============ 02 会話 ============ -->
+  <section class="wrap" id="panel-dialogue" role="tabpanel" aria-labelledby="tab-dialogue" hidden>
+    <p class="lede" style="margin-top:24px">
+      ひとつの場面を最初から最後まで通します。<b>相手が何を言ってくるか</b>を先に知っておくと、
+      聞き取れなかったときの焦りが減ります。青い線が自分のセリフ。
+    </p>
+    <div id="dialogues"></div>
+  </section>
+
+  <!-- ============ 03 クイズ ============ -->
+  <section class="wrap" id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz" hidden>
+    <p class="lede" style="margin-top:24px">
+      1回8問。音を聞いて意味を選ぶ問題と、日本語から英語を選ぶ問題が交互に出ます。
+      間違えたフレーズは記録され、次の回に出やすくなります。
+    </p>
+    <div class="quizbox" id="quizbox"></div>
+  </section>
+
+  <!-- ============ 04 言いたいことを英語に ============ -->
+  <section class="wrap" id="panel-compose" role="tabpanel" aria-labelledby="tab-compose" hidden>
+    <div class="compose">
+      <p class="lede" style="margin-top:24px">
+        フレーズ集に無いことを言いたいときに。日本語で書くと、
+        グアムの店や係員に実際に通じる一文と、その読み方を返します。
+      </p>
+      <label for="ask" class="eyebrow" style="display:block;margin-bottom:6px">言いたいこと（日本語）</label>
+      <textarea id="ask" placeholder="例: 子ども用の浮き輪を貸してほしい。デポジットはいくらですか？"></textarea>
+      <div class="btnrow">
+        <button class="btn" id="askBtn">英語にする</button>
+        <span class="hint" id="askState"></span>
+      </div>
+      <div id="askOut"></div>
+      <div class="saved" id="savedWrap" hidden>
+        <h3>この旅で作った文</h3>
+        <div id="savedList"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><b>Si Yu&rsquo;os ma&rsquo;&aring;se&rsquo;</b> — チャモロ語の「ありがとう」。島のどこでも通じます。</span>
+    <span>発音は端末の音声合成です。☆と成績はこの端末に記録されます。</span>
+  </div>
+</footer>
+
+<script>
+/* ===================================================================
+   データ: [sceneId, 英語, 日本語, カタカナ, 1=自分が言う / 0=相手が言う]
+   =================================================================== */
+const SCENES = [
+  {id:'air',  no:'01', ja:'機内',            en:'On the plane',
+   tip:'成田・関西からは<b>約3時間半</b>。深夜便が多く、機内で寝る人は先に水をもらっておくと楽。客室乗務員への呼びかけは <b>Excuse me</b> で十分で、sir/ma&rsquo;am は付けなくてよい。'},
+  {id:'immi', no:'02', ja:'入国審査・税関',   en:'Immigration & customs',
+   tip:'聞かれることは<b>目的・滞在日数・滞在先</b>のほぼ3つ。文章にしなくても <b>Vacation. / Five days. / A hotel in Tumon.</b> と単語で答えて問題ない。ホテル名は紙かスマホに控えて、聞かれたら見せる。'},
+  {id:'hotel',no:'03', ja:'ホテル',           en:'At the hotel',
+   tip:'タモン（Tumon）のホテルはビーチ沿いに並ぶ。宿泊料と別に<b>リゾートフィー</b>がかかることがあるので、チェックイン時に <b>Is there a resort fee?</b> と確認。ハウスキーピングのチップは1泊 <b>$2〜5</b> を枕元に。'},
+  {id:'move', no:'04', ja:'移動',             en:'Getting around',
+   tip:'赤い観光シャトルがタモンのホテルとモールを巡回。流しのタクシーはほぼ無く、<b>ホテルのベルデスクに頼む</b>のが基本。タクシーのチップは料金の<b>10〜15%</b>、端数を切り上げて渡せばよい。'},
+  {id:'eat',  no:'05', ja:'レストラン',       en:'Eating out',
+   tip:'チップは会計の<b>15〜20%</b>。伝票に Gratuity と印字済みのこともあるので <b>Is the tip included?</b> で確認。チャモロ料理なら <b>red rice</b>（赤いご飯）、<b>kelaguen</b>（レモンと削りココナッツで和えた鶏）、<b>finadene</b>（醤油ベースの辛いタレ）。'},
+  {id:'shop', no:'06', ja:'買い物',           en:'Shopping',
+   tip:'グアムに<b>消費税の上乗せは無い</b>ので、値札の額がほぼ支払額。サイズはUS表記（靴は US 7 ≒ 24cm、US 8 ≒ 25cm が目安）。返品は<b>レシート必須</b>なので捨てない。'},
+  {id:'play', no:'07', ja:'ビーチ・アクティビティ', en:'Beach & activities',
+   tip:'イパオビーチやタモン湾はリーフの内側で穏やか。ただし<b>リーフの切れ目（チャネル）は流れが速い</b>ので、入る前に必ず流れを聞く。サンゴと足裏を守るマリンシューズ、日焼け止めはリーフセーフのものを。'},
+  {id:'help', no:'08', ja:'困ったとき',       en:'When things go wrong',
+   tip:'緊急通報は<b>911</b>。病院にかかる前に、まず<b>海外旅行保険のアシスタンスデスク</b>へ電話（日本語対応・提携病院を案内してくれる）。保険証券番号と連絡先は<b>スマホと紙の両方</b>に。'},
+  {id:'talk', no:'09', ja:'ひとこと・チャモロ語', en:'Small talk & Chamorro',
+   tip:'<b>Håfa Adai（ハファ デイ）</b>は島の「こんにちは」。返しも Håfa Adai でよい。店員の <b>How&rsquo;s it going?</b> は挨拶なので、体調を説明せず <b>Good, thanks.</b> で返す。'}
+];
+
+const RAW = [
+['air',"Could I have a blanket, please?","毛布をもらえますか","クダイ ハヴ ア ブランケット プリーズ",1],
+['air',"Could I have some water, no ice?","お水を、氷なしでください","クダイ ハヴ サム ウォーラー ノウ アイス",1],
+['air',"Beef or chicken?","ビーフとチキン、どちらにしますか",'ビーフ オア チキン',0],
+['air',"Chicken, please.","チキンでお願いします","チキン プリーズ",1],
+['air',"Excuse me, could I get through?","すみません、通らせてください","エクスキューズ ミー クダイ ゲット スルー",1],
+['air',"Could you help me with this form?","この用紙の書き方を教えてください","クジュー ヘルプ ミー ウィズ ディス フォーム",1],
+['air',"Is this seat taken?","この席、空いていますか","イズ ディス シート テイクン",1],
+['air',"Could I change seats?","席を替わってもいいですか","クダイ チェンジ シーツ",1],
+['air',"Please fasten your seatbelt.","シートベルトをお締めください","プリーズ ファスン ユア シートベルト",0],
+['air',"Could you wake me up for breakfast?","朝食のときに起こしてください","クジュー ウェイク ミー アップ フォー ブレックファスト",1],
+['air',"I feel a little sick. Do you have a sick bag?","少し気分が悪いです。袋はありますか","アイ フィール ア リロゥ シック ドゥユー ハヴ ア シック バッグ",1],
+
+['immi',"What's the purpose of your visit?","渡航の目的は何ですか","ワッツ ザ パーパス オヴ ユア ヴィジット",0],
+['immi',"I'm here on vacation.","観光で来ました","アイム ヒア オン ヴェイケイション",1],
+['immi',"How long will you be staying?","どのくらい滞在しますか","ハウ ロング ウィル ユー ビー ステイイング",0],
+['immi',"Five days.","5日間です","ファイヴ デイズ",1],
+['immi',"Where will you be staying?","どこに滞在しますか","ウェア ウィル ユー ビー ステイイング",0],
+['immi',"At a hotel in Tumon.","タモンのホテルです","アッタ ホテル イン トゥモン",1],
+['immi',"I'm traveling with my family.","家族と旅行しています","アイム トラヴェリング ウィズ マイ ファミリー",1],
+['immi',"It's my first time in Guam.","グアムは初めてです","イッツ マイ ファースト タイム イン グアム",1],
+['immi',"I have nothing to declare.","申告するものはありません","アイ ハヴ ナッシング トゥ ディクレア",1],
+['immi',"Where is the baggage claim?","荷物の受取所はどこですか","ウェア イズ ザ バゲッジ クレイム",1],
+['immi',"Sorry, could you say that again?","すみません、もう一度お願いします","ソーリー クジュー セイ ザッタゲン",1],
+['immi',"Could you speak a little more slowly?","もう少しゆっくり話してください","クジュー スピーク ア リロゥ モア スロウリー",1],
+['immi',"My bag didn't come out.","荷物が出てきません","マイ バッグ ディドゥン カム アウト",1],
+
+['hotel',"I have a reservation under Sato.","佐藤で予約しています","アイ ハヴ ア レザヴェイション アンダー サトー",1],
+['hotel',"Checking in, please.","チェックインをお願いします","チェッキン イン プリーズ",1],
+['hotel',"Is there a resort fee?","リゾートフィーはかかりますか","イズ ゼア ア リゾート フィー",1],
+['hotel',"Could we have a room with an ocean view?","オーシャンビューの部屋にできますか","クド ウィ ハヴ ア ルーム ウィズ アン オウシャン ヴュー",1],
+['hotel',"Your room will be ready at three.","お部屋は3時からご利用になれます","ユア ルーム ウィル ビー レディ アット スリー",0],
+['hotel',"What time does breakfast start?","朝食は何時からですか","ワッタイム ダズ ブレックファスト スタート",1],
+['hotel',"What's the Wi-Fi password?","Wi-Fiのパスワードは何ですか","ワッツ ザ ワイファイ パスワード",1],
+['hotel',"Could I have two more towels?","タオルをもう2枚ください","クダイ ハヴ トゥー モア タオルズ",1],
+['hotel',"The air conditioner isn't working.","エアコンが効きません","ジ エアコンディショナー イズン ワーキング",1],
+['hotel',"Could you hold my luggage until three?","3時まで荷物を預かってもらえますか","クジュー ホウルド マイ ラゲッジ アンティル スリー",1],
+['hotel',"Is a late checkout possible?","レイトチェックアウトはできますか","イズ ア レイト チェックアウト ポッシブル",1],
+['hotel',"How do I get to the beach from here?","ここからビーチへはどう行きますか","ハウ ドゥ アイ ゲット トゥ ザ ビーチ フロム ヒア",1],
+['hotel',"Could I get a wake-up call at seven?","7時にモーニングコールをお願いします","クダイ ゲッタ ウェイカップ コール アット セヴン",1],
+
+['move',"Could you call a taxi for me?","タクシーを呼んでもらえますか","クジュー コール ア タクシー フォー ミー",1],
+['move',"Does this shuttle go to Micronesia Mall?","このシャトルはマイクロネシアモールに行きますか","ダズ ディス シャトル ゴウ トゥ マイクロネシア モール",1],
+['move',"Where is the shuttle stop?","シャトルの乗り場はどこですか","ウェア イズ ザ シャトル ストップ",1],
+['move',"I'd like a one-day pass.","1日乗車券をください","アイド ライカ ワンデイ パス",1],
+['move',"How much is it to the airport?","空港までいくらですか","ハウ マッチ イズ イット トゥ ジ エアポート",1],
+['move',"Could you drop me off at the ABC Store?","ABCストアで降ろしてください","クジュー ドロップ ミー オフ アット ジ エイビーシー ストア",1],
+['move',"Could you take us to Two Lovers Point?","恋人岬まで行ってください","クジュー テイカス トゥ トゥー ラヴァーズ ポイント",1],
+['move',"How long does it take?","どのくらいかかりますか","ハウ ロング ダズ イット テイク",1],
+['move',"Do you take credit cards?","クレジットカードは使えますか","ドゥユー テイク クレディット カーズ",1],
+['move',"Keep the change.","おつりは取っておいてください","キープ ザ チェインジ",1],
+['move',"Could you wait here for five minutes?","5分ここで待ってもらえますか","クジュー ウェイト ヒア フォー ファイヴ ミニッツ",1],
+['move',"We'd like to rent a car for two days.","2日間レンタカーを借りたいです","ウィード ライク トゥ レンタ カー フォー トゥー デイズ",1],
+
+['eat',"A table for two, please.","2人です","ア テイブル フォー トゥー プリーズ",1],
+['eat',"How long is the wait?","どのくらい待ちますか","ハウ ロング イズ ザ ウェイト",1],
+['eat',"Could we sit by the window?","窓際の席にできますか","クド ウィ シット バイ ザ ウィンドウ",1],
+['eat',"What do you recommend?","おすすめは何ですか","ワッドゥユー レコメンド",1],
+['eat',"What is kelaguen?","ケラグエンってどんな料理ですか","ワッティズ ケラグエン",1],
+['eat',"I'll have the chicken kelaguen and red rice.","チキンケラグエンとレッドライスをください","アイル ハヴ ザ チキン ケラグエン アン レッド ライス",1],
+['eat',"How would you like your steak?","ステーキの焼き加減はいかがしますか","ハウ ウジュー ライク ユア ステイク",0],
+['eat',"Medium, please.","ミディアムでお願いします","ミーディアム プリーズ",1],
+['eat',"Could I have it without onions?","玉ねぎを抜いてもらえますか","クダイ ハヴ イット ウィザウト アニオンズ",1],
+['eat',"I have a peanut allergy. Does this have nuts in it?","ピーナッツアレルギーです。これにナッツは入っていますか","アイ ハヴ ア ピーナッツ アラジー ダズ ディス ハヴ ナッツ イン イット",1],
+['eat',"Are you still working on it?","まだお食事中ですか（お皿を下げてよいですか）","アー ユー スティル ワーキン オン イット",0],
+['eat',"Could we get a to-go box?","持ち帰り用の容器をもらえますか","クド ウィ ゲッタ トゥゴウ ボックス",1],
+['eat',"Could we have separate checks?","別々に払えますか","クド ウィ ハヴ セパレット チェックス",1],
+['eat',"Check, please.","お会計をお願いします","チェック プリーズ",1],
+['eat',"Is the tip included?","チップは含まれていますか","イズ ザ ティップ インクルーディッド",1],
+['eat',"Water, no ice, please.","氷なしの水をください","ウォーラー ノウ アイス プリーズ",1],
+
+['shop',"I'm just looking, thank you.","見ているだけです、ありがとう","アイム ジャス ルッキン サンキュー",1],
+['shop',"Do you have this in a medium?","これのMサイズはありますか","ドゥユー ハヴ ディス イン ア ミーディアム",1],
+['shop',"Could I try this on?","試着できますか","クダイ トライ ディス オン",1],
+['shop',"Where is the fitting room?","試着室はどこですか","ウェア イズ ザ フィッティング ルーム",1],
+['shop',"Do you have this in another color?","色違いはありますか","ドゥユー ハヴ ディス イン アナザー カラー",1],
+['shop',"Is this on sale?","これはセール品ですか","イズ ディス オン セイル",1],
+['shop',"I'll take it.","これにします","アイル テイキット",1],
+['shop',"Cash or card?","現金かカード、どちらですか","キャッシュ オア カード",0],
+['shop',"Do you need a bag?","袋はいりますか","ドゥユー ニーダ バッグ",0],
+['shop',"Yes, could I have a bag?","はい、袋をもらえますか","イェス クダイ ハヴ ア バッグ",1],
+['shop',"Could you gift-wrap this?","プレゼント用に包んでもらえますか","クジュー ギフトラップ ディス",1],
+['shop',"Can I return it if the size doesn't fit?","サイズが合わなかったら返品できますか","キャナイ リターン イット イフ ザ サイズ ダズン フィット",1],
+['shop',"Could I have the receipt?","レシートをください","クダイ ハヴ ザ リシート",1],
+
+['play',"I'd like to rent a snorkel set.","シュノーケルセットを借りたいです","アイド ライク トゥ レンタ スノーコゥ セット",1],
+['play',"How much for two hours?","2時間でいくらですか","ハウ マッチ フォー トゥー アワーズ",1],
+['play',"Is it safe to swim here?","ここで泳いでも大丈夫ですか","イズ イット セイフ トゥ スウィム ヒア",1],
+['play',"Is the current strong today?","今日は流れが速いですか","イズ ザ カレント ストロング トゥデイ",1],
+['play',"Is a life jacket included?","ライフジャケットは付いていますか","イズ ア ライフ ジャケット インクルーディッド",1],
+['play',"Do you have a life jacket for a child?","子ども用のライフジャケットはありますか","ドゥユー ハヴ ア ライフ ジャケット フォー ア チャイルド",1],
+['play',"Do I need water shoes?","マリンシューズは必要ですか","ドゥ アイ ニード ウォーラー シューズ",1],
+['play',"Could you take a picture of us?","写真を撮ってもらえますか","クジュー テイカ ピクチャー オヴ アス",1],
+['play',"One more, please.","もう1枚お願いします","ワン モア プリーズ",1],
+['play',"I'd like to book the sunset cruise for tomorrow.","明日のサンセットクルーズを予約したいです","アイド ライク トゥ ブック ザ サンセット クルーズ フォー トゥモロウ",1],
+['play',"What time should we be there?","何時に行けばいいですか","ワッタイム シュド ウィ ビー ゼア",1],
+['play',"Does the price include hotel pickup?","料金にホテル送迎は含まれますか","ダズ ザ プライス インクルード ホテル ピックアップ",1],
+['play',"Please sign the waiver here.","ここに同意書のサインをお願いします","プリーズ サイン ザ ウェイヴァー ヒア",0],
+
+['help',"Could you help me?","助けてもらえますか","クジュー ヘルプ ミー",1],
+['help',"I lost my passport.","パスポートをなくしました","アイ ロスト マイ パスポート",1],
+['help',"My wallet was stolen.","財布を盗まれました","マイ ウォレット ワズ ストウルン",1],
+['help',"Where is the nearest hospital?","一番近い病院はどこですか","ウェア イズ ザ ニアレスト ホスピタル",1],
+['help',"I'd like to see a doctor.","医者に診てもらいたいです","アイド ライク トゥ シー ア ドクター",1],
+['help',"I have a fever and a headache.","熱と頭痛があります","アイ ハヴ ア フィーヴァー アンダ ヘデイク",1],
+['help',"I got a bad sunburn.","ひどく日焼けしました","アイ ガッタ バッド サンバーン",1],
+['help',"I cut my foot on the coral.","サンゴで足を切りました","アイ カット マイ フット オン ザ コーラル",1],
+['help',"I think something stung me.","何かに刺されたようです","アイ スィンク サムスィング スタング ミー",1],
+['help',"I'm allergic to penicillin.","ペニシリンにアレルギーがあります","アイム アラージック トゥ ペニシリン",1],
+['help',"Please call an ambulance.","救急車を呼んでください","プリーズ コール アン アンビュランス",1],
+['help',"I have travel insurance. Here's my card.","海外旅行保険に入っています。これがカードです","アイ ハヴ トラヴェル インシュアランス ヒアズ マイ カード",1],
+['help',"My room key doesn't work.","部屋の鍵が開きません","マイ ルーム キー ダズン ワーク",1],
+['help',"I missed my flight. What should I do?","飛行機に乗り遅れました。どうすればいいですか","アイ ミスト マイ フライト ワット シュダイ ドゥー",1],
+
+['talk',"Håfa Adai!","こんにちは（チャモロ語）","ハファ デイ",1],
+['talk',"Si Yu'os ma'åse'.","ありがとう（チャモロ語）","シ ジュウス マアセ",1],
+['talk',"Thank you so much.","本当にありがとう","サンキュー ソー マッチ",1],
+['talk',"Nice to meet you.","はじめまして","ナイス トゥ ミーチュー",1],
+['talk',"How's it going?","調子はどう？（店員の挨拶）","ハウズィッ ゴウイン",0],
+['talk',"Good, thanks. And you?","いいですよ、ありがとう。あなたは？","グッド サンクス アンジュー",1],
+['talk',"Where are you from?","どこから来たの？","ウェア アー ユー フロム",0],
+['talk',"I'm from Japan, from Tokyo.","日本の東京から来ました","アイム フロム ジャパン フロム トウキョウ",1],
+['talk',"It's beautiful here.","ここはきれいですね","イッツ ビューティフォー ヒア",1],
+['talk',"Sorry, my English isn't very good.","すみません、英語が得意ではありません","ソーリー マイ イングリッシュ イズン ヴェリー グッド",1],
+['talk',"Could you write it down?","書いてもらえますか","クジュー ライティッ ダウン",1],
+['talk',"No worries.","気にしないで／大丈夫です","ノウ ワリーズ",1],
+['talk',"Have a good one!","よい一日を！","ハヴァ グッド ワン",0],
+['talk',"You too!","あなたもね！","ユー トゥー",1]
+];
+
+const PHRASES = RAW.map((r,i)=>({id:'p'+i, sc:r[0], en:r[1], ja:r[2], kana:r[3], mine:!!r[4]}));
+const BY_SCENE = {};
+SCENES.forEach(s=>BY_SCENE[s.id]=PHRASES.filter(p=>p.sc===s.id));
+
+const DIALOGUES = [
+  {title:'入国審査を抜ける', setting:'アントニオ・B・ウォン・パット国際空港。列に並び、順番が来たらパスポートを出す。', lines:[
+    ['officer',"Next, please. Passport?","次の方。パスポートを"],
+    ['you',"Here you are.","はい、どうぞ"],
+    ['officer',"What's the purpose of your visit?","渡航の目的は？"],
+    ['you',"Vacation. Five days.","観光です。5日間"],
+    ['officer',"Where are you staying?","滞在先はどこですか"],
+    ['you',"At a hotel in Tumon. I have the name here.","タモンのホテルです。名前はここにあります"],
+    ['officer',"Look at the camera, please. Thank you. Enjoy your stay.","カメラを見てください。ありがとう。よい滞在を"],
+    ['you',"Thank you!","ありがとう！"]
+  ]},
+  {title:'夕食を頼む', setting:'タモンのチャモロ料理店。店の入口で待ってから席に案内される。', lines:[
+    ['server',"Hi, how many?","こんにちは、何名様ですか"],
+    ['you',"Two, please.","2人です"],
+    ['server',"Right this way. Can I get you something to drink?","こちらへどうぞ。お飲み物は？"],
+    ['you',"Water, no ice, please. Could we have a minute?","氷なしの水をお願いします。少し考えさせてください"],
+    ['server',"Sure, take your time.","もちろん、ゆっくりどうぞ"],
+    ['you',"What do you recommend?","おすすめは何ですか"],
+    ['server',"The BBQ plate with red rice is our most popular.","レッドライス付きのBBQプレートが一番人気です"],
+    ['you',"I'll have that. And the chicken kelaguen, please.","それにします。あとチキンケラグエンも"],
+    ['server',"Got it. Anything else?","承知しました。ほかには？"],
+    ['you',"That's all for now, thank you.","いまはそれで大丈夫です、ありがとう"],
+    ['you',"Check, please. Is the tip included?","お会計をお願いします。チップは含まれていますか"],
+    ['server',"It's not, but you can add it on the card slip.","含まれていません。カードの伝票に書き足せます"]
+  ]},
+  {title:'シャトルとタクシー', setting:'ホテルのロビー。モールへ行きたいが、帰りは荷物が多くなりそう。', lines:[
+    ['you',"Excuse me, does the shuttle go to the Premier Outlets?","すみません、シャトルはプレミアアウトレットに行きますか"],
+    ['staff',"Yes, it stops right out front, every twenty minutes.","はい、正面に20分ごとに止まります"],
+    ['you',"Where can I get a one-day pass?","1日券はどこで買えますか"],
+    ['staff',"You can buy it on the bus, cash or card.","バスの車内で、現金でもカードでも買えます"],
+    ['you',"Thank you. And could you call a taxi for tonight, around seven?","ありがとう。あと今夜7時ごろタクシーをお願いできますか"],
+    ['staff',"Sure. Where to?","かしこまりました。どちらまで？"],
+    ['you',"To Two Lovers Point. How much is it, roughly?","恋人岬まで。だいたいいくらですか"],
+    ['staff',"About twenty-five dollars one way.","片道25ドルほどです"]
+  ]},
+  {title:'シュノーケルを借りる', setting:'イパオビーチのレンタル小屋。子どもも一緒に入りたい。', lines:[
+    ['you',"Hi, I'd like to rent two snorkel sets.","こんにちは、シュノーケルセットを2つ借りたいです"],
+    ['staff',"For how long?","どのくらいですか"],
+    ['you',"Two hours. How much is that?","2時間です。いくらですか"],
+    ['staff',"Twenty dollars total. I'll need a deposit or an ID.","合計20ドルです。デポジットか身分証をお願いします"],
+    ['you',"Here's my ID. Is it safe to swim here today?","身分証です。今日はここで泳いで大丈夫ですか"],
+    ['staff',"Inside the reef, yes. Stay away from the channel — the current is strong.","リーフの内側なら大丈夫です。チャネルには近づかないで、流れが速いので"],
+    ['you',"Got it. Do you have a life jacket for a child?","わかりました。子ども用のライフジャケットはありますか"],
+    ['staff',"Yes, small or medium?","あります、小か中どちらですか"],
+    ['you',"Small, please. And do I need water shoes?","小でお願いします。マリンシューズは必要ですか"],
+    ['staff',"I'd recommend them. The coral can cut your feet.","おすすめします。サンゴで足を切ることがあるので"]
+  ]},
+  {title:'部屋の不具合を直してもらう', setting:'夜10時。エアコンが冷えず、タオルも足りない。フロントに電話する。', lines:[
+    ['you',"Hello, this is room 812.","もしもし、812号室です"],
+    ['staff',"Yes, how can I help you?","はい、どうされましたか"],
+    ['you',"The air conditioner isn't working. The room is really warm.","エアコンが効きません。部屋がとても暖かいです"],
+    ['staff',"I'm sorry about that. I'll send someone up right away.","申し訳ありません。すぐに人をお送りします"],
+    ['you',"Thank you. Could I also have two more towels?","ありがとう。タオルもあと2枚いただけますか"],
+    ['staff',"Of course. Anything else?","もちろんです。ほかには？"],
+    ['you',"That's it. How long will it be?","それだけです。どのくらいかかりますか"],
+    ['staff',"About ten minutes.","10分ほどです"],
+    ['you',"Great, thank you.","助かります、ありがとう"]
+  ]}
+];
+
+/* ===================================================================
+   状態（☆・成績）: db があればそちらに、無ければこの端末に保存
+   =================================================================== */
+const LS_KEY = 'hafa-adai-progress-v1';
+let state = {mastered:{}, stats:{}, rounds:[], made:[]};
+let dbns = null, saveTimer = null;
+
+function loadLocal(){
+  try{
+    const raw = localStorage.getItem(LS_KEY);
+    if(raw) Object.assign(state, JSON.parse(raw));
+  }catch(e){ /* プライベートウィンドウ等: 既定値のまま進む */ }
+}
+function save(){
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(async ()=>{
+    try{ localStorage.setItem(LS_KEY, JSON.stringify(state)); }catch(e){}
+    if(dbns){
+      try{
+        await dbns.doc('progress/main').set({...state, savedAt:Date.now()});
+        setSync('記録を同期しました');
+      }catch(err){
+        setSync(err && err.code === 'revoked' ? 'この端末にのみ記録' : '同期できず、この端末に記録');
+      }
+    }
+  }, 700);
+}
+function setSync(t){ const el=document.getElementById('mSync'); if(el) el.textContent = t; }
+
+(async function initDb(){
+  let ns = null;
+  try{ ns = await window.claude?.use?.('db'); }catch(e){ ns = null; }
+  if(!ns){ setSync('この端末に記録'); return; }
+  dbns = ns;
+  try{
+    const snap = await ns.doc('progress/main').get();
+    if(snap.exists && snap.data){
+      const d = snap.data;
+      const remote = {
+        mastered: d.mastered && typeof d.mastered==='object' ? d.mastered : {},
+        stats:    d.stats    && typeof d.stats==='object'    ? d.stats    : {},
+        rounds:   Array.isArray(d.rounds) ? d.rounds : [],
+        made:     Array.isArray(d.made)   ? d.made   : []
+      };
+      // ローカルの☆と合わせる（どちらかで覚えたものは覚えたまま）
+      state.mastered = Object.assign(remote.mastered, state.mastered);
+      state.stats = Object.assign(remote.stats, state.stats);
+      if(remote.rounds.length > state.rounds.length) state.rounds = remote.rounds;
+      if(remote.made.length > state.made.length) state.made = remote.made;
+      renderAll();
+    }
+    setSync('どの端末でも同じ記録');
+  }catch(err){
+    setSync('この端末に記録');
+  }
+})();
+
+/* ===================================================================
+   発音（端末の音声合成）
+   =================================================================== */
+let slow = false, voice = null, speakingBtn = null;
+function pickVoice(){
+  if(!('speechSynthesis' in window)) return;
+  const vs = speechSynthesis.getVoices();
+  if(!vs.length) return;
+  voice = vs.find(v=>/^en[-_]US$/i.test(v.lang) && /samantha|aria|jenny|google/i.test(v.name))
+       || vs.find(v=>/^en[-_]US$/i.test(v.lang))
+       || vs.find(v=>/^en/i.test(v.lang)) || null;
+}
+if('speechSynthesis' in window){
+  pickVoice();
+  speechSynthesis.onvoiceschanged = pickVoice;
+}
+function speak(text, btn, onend){
+  if(!('speechSynthesis' in window)){ if(onend) onend(); return; }
+  speechSynthesis.cancel();
+  if(speakingBtn){ speakingBtn.classList.remove('is-on'); speakingBtn = null; }
+  const u = new SpeechSynthesisUtterance(text.replace(/[åÅ]/g,'a').replace(/[’']/g,"'"));
+  u.lang = 'en-US';
+  if(voice) u.voice = voice;
+  u.rate = slow ? 0.62 : 0.94;
+  if(btn){ btn.classList.add('is-on'); speakingBtn = btn; }
+  u.onend = u.onerror = ()=>{
+    if(btn) btn.classList.remove('is-on');
+    if(speakingBtn === btn) speakingBtn = null;
+    if(onend) onend();
+  };
+  speechSynthesis.speak(u);
+}
+const SPK_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h3l5-4v14l-5-4H4zM16.5 8.5a5 5 0 0 1 0 7 .9.9 0 0 1-1.3-1.3 3.2 3.2 0 0 0 0-4.4.9.9 0 0 1 1.3-1.3zM19 6a8.5 8.5 0 0 1 0 12 .9.9 0 0 1-1.3-1.3 6.7 6.7 0 0 0 0-9.4A.9.9 0 0 1 19 6z"/></svg>';
+function speakBtn(text, label){
+  return '<button class="speak" data-speak="'+esc(text)+'" aria-label="'+esc(label||text)+'を読む">'+SPK_SVG+'</button>';
+}
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+document.addEventListener('click', e=>{
+  const b = e.target.closest('[data-speak]');
+  if(b){ speak(b.getAttribute('data-speak'), b); }
+});
+
+/* ===================================================================
+   フレーズ一覧
+   =================================================================== */
+let filterScene = 'all', starOnly = false, query = '';
+
+function phraseRow(p){
+  const m = !!state.mastered[p.id];
+  const st = state.stats[p.id];
+  const hits = st && (st.ok||st.ng) ? '<span class="hits">'+(st.ok||0)+'/'+((st.ok||0)+(st.ng||0))+'</span>' : '';
+  return '<div class="row'+(m?' is-mastered':'')+(p.mine?'':' theirs')+'" data-id="'+p.id+'">'
+    + '<div class="p-en en">'+(p.mine?'':'<span class="who">相手</span>')+esc(p.en)+hits+'</div>'
+    + '<div class="p-ja">'+esc(p.ja)+'</div>'
+    + '<div class="p-kana">'+esc(p.kana)+'</div>'
+    + speakBtn(p.en, p.en)
+    + '<button class="star" data-star="'+p.id+'" aria-pressed="'+m+'" aria-label="覚えた印">'+(m?'★':'☆')+'</button>'
+    + '</div>';
+}
+
+function renderPhrases(){
+  const q = query.trim().toLowerCase();
+  let html = '';
+  SCENES.forEach(s=>{
+    if(filterScene !== 'all' && filterScene !== s.id) return;
+    let list = BY_SCENE[s.id];
+    if(starOnly) list = list.filter(p=>state.mastered[p.id]);
+    if(q) list = list.filter(p=>(p.en+' '+p.ja+' '+p.kana).toLowerCase().includes(q));
+    if(!list.length) return;
+    html += '<section class="scene" id="sc-'+s.id+'"><h2><span class="no">'+s.no+'</span>'
+      + '<span class="sja">'+s.ja+'</span><span class="sen">'+s.en+'</span></h2>'
+      + (q||starOnly ? '' : '<p class="tip">'+s.tip+'</p>')
+      + '<div class="rows">' + list.map(phraseRow).join('') + '</div></section>';
+  });
+  const host = document.getElementById('sceneList');
+  host.innerHTML = html || '<p class="empty">その言葉を含むフレーズはありません。</p>';
+}
+
+function renderChips(){
+  const c = document.getElementById('chips');
+  c.innerHTML = '<button class="chip" data-sc="all" aria-pressed="'+(filterScene==='all')+'">すべて</button>'
+    + SCENES.map(s=>'<button class="chip" data-sc="'+s.id+'" aria-pressed="'+(filterScene===s.id)+'"><span class="cn">'+s.no+'</span>'+s.ja+'</button>').join('');
+}
+
+function renderMeter(){
+  const n = PHRASES.filter(p=>state.mastered[p.id]).length;
+  document.getElementById('mCount').textContent = n;
+  document.getElementById('mTotal').textContent = PHRASES.length;
+  document.getElementById('mBar').style.width = (n/PHRASES.length*100).toFixed(1)+'%';
+}
+
+/* 今日の5フレーズ: 日付で決まる並びから、まだ覚えていないものを優先 */
+function renderToday(){
+  const d = new Date();
+  const seed = d.getFullYear()*10000 + (d.getMonth()+1)*100 + d.getDate();
+  const scored = PHRASES.filter(p=>p.mine).map((p,i)=>{
+    const h = (seed * 9301 + i * 49297) % 233280;
+    return {p, k: h / 233280 + (state.mastered[p.id] ? 2 : 0)};
+  }).sort((a,b)=>a.k-b.k).slice(0,5).map(x=>x.p);
+  document.getElementById('todayDate').textContent =
+    d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');
+  document.getElementById('todayList').innerHTML = scored.map((p,i)=>
+    '<li><span class="idx">'+(i+1)+'</span><span class="t-en en">'+esc(p.en)+'</span>'
+    + speakBtn(p.en, p.en) + '<span class="t-ja">'+esc(p.ja)+' / '+esc(p.kana)+'</span></li>'
+  ).join('');
+}
+
+/* ===================================================================
+   会話
+   =================================================================== */
+const ROLE_JA = {officer:'係官', server:'店員', staff:'係員', you:'自分'};
+function renderDialogues(){
+  document.getElementById('dialogues').innerHTML = DIALOGUES.map((d,di)=>
+    '<article class="dlg"><h3>'+esc(d.title)+'</h3><p class="setting">'+esc(d.setting)+'</p>'
+    + '<button class="playall" data-dlg="'+di+'">通して聞く</button>'
+    + '<div class="lines">' + d.lines.map((l,li)=>
+        '<div class="line '+(l[0]==='you'?'you':'')+'" data-line="'+di+'-'+li+'">'
+        + '<span class="role">'+ (ROLE_JA[l[0]]||l[0]) +'</span>'
+        + '<div><div class="l-en en">'+esc(l[1])+'</div><div class="l-ja">'+esc(l[2])+'</div></div></div>'
+      ).join('') + '</div></article>'
+  ).join('');
+}
+let playing = null;
+document.addEventListener('click', e=>{
+  const b = e.target.closest('[data-dlg]');
+  if(!b) return;
+  const di = +b.getAttribute('data-dlg');
+  document.querySelectorAll('.line.is-speaking').forEach(n=>n.classList.remove('is-speaking'));
+  if(playing === di){ speechSynthesis.cancel(); playing = null; b.classList.remove('is-on'); b.textContent='通して聞く'; return; }
+  document.querySelectorAll('.playall').forEach(n=>{ n.classList.remove('is-on'); n.textContent='通して聞く'; });
+  playing = di; b.classList.add('is-on'); b.textContent='止める';
+  const lines = DIALOGUES[di].lines;
+  (function step(i){
+    if(playing !== di || i >= lines.length){
+      if(playing === di){ playing = null; b.classList.remove('is-on'); b.textContent='通して聞く'; }
+      return;
+    }
+    document.querySelectorAll('.line.is-speaking').forEach(n=>n.classList.remove('is-speaking'));
+    const node = document.querySelector('[data-line="'+di+'-'+i+'"]');
+    if(node) node.classList.add('is-speaking');
+    speak(lines[i][1], null, ()=>{
+      if(node) node.classList.remove('is-speaking');
+      setTimeout(()=>step(i+1), 320);
+    });
+  })(0);
+});
+
+/* ===================================================================
+   クイズ
+   =================================================================== */
+const QN = 8;
+let quiz = null;
+function weight(p){
+  const st = state.stats[p.id] || {ok:0,ng:0};
+  let w = 1;
+  if(st.ng) w += st.ng * 2.5;          // 間違えたものを出しやすく
+  if(state.mastered[p.id]) w *= 0.35;  // 覚えた印のものは控えめに
+  if(!st.ok && !st.ng) w += 0.8;       // まだ出ていないものも出す
+  return w;
+}
+function pickWeighted(pool, n){
+  const src = pool.slice(), out = [];
+  while(out.length < n && src.length){
+    const total = src.reduce((s,p)=>s+weight(p),0);
+    let r = Math.random()*total, i = 0;
+    for(; i<src.length; i++){ r -= weight(src[i]); if(r<=0) break; }
+    out.push(src.splice(Math.min(i,src.length-1),1)[0]);
+  }
+  return out;
+}
+const TTS = ('speechSynthesis' in window);
+function startQuiz(){
+  const items = pickWeighted(PHRASES, QN).map((p,i)=>{
+    const kind = (i % 2 === 0 && TTS) ? 'listen' : 'ja2en';
+    const sameScene = BY_SCENE[p.sc].filter(x=>x.id!==p.id);
+    const others = PHRASES.filter(x=>x.id!==p.id && x.sc!==p.sc);
+    const pool = shuffle(sameScene).slice(0,2).concat(shuffle(others).slice(0,3));
+    const distractors = [];
+    for(const d of pool){
+      if(distractors.length>=3) break;
+      const txt = kind==='listen' ? d.ja : d.en;
+      if(!distractors.some(x=>(kind==='listen'?x.ja:x.en)===txt)) distractors.push(d);
+    }
+    return {p, kind, options: shuffle([p].concat(distractors))};
+  });
+  quiz = {items, i:0, correct:0, answered:false, wrong:[]};
+  renderQuiz();
+}
+function shuffle(a){ const b=a.slice(); for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]];} return b; }
+
+function renderQuiz(){
+  const box = document.getElementById('quizbox');
+  if(!quiz){
+    const done = state.rounds.length;
+    const last = done ? state.rounds[state.rounds.length-1] : null;
+    box.innerHTML = '<div class="qhead"><span class="qcount">READY</span>'
+      + '<span class="qscore">'+(last ? '前回 '+last.correct+' / '+last.total : '初回')+'</span></div>'
+      + '<p class="qprompt">全'+PHRASES.length+'フレーズから8問。'+(done? 'これまで'+done+'回。':'')+'</p>'
+      + '<div class="btnrow"><button class="btn" id="qStart">はじめる</button>'
+      + (done? '<button class="btn ghost" id="qReset">成績を消す</button>':'') + '</div>';
+    return;
+  }
+  if(quiz.i >= quiz.items.length){
+    const pct = Math.round(quiz.correct/quiz.items.length*100);
+    const msg = pct===100 ? '全問正解。次は「ゆっくり発音」を切って聞いてみてください。'
+      : pct>=75 ? 'よく聞き取れています。間違えた文だけ声に出してみましょう。'
+      : pct>=50 ? '半分は取れています。下の文を3回ずつ音読してから再挑戦。'
+      : 'まずは「今日の5フレーズ」を音で覚えるところから。';
+    box.innerHTML = '<div class="result"><div class="big">'+quiz.correct+'<span style="font-size:20px;color:var(--ink-3)"> / '+quiz.items.length+'</span></div>'
+      + '<p class="msg">'+msg+'</p>'
+      + (quiz.wrong.length ? '<div class="weaklist"><h4>もう一度</h4>'
+          + quiz.wrong.map(p=>'<div>'+esc(p.en)+'<span>'+esc(p.ja)+'</span></div>').join('') + '</div>' : '')
+      + '<div class="btnrow" style="justify-content:center"><button class="btn" id="qStart">もう1回</button></div></div>';
+    return;
+  }
+  const it = quiz.items[quiz.i];
+  const isListen = it.kind === 'listen';
+  box.innerHTML = '<div class="qhead"><span class="qcount">Q '+(quiz.i+1)+' / '+quiz.items.length+'</span>'
+    + '<span class="qscore">正解 '+quiz.correct+'</span></div>'
+    + '<p class="qprompt">'+(isListen?'聞こえた英語の意味はどれですか':'この日本語に合う英語はどれですか')+'</p>'
+    + (isListen
+        ? '<div class="qlisten">'+speakBtn(it.p.en,'問題')
+          + '<span>押すともう一度読みます</span>'
+          + '<button class="toggle" id="qReveal">英語を表示</button></div>'
+          + '<div class="qbig en" id="qText" hidden>'+esc(it.p.en)+'</div>'
+        : '<div class="qbig">'+esc(it.p.ja)+'</div>')
+    + '<div class="opts" id="opts">' + it.options.map((o,oi)=>
+        '<button class="opt'+(isListen?'':' en-opt')+'" data-opt="'+oi+'">'
+        + '<span class="key">'+'ABCD'[oi]+'</span><span class="body'+(isListen?'':' en')+'">'
+        + esc(isListen ? o.ja : o.en) + '</span></button>').join('') + '</div>'
+    + '<div id="verdict"></div>';
+  if(isListen) setTimeout(()=>speak(it.p.en, document.querySelector('.qlisten .speak')), 260);
+}
+
+document.addEventListener('click', e=>{
+  if(e.target.closest('#qStart')){ startQuiz(); return; }
+  if(e.target.closest('#qReset')){
+    state.stats = {}; state.rounds = []; save(); renderAll(); return;
+  }
+  if(e.target.closest('#qReveal')){
+    const t = document.getElementById('qText');
+    if(t){ t.hidden = false; e.target.closest('#qReveal').hidden = true; }
+    return;
+  }
+  if(e.target.closest('#qNext')){ quiz.i++; quiz.answered=false; renderQuiz(); return; }
+  const ob = e.target.closest('[data-opt]');
+  if(!ob || !quiz || quiz.answered) return;
+  quiz.answered = true;
+  const it = quiz.items[quiz.i];
+  const chosen = it.options[+ob.getAttribute('data-opt')];
+  const ok = chosen.id === it.p.id;
+  const st = state.stats[it.p.id] || (state.stats[it.p.id] = {ok:0,ng:0});
+  if(ok){ st.ok++; quiz.correct++; } else { st.ng++; quiz.wrong.push(it.p); }
+  save();
+  document.querySelectorAll('[data-opt]').forEach((b,i)=>{
+    b.disabled = true;
+    if(it.options[i].id === it.p.id) b.classList.add('correct');
+    else if(b === ob) b.classList.add('wrong');
+  });
+  document.getElementById('verdict').innerHTML =
+    '<div class="verdict"><div class="v-head '+(ok?'ok':'ng')+'">'+(ok?'正解':'惜しい')+'</div>'
+    + '<div class="v-en en">'+esc(it.p.en)+'</div>'
+    + '<div class="v-kana">'+esc(it.p.kana)+'</div>'
+    + '<div style="margin-top:4px">'+esc(it.p.ja)+'</div>'
+    + '<div class="btnrow">'+speakBtn(it.p.en,'答え')
+    + '<button class="btn" id="qNext">'+(quiz.i+1>=quiz.items.length?'結果を見る':'次へ')+'</button></div></div>';
+  if(quiz.i+1 >= quiz.items.length){
+    state.rounds.push({at:Date.now(), correct:quiz.correct, total:quiz.items.length});
+    if(state.rounds.length > 40) state.rounds = state.rounds.slice(-40);
+    save();
+  }
+});
+
+/* ===================================================================
+   言いたいことを英語に（Claude に聞く。使えない場合は案内に差し替え）
+   =================================================================== */
+let sampler = null;
+(async function initSample(){
+  let s = null;
+  try{ s = await window.claude?.use?.('sample'); }catch(e){ s = null; }
+  const btn = document.getElementById('askBtn');
+  const ta  = document.getElementById('ask');
+  if(!s){
+    document.getElementById('askOut').innerHTML =
+      '<p class="notice">この表示ではAIへの問い合わせが使えません。'
+      + 'フレーズ集の検索で近い言い方を探すか、Claudeのチャットで「グアムで◯◯と言いたい」と聞いてください。</p>';
+    btn.disabled = true; ta.disabled = true;
+    return;
+  }
+  sampler = s;
+})();
+
+document.getElementById('askBtn').addEventListener('click', async ()=>{
+  if(!sampler) return;
+  const ta = document.getElementById('ask');
+  const text = ta.value.trim();
+  const stateEl = document.getElementById('askState');
+  const out = document.getElementById('askOut');
+  if(!text){ stateEl.textContent = '言いたいことを書いてください。'; return; }
+  const btn = document.getElementById('askBtn');
+  btn.disabled = true; stateEl.textContent = '考えています…'; out.innerHTML = '';
+  const prompt = [
+    'あなたはグアム旅行中の日本人旅行者の英会話コーチです。',
+    '次の日本語を、グアム（米国）の店員・ホテル係員・係官に実際に通じる、ていねいで短い英語にしてください。',
+    '直訳ではなく、現地で自然に使われる言い方を選ぶこと。',
+    'JSONのみを返す。キーは en（英文1〜2文）, kana（英文の読みをカタカナで。つながる音はつなげて書く）, alt（もう少しカジュアルな言い方）, note（使うときの注意や現地事情を日本語40字以内）。',
+    '言いたいこと: ' + text
+  ].join('\n');
+  try{
+    const r = await sampler.json(prompt, {modelTier:'default'});
+    const en = (r && r.en) ? String(r.en) : '';
+    if(!en) throw {code:'empty', message:'no answer'};
+    out.innerHTML = '<div class="answer"><div class="a-en en">'+esc(en)+'</div>'
+      + (r.kana ? '<div class="a-kana">'+esc(r.kana)+'</div>' : '')
+      + '<div class="btnrow" style="margin-top:10px">'+speakBtn(en,'答え')+'</div>'
+      + (r.alt ? '<div class="a-alt">くだけた言い方: <b>'+esc(String(r.alt))+'</b></div>' : '')
+      + (r.note ? '<div class="a-note">'+esc(String(r.note))+'</div>' : '')
+      + '</div>';
+    state.made.unshift({ja:text, en:en, kana:r.kana?String(r.kana):''});
+    if(state.made.length > 30) state.made.length = 30;
+    save(); renderMade();
+    stateEl.textContent = '';
+  }catch(err){
+    const code = err && err.code;
+    stateEl.textContent =
+      code === 'not_granted'  ? 'AIへの問い合わせが許可されていません。' :
+      code === 'rate_limited' ? '混み合っています。少し待ってからもう一度。' :
+      code === 'cancelled'    ? '中止しました。' :
+      'うまく返ってきませんでした。もう一度試してください。';
+  }finally{
+    btn.disabled = false;
+  }
+});
+
+function renderMade(){
+  const wrap = document.getElementById('savedWrap');
+  if(!state.made.length){ wrap.hidden = true; return; }
+  wrap.hidden = false;
+  document.getElementById('savedList').innerHTML = state.made.map(m=>
+    '<div class="made"><div class="m-en">'+esc(m.en)+'</div>'
+    + speakBtn(m.en, m.en)
+    + '<div class="m-ja">'+esc(m.ja)+'</div>'
+    + (m.kana ? '<div class="m-kana">'+esc(m.kana)+'</div>' : '')
+    + '</div>'
+  ).join('');
+}
+
+/* ===================================================================
+   タブ・操作
+   =================================================================== */
+const TABS = ['phrases','dialogue','quiz','compose'];
+let tab = 'phrases';
+function setTab(name){
+  tab = name;
+  TABS.forEach(t=>{
+    document.getElementById('tab-'+t).setAttribute('aria-selected', String(t===name));
+    document.getElementById('panel-'+t).hidden = (t!==name);
+  });
+  if(name==='quiz' && !quiz) renderQuiz();
+}
+TABS.forEach(t=>document.getElementById('tab-'+t).addEventListener('click', ()=>setTab(t)));
+
+document.getElementById('q').addEventListener('input', e=>{ query = e.target.value; renderPhrases(); });
+document.getElementById('tStar').addEventListener('click', e=>{
+  starOnly = !starOnly; e.currentTarget.setAttribute('aria-pressed', String(starOnly)); renderPhrases();
+});
+document.getElementById('tSlow').addEventListener('click', e=>{
+  slow = !slow; e.currentTarget.setAttribute('aria-pressed', String(slow));
+});
+document.addEventListener('click', e=>{
+  const c = e.target.closest('[data-sc]');
+  if(c){ filterScene = c.getAttribute('data-sc'); renderChips(); renderPhrases(); return; }
+  const s = e.target.closest('[data-star]');
+  if(s){
+    const id = s.getAttribute('data-star');
+    if(state.mastered[id]) delete state.mastered[id]; else state.mastered[id] = true;
+    save();
+    s.setAttribute('aria-pressed', String(!!state.mastered[id]));
+    s.textContent = state.mastered[id] ? '★' : '☆';
+    s.closest('.row').classList.toggle('is-mastered', !!state.mastered[id]);
+    renderMeter();
+    if(starOnly) renderPhrases();
+  }
+});
+
+function renderAll(){ renderMeter(); renderToday(); renderChips(); renderPhrases(); renderMade(); if(tab==='quiz') renderQuiz(); }
+
+function boot(hot){
+  loadLocal();
+  if(hot && hot.tab && TABS.includes(hot.tab)) tab = hot.tab;
+  renderAll();
+  renderDialogues();
+  setTab(tab);
+  if(hot && hot.query){ query = hot.query; document.getElementById('q').value = hot.query; renderPhrases(); }
+  window.claude?.hot?.snapshot?.(()=>({tab, query}));
+}
+if(window.claude?.hot?.ready) window.claude.hot.ready(boot);
+else boot(window.claude?.hot?.data ?? {});
+</script>
