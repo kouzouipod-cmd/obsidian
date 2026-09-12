@@ -27,8 +27,19 @@ citekey は Better BibTeX が付けたものだけを使う。**AIがcitekeyを�
 Zoteroに実体がない文献のノートを先に作らない。順序は固定:
 
 1. Zoteroに登録（RIS取込 / ブラウザコネクタ）
-2. Zotero Integration プラグインでノート生成（`99_template\Template_article2.md`）
-3. **AIは `# 1 AI要約` だけを埋める**
+2. `zotero.bib` から citekey を読む（DOIで照合する。推測しない）
+3. `papers\<topic>\notes_content.json` に内容を書き、**`build_vault_notes.ps1` でノートを生成する**
+
+### ⚠️ Obsidian の Zotero Integration でノートを作らない（2026-09-12 決定）
+
+ノートを作る経路は **`build_vault_notes.ps1` の1つだけ**にする。
+Zotero Integration プラグインでも同じ論文のノートを作ると、ファイル名が違うため
+**2つのノートができ、wikilinkは片方にしか張られない。**
+実際に4組（stigger / mallik / cordeiro / deng）が重複していた。
+
+ビルダーは `# 1 AI要約` に加えて **`# 2 Citation`・`# 3 Related`・`> [!Abstract]` も
+Zotero Integration と同じ形式で出力する**ので、プラグインを使わなくても情報は落ちない。
+重複の検査は `check.ps1` の項目7b。
 
 ### ファイル名
 
@@ -222,9 +233,22 @@ Zoteroが生成・再生成する領域。手で直すと次回の再生成で�
 
 1. 書誌を取得し `papers\<topic>\library.json` に追記
    （`relevance`・`arm`・`authors_full` を必ず埋める）
-2. **PDFを取得** — Chromeで記事ページを開き、ページ内でblobをfetchして `<a download>` で保存。
-   **1本ずつ処理する**（連続だとChromeの自動ダウンロード制限に掛かる）。
-   `fulltext\<libid>.pdf` に置き、`pdftotext -f 1 -l 1` で中身を照合する
+2. **PDFを取得** — `fetch_pmc_pdf.ps1` を使い `fulltext\<libid>.pdf` に置く。
+
+   PMCのPDF URLは素で叩くと **1817バイトのJS中間ページ**が返る（proof-of-work式のbot対策）。
+   ブラウザで一度PDFのURLを開いてJSを走らせると `cloudpmc-viewer-pow` Cookie が発行され、
+   以後は `curl.exe` でも取れる。**Cookieはセッション単位で論文ごとではない。一度取れば使い回せる。**
+
+   ```
+   1. navigate https://pmc.ncbi.nlm.nih.gov/articles/<PMCID>/pdf/
+      → 「Preparing to download ...」が出て記事ページに戻る。この時点でCookieが入る
+   2. javascript_tool で document.cookie を読む
+   3. pwsh -File fetch_pmc_pdf.ps1 -PmcId <PMCID> -Out <path> -Cookie "<document.cookie>"
+   ```
+
+   スクリプトが magic bytes を検査して落ちるが、**1ページ目を `pdftotext -f 1 -l 1` で
+   目視照合する**こと（別論文のPDFを掴んでいないか）。
+   出版社が直接PDFを配っている場合（Frontiers など）はそちらのほうが早い。
 3. **全文テキストも取る** — `fetch_pmc_fulltext.ps1`。
    抄録に無い数値（追跡期間・欠損サイズ・骨長・救済手術の有無）はここにある。
    保存前に `<license>` を確認し、CC-BY等でなければ要約作成にのみ使う
@@ -321,7 +345,7 @@ JSON構文・PLACEHOLDERの残存・citekeyの実在・PDFのmagic bytes・拡�
 新しい失敗をしたら、対策を文章で書くのではなく **`check.ps1` の検査項目に足すこと。**
 注意書きは読み飛ばされるが、スクリプトは落ちる。
 
-## 10. 自動化できること / できないこと（2026-09-08 検証済み）
+## 10. 自動化できること / できないこと（2026-09-12 更新）
 
 | やりたいこと | 手段 | 可否 |
 |---|---|---|
@@ -330,7 +354,7 @@ JSON構文・PLACEHOLDERの残存・citekeyの実在・PDFのmagic bytes・拡�
 | 取り込み先コレクションの指定 | 取り込み後に `POST /connector/updateSession` に `{sessionID, target}` | **可** |
 | citekey の取得 | `15_zotero\zotero.bib` を読む | **可** |
 | PMC論文の全文取得 | E-utilities の `efetch.fcgi?db=pmc` | **可**（XML／本文テキスト） |
-| PMCからのPDF取得 | Chromeでページ内fetch＋`<a download>` | **可（1本ずつなら）**。連続だとブロックされる |
+| PMCからのPDF取得 | ブラウザでPoW Cookieを1回取り `fetch_pmc_pdf.ps1` | **可**（2026-09-12に確立。Cookieはセッション単位で使い回せる） |
 | 有料誌のPDF取得 | Zotero Connector（**ユーザーがCtrl+Shift+S**） | **可**。ただし私からは起動できない |
 | Zotero Connectorの起動 | — | **不可**（拡張ショートカットはブラウザ本体が処理。CDPキーは届かない） |
 

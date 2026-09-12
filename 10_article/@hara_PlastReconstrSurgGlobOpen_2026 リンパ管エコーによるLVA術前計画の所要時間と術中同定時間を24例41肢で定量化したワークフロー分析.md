@@ -9,7 +9,7 @@ domain: lymphedema
 ---
 > [!Data]
 > **PDF**
-> [Hara_2026_lymphatic_ultrasound_LVA_workflow_PRSGO.txt](file://C:/Users/user/claude/papers/lymphedema_general/fulltext/Hara_2026_lymphatic_ultrasound_LVA_workflow_PRSGO.txt) ※PMC全文テキスト（PDFではない）
+> [Hara_2026_lymphatic_ultrasound_LVA_workflow_PRSGO.pdf](file://C:/Users/user/claude/papers/lymphedema_general/fulltext/Hara_2026_lymphatic_ultrasound_LVA_workflow_PRSGO.pdf)
 > **Link**
 > https://doi.org/10.1097/GOX.0000000000007984
 
@@ -53,7 +53,7 @@ LVAの成否は、機能の残ったリンパ管を見つけられるかで決�
 - 線維化別: なし7分21秒・中等度8分18秒・**高度＋脂肪減少11分48秒**だが **p = 0.082 で有意差なし。**
 - LVA部位は大腿では内側が多く、**近位下腿では内側12箇所・外側11箇所とほぼ同数。**
 - ナラティブレビュー部分の実務値: **D-CUPS基準**の感度は**ドプラ陰性・交差・浅筋膜直下が各100%**、非圧縮性68.4%、並走19.4%（27例44肢98切開）。走査位置は**大腿で大伏在静脈の外側17.3mm**（伏在大腿接合部の5cm遠位）、**下腿で内側12.6mm**（膝窩の5cm遠位）。**外側下腿はstage 2b・3で検出率100%。** プローブは表層5mm以内なら24〜33MHz、大半の症例では**12〜18MHzが最適**。
-- 📌 本文PDF未取得（LWW/Ovid）。全文テキストはCC-BY-NC-NDで `lymphedema_general/fulltext/` に保存済み。
+- 本文PDF・全文テキストともPMCから取得済み（CC-BY-NC-ND、`lymphedema_general/fulltext/`）。図2（8領域とリンパソームの分割）と図3（部位配分のフローチャート）はPDFにある。
 
 ### **考察および課題**
 - **タイトルは「Lymphatic Ultrasound Works」だが、本研究が測ったのは段取りであって成績ではない。** 術後の浮腫改善率は評価されておらず、著者ら自身が「ワークフロー指標に焦点を当てたため患者アウトカムへの影響は不明」と明記している。エコーが結果を良くするという主張の根拠にはならない。
