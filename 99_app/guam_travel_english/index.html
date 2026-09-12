@@ -162,6 +162,34 @@
     white-space:nowrap;color:var(--ink-2);background:transparent;
   }
   .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+  /* 音の設定 */
+  .apanel{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+  .arow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .apill{font-family:"Epilogue",sans-serif;font-size:11px;letter-spacing:.06em;padding:4px 10px;border-radius:99px;border:1px solid var(--line);color:var(--ink-2)}
+  .apill.good{border-color:var(--ok);color:var(--ok);background:var(--ok-wash)}
+  .apill.bad{border-color:var(--bougain);color:var(--bougain);background:var(--bougain-wash)}
+  .alabel{font-size:11px;letter-spacing:.06em;color:var(--ink-3)}
+  .apanel select{font:inherit;font-size:13px;padding:8px 10px;border:1px solid var(--line);border-radius:var(--r);background:var(--paper);color:var(--ink);max-width:100%}
+  .anote{font-size:12.5px;color:var(--ink-2)}
+  .anote ul{margin:6px 0 0;padding-left:1.1em}
+  .anote li{margin:3px 0}
+  .anote p{margin:0 0 6px}
+  /* クイズ: 語順・穴うめ */
+  .qkind{font-family:"Epilogue",sans-serif;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--sea);border:1px solid var(--sea);border-radius:99px;padding:2px 9px}
+  .qsaid{border-left:3px solid var(--line);padding-left:14px;margin-top:8px}
+  .qsaid .s-en{font-family:"Epilogue",sans-serif;font-size:19px;font-style:italic;line-height:1.4}
+  .qsaid .s-ja{font-size:12.5px;color:var(--ink-2);margin-top:3px}
+  .qcloze{font-family:"Epilogue",sans-serif;font-size:21px;line-height:1.5;margin:4px 0 2px}
+  .qcloze b{color:var(--sea);font-weight:700;letter-spacing:.06em}
+  .qhint{font-size:12.5px;color:var(--ink-2)}
+  .tokline{min-height:52px;border-bottom:2px solid var(--sea);display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start;padding:8px 0;margin-top:14px}
+  .tokpool{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .tok{font-family:"Epilogue",sans-serif;font-size:15px;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 12px}
+  .tokline .tok{background:var(--sea-wash);border-color:var(--sea)}
+  .tokph{color:var(--ink-3);font-size:12.5px;padding:10px 0}
+  .qconf{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+  .qconf .lbl{font-size:11.5px;color:var(--ink-3);letter-spacing:.04em}
+  .qconf select{font:inherit;font-size:12.5px;padding:6px 10px;border:1px solid var(--line);border-radius:var(--r);background:var(--paper);color:var(--ink)}
   .chip .cn{font-family:"Epilogue",sans-serif;font-size:10px;letter-spacing:.08em;opacity:.65;margin-right:5px}
 
   /* ---------- scene sections ---------- */
@@ -317,7 +345,7 @@
       <h1>ハファデイ英会話</h1>
       <p class="lede">
         グアムで実際に口から出す英語だけを、<b>旅の順番どおりに</b>並べました。
-        機内から入国審査、レストラン、ビーチ、困ったときまで全119フレーズ。
+        機内から入国審査、レストラン、ビーチ、困ったときまで全<span id="leadCount">200</span>フレーズ。
         発音はカタカナではなく<b>つながった音</b>で書いています（Could I have → クダイ ハヴ）。
       </p>
     </div>
@@ -361,8 +389,18 @@
         <input type="search" id="q" placeholder="日本語・英語で探す（例: 氷なし / check）" aria-label="フレーズを検索">
         <button class="toggle" id="tStar" aria-pressed="false">☆ だけ</button>
         <button class="toggle" id="tSlow" aria-pressed="false">ゆっくり発音</button>
+        <button class="toggle" id="tAudio" aria-pressed="false" aria-expanded="false" aria-controls="apanel">音が出ないとき</button>
       </div>
       <div class="chips" id="chips" role="group" aria-label="場面でしぼる"></div>
+      <div class="apanel" id="apanel" hidden>
+        <div class="arow">
+          <span class="apill" id="apill">音: まだ試していません</span>
+          <button class="btn ghost" id="aTest">テスト再生</button>
+        </div>
+        <label class="alabel" for="voiceSel">読み上げる声</label>
+        <select id="voiceSel"></select>
+        <div class="anote" id="aNote"></div>
+      </div>
     </div>
 
     <div id="sceneList"></div>
@@ -380,8 +418,9 @@
   <!-- ============ 03 クイズ ============ -->
   <section class="wrap" id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz" hidden>
     <p class="lede" style="margin-top:24px">
-      1回8問。音を聞いて意味を選ぶ問題と、日本語から英語を選ぶ問題が交互に出ます。
-      間違えたフレーズは記録され、次の回に出やすくなります。
+      出題は5種類——<b>聞き取り</b>（音だけで意味を選ぶ）、<b>日本語から英語</b>、<b>穴うめ</b>、
+      <b>語順</b>（語を押して文を組み立てる）、<b>こう言われたら</b>（相手のセリフに返す）。
+      間違えたフレーズは記録され、次の回に出やすくなります。問題数と場面は下で選べます。
     </p>
     <div class="quizbox" id="quizbox"></div>
   </section>
@@ -411,7 +450,7 @@
 <footer>
   <div class="wrap">
     <span><b>Si Yu&rsquo;os ma&rsquo;&aring;se&rsquo;</b> — チャモロ語の「ありがとう」。島のどこでも通じます。</span>
-    <span>発音は端末の音声合成です。☆と成績はこの端末に記録されます。</span>
+    <span>音が出ないときは「フレーズ」の<b>音が出ないとき</b>から声を変えてください。☆と成績は自動で保存されます。</span>
   </div>
 </footer>
 
@@ -430,14 +469,21 @@ const SCENES = [
    tip:'赤い観光シャトルがタモンのホテルとモールを巡回。流しのタクシーはほぼ無く、<b>ホテルのベルデスクに頼む</b>のが基本。タクシーのチップは料金の<b>10〜15%</b>、端数を切り上げて渡せばよい。'},
   {id:'eat',  no:'05', ja:'レストラン',       en:'Eating out',
    tip:'チップは会計の<b>15〜20%</b>。伝票に Gratuity と印字済みのこともあるので <b>Is the tip included?</b> で確認。チャモロ料理なら <b>red rice</b>（赤いご飯）、<b>kelaguen</b>（レモンと削りココナッツで和えた鶏）、<b>finadene</b>（醤油ベースの辛いタレ）。'},
-  {id:'shop', no:'06', ja:'買い物',           en:'Shopping',
+  {id:'cafe', no:'06', ja:'カフェ・ファストフード', en:'Coffee & fast food',
+   tip:'最初に必ず <b>For here or to go?</b>（店内か持ち帰りか）を聞かれる。サイズは small / medium / large、スターバックスは tall / grande / venti。名前を聞かれたら<b>短くローマ字で</b>答え、聞き返されたら一文字ずつ言う。'},
+  {id:'shop', no:'07', ja:'買い物',           en:'Shopping',
    tip:'グアムに<b>消費税の上乗せは無い</b>ので、値札の額がほぼ支払額。サイズはUS表記（靴は US 7 ≒ 24cm、US 8 ≒ 25cm が目安）。返品は<b>レシート必須</b>なので捨てない。'},
-  {id:'play', no:'07', ja:'ビーチ・アクティビティ', en:'Beach & activities',
+  {id:'pay',  no:'08', ja:'お金・支払い',     en:'Paying',
+   tip:'カードが基本だが、<b>チップ用の1ドル札</b>は手元に置いておく。<b>Could I have some ones?</b> で崩してもらえる。カード払いの伝票は Tip と Total の欄が空で渡されるので、自分で書いて合計を記入する。',
+   },
+  {id:'play', no:'09', ja:'ビーチ・アクティビティ', en:'Beach & activities',
    tip:'イパオビーチやタモン湾はリーフの内側で穏やか。ただし<b>リーフの切れ目（チャネル）は流れが速い</b>ので、入る前に必ず流れを聞く。サンゴと足裏を守るマリンシューズ、日焼け止めはリーフセーフのものを。'},
-  {id:'help', no:'08', ja:'困ったとき',       en:'When things go wrong',
+  {id:'help', no:'10', ja:'困ったとき',       en:'When things go wrong',
    tip:'緊急通報は<b>911</b>。病院にかかる前に、まず<b>海外旅行保険のアシスタンスデスク</b>へ電話（日本語対応・提携病院を案内してくれる）。保険証券番号と連絡先は<b>スマホと紙の両方</b>に。'},
-  {id:'talk', no:'09', ja:'ひとこと・チャモロ語', en:'Small talk & Chamorro',
-   tip:'<b>Håfa Adai（ハファ デイ）</b>は島の「こんにちは」。返しも Håfa Adai でよい。店員の <b>How&rsquo;s it going?</b> は挨拶なので、体調を説明せず <b>Good, thanks.</b> で返す。'}
+  {id:'talk', no:'11', ja:'ひとこと・チャモロ語', en:'Small talk & Chamorro',
+   tip:'<b>Håfa Adai（ハファ デイ）</b>は島の「こんにちは」。返しも Håfa Adai でよい。店員の <b>How&rsquo;s it going?</b> は挨拶なので、体調を説明せず <b>Good, thanks.</b> で返す。'},
+  {id:'back', no:'12', ja:'空港・帰国',       en:'Flying home',
+   tip:'チェックインで <b>Did you pack these bags yourself?</b>（荷物は自分で詰めたか）を必ず聞かれる。答えは <b>Yes, I did.</b>。保安検査では液体とノートパソコンをかばんから出す。<b>出発の2時間前</b>には空港に。'}
 ];
 
 const RAW = [
@@ -567,10 +613,121 @@ const RAW = [
 ['talk',"Could you write it down?","書いてもらえますか","クジュー ライティッ ダウン",1],
 ['talk',"No worries.","気にしないで／大丈夫です","ノウ ワリーズ",1],
 ['talk',"Have a good one!","よい一日を！","ハヴァ グッド ワン",0],
-['talk',"You too!","あなたもね！","ユー トゥー",1]
+['talk',"You too!","あなたもね！","ユー トゥー",1],
+/* --- ここから追加分。既存の☆の記録を保つため、行は末尾に足すこと --- */
+['cafe',"For here or to go?","店内ですか、お持ち帰りですか","フォー ヒア オア トゥ ゴウ",0],
+['cafe',"To go, please.","持ち帰りでお願いします","トゥ ゴウ プリーズ",1],
+['cafe',"For here, please.","店内で食べます","フォー ヒア プリーズ",1],
+['cafe',"A medium iced coffee, please.","アイスコーヒーのMサイズをください","ア ミーディアム アイスト コーフィ プリーズ",1],
+['cafe',"Can I get a grande latte with oat milk?","グランデのラテをオーツミルクでお願いします","キャナイ ゲッタ グランデイ ラテ ウィズ オウト ミルク",1],
+['cafe',"Light ice, please.","氷は少なめでお願いします","ライト アイス プリーズ",1],
+['cafe',"What's on it?","何がのっていますか","ワッツ オン イット",1],
+['cafe',"Can I get that without cheese?","チーズ抜きにできますか","キャナイ ゲッ ザット ウィザウト チーズ",1],
+['cafe',"Is that a combo?","それはセットですか","イズ ザッタ コンボウ",1],
+['cafe',"Make it a combo, please.","セットにしてください","メイキッタ コンボウ プリーズ",1],
+['cafe',"Can I get a name for the order?","ご注文のお名前をいただけますか","キャナイ ゲッタ ネイム フォー ジ オーダー",0],
+['cafe',"It's Yuki. Y-U-K-I.","ユキです。Y・U・K・I","イッツ ユキ ワイ ユー ケイ アイ",1],
+['cafe',"Where do I pick it up?","どこで受け取ればいいですか","ウェア ドゥ アイ ピッキッ アップ",1],
+['cafe',"Could I get some napkins?","ナプキンをもらえますか","クダイ ゲッ サム ナプキンズ",1],
+
+['pay',"Debit or credit?","デビットかクレジット、どちらですか","デビット オア クレディット",0],
+['pay',"Credit, please.","クレジットでお願いします","クレディット プリーズ",1],
+['pay',"Do you take Apple Pay?","Apple Payは使えますか","ドゥユー テイク アポー ペイ",1],
+['pay',"Could I pay in cash?","現金で払えますか","クダイ ペイ イン キャッシュ",1],
+['pay',"Could I get smaller bills?","小さいお札にしてもらえますか","クダイ ゲッ スモーラー ビルズ",1],
+['pay',"Could I have some ones for tips?","チップ用に1ドル札をもらえますか","クダイ ハヴ サム ワンズ フォー ティップス",1],
+['pay',"Can you split it between two cards?","カード2枚で分けて払えますか","キャニュー スプリッティッ ビトウィーン トゥー カーズ",1],
+['pay',"Is there a service charge?","サービス料はかかりますか","イズ ゼア ア サーヴィス チャージ",1],
+['pay',"I think there's a mistake on the bill.","伝票が間違っている気がします","アイ スィンク ゼアザ ミステイク オン ザ ビル",1],
+['pay',"We didn't order this.","これは頼んでいません","ウィ ディドゥン オーダー ディス",1],
+['pay',"Where's the nearest ATM?","一番近いATMはどこですか","ウェアズ ザ ニアレスト エイティーエム",1],
+['pay',"Would you like the receipt?","レシートはご入り用ですか","ウジュー ライク ザ リシート",0],
+['pay',"Yes, please.","はい、お願いします","イェス プリーズ",1],
+
+['back',"I'd like to check in for the flight to Narita.","成田行きのチェックインをお願いします","アイド ライク トゥ チェッキン フォー ザ フライト トゥ ナリタ",1],
+['back',"Two bags to check.","預ける荷物は2つです","トゥー バッグズ トゥ チェック",1],
+['back',"Did you pack these bags yourself?","荷物はご自分で詰めましたか","ディジュー パック ジーズ バッグズ ユアセルフ",0],
+['back',"Yes, I did.","はい、自分で詰めました","イェス アイ ディッド",1],
+['back',"Could we sit together?","席を隣同士にできますか","クド ウィ シット トゥゲザー",1],
+['back',"An aisle seat, please.","通路側の席をお願いします","アン アイル シート プリーズ",1],
+['back',"Is the flight on time?","飛行機は定刻ですか","イズ ザ フライト オン タイム",1],
+['back',"Which gate is it?","何番ゲートですか","ウィッチ ゲイティズ イット",1],
+['back',"Is this too big to carry on?","これは機内持ち込みには大きすぎますか","イズ ディス トゥー ビッグ トゥ キャリ オン",1],
+['back',"Please take your liquids out of your bag.","液体はかばんから出してください","プリーズ テイク ユア リクウィッズ アウトヴ ユア バッグ",0],
+['back',"Do I need to take off my shoes?","靴は脱ぐ必要がありますか","ドゥ アイ ニード トゥ テイコフ マイ シューズ",1],
+['back',"Where is the duty-free shop?","免税店はどこですか","ウェア イズ ザ デューティフリー ショップ",1],
+['back',"Could I have a bag for this?","これを入れる袋をもらえますか","クダイ ハヴ ア バッグ フォー ディス",1],
+['back',"Boarding will begin at gate ten.","10番ゲートから搭乗を開始します","ボーディング ウィル ビギン アット ゲイト テン",0],
+
+['air',"Could I borrow a pen?","ペンを貸してもらえますか","クダイ バロウ ア ペン",1],
+['air',"What's the local time now?","現地時間で今何時ですか","ワッツ ザ ロウコゥ タイム ナウ",1],
+
+['immi',"I'm here for a wedding.","結婚式で来ました","アイム ヒア フォー ア ウェディング",1],
+['immi',"Do I need to fill this out?","これに記入が必要ですか","ドゥ アイ ニード トゥ フィル ディス アウト",1],
+
+['hotel',"Could we have a crib for the baby?","ベビーベッドをお願いできますか","クド ウィ ハヴ ア クリブ フォー ザ ベイビー",1],
+['hotel',"What time does the pool close?","プールは何時までですか","ワッタイム ダズ ザ プール クロウズ",1],
+['hotel',"Are beach towels available?","ビーチタオルは借りられますか","アー ビーチ タオルズ アヴェイラブル",1],
+['hotel',"Is there a laundry room?","コインランドリーはありますか","イズ ゼア ア ローンドリー ルーム",1],
+
+['move',"Fill it up, please.","満タンでお願いします","フィリラップ プリーズ",1],
+['move',"Where can I park?","どこに停められますか","ウェア キャナイ パーク",1],
+['move',"Is parking free here?","ここの駐車は無料ですか","イズ パーキング フリー ヒア",1],
+['move',"I need a child seat.","チャイルドシートが必要です","アイ ニーダ チャイルド シート",1],
+['move',"Could you show me on the map?","地図で示してもらえますか","クジュー ショウ ミー オン ザ マップ",1],
+['move',"How do I get to Hagåtña?","ハガニアへはどう行きますか","ハウ ドゥ アイ ゲット トゥ ハガニア",1],
+
+['eat',"Could we have some more water?","お水のおかわりをください","クド ウィ ハヴ サム モア ウォーラー",1],
+['eat',"Do you have a kids' menu?","子ども用のメニューはありますか","ドゥユー ハヴ ア キッズ メニュー",1],
+['eat',"Do you have a high chair?","子ども用の椅子はありますか","ドゥユー ハヴ ア ハイ チェア",1],
+['eat',"Is it spicy?","辛いですか","イズ イット スパイシー",1],
+['eat',"Not too spicy, please.","あまり辛くしないでください","ナット トゥー スパイシー プリーズ",1],
+['eat',"Everything was great, thank you.","とてもおいしかったです、ありがとう","エヴリスィング ワズ グレイト サンキュー",1],
+
+['shop',"Do you have a bigger size?","もっと大きいサイズはありますか","ドゥユー ハヴ ア ビガー サイズ",1],
+['shop',"What is this size in US?","これはUSだと何サイズですか","ワッティズ ディス サイズ イン ユーエス",1],
+['shop',"Is this duty-free?","これは免税ですか","イズ ディス デューティフリー",1],
+['shop',"Could you hold this for me?","これを取り置きしてもらえますか","クジュー ホウルド ディス フォー ミー",1],
+['shop',"Do you ship to Japan?","日本へ発送できますか","ドゥユー シップ トゥ ジャパン",1],
+
+['play',"Two chairs and an umbrella, please.","チェア2つとパラソルをお願いします","トゥー チェアザン アン アンブレラ プリーズ",1],
+['play',"Do you have reef-safe sunscreen?","リーフセーフの日焼け止めはありますか","ドゥユー ハヴ リーフセイフ サンスクリーン",1],
+['play',"What time is the last pickup?","最終の送迎は何時ですか","ワッタイム イズ ザ ラスト ピックアップ",1],
+['play',"Can my child join?","子どもも参加できますか","キャン マイ チャイルド ジョイン",1],
+['play',"I can't swim very well.","泳ぎがあまり得意ではありません","アイ キャント スウィム ヴェリー ウェル",1],
+['play',"Where can I rinse off?","シャワーはどこで浴びられますか","ウェア キャナイ リンス オフ",1],
+
+['help',"I'm lost. Where am I on this map?","道に迷いました。地図のどこですか","アイム ロスト ウェア アマイ オン ディス マップ",1],
+['help',"Could you call my hotel for me?","ホテルに電話してもらえますか","クジュー コール マイ ホテル フォー ミー",1],
+['help',"I left my bag in the taxi.","タクシーにかばんを忘れました","アイ レフト マイ バッグ イン ザ タクシー",1],
+['help',"Does anyone here speak Japanese?","日本語を話せる人はいますか","ダズ エニワン ヒア スピーク ジャパニーズ",1],
+['help',"It hurts here.","ここが痛いです","イット ハーツ ヒア",1],
+
+['talk',"Thanks for everything.","いろいろとありがとう","サンクス フォー エヴリスィング",1],
+['talk',"Could I take a photo with you?","一緒に写真を撮ってもいいですか","クダイ テイカ フォトウ ウィズ ユー",1],
+['talk',"Have a good trip!","よい旅を！","ハヴァ グッド トリップ",0],
+['talk',"See you tomorrow.","また明日","シー ユー トゥモロウ",1]
 ];
 
-const PHRASES = RAW.map((r,i)=>({id:'p'+i, sc:r[0], en:r[1], ja:r[2], kana:r[3], mine:!!r[4]}));
+const ORIG_COUNT = 119;   // 旧版の ID（p0〜p118）はこの並びに対応していた
+const _seen = {};
+const PHRASES = RAW.map((r,i)=>{
+  const base = r[0]+'-'+r[1].toLowerCase().replace(/[^a-z0-9]+/g,'').slice(0,22);
+  let id = base, n = 2;
+  while(_seen[id]) id = base + '-' + (n++);
+  _seen[id] = true;
+  return {id, sc:r[0], en:r[1], ja:r[2], kana:r[3], mine:!!r[4]};
+});
+/* 旧版で付けた☆と成績を新しいIDに移す */
+function migrateKeys(obj){
+  const out = {};
+  Object.keys(obj || {}).forEach(k=>{
+    const m = /^p(\d+)$/.exec(k);
+    if(m && +m[1] < ORIG_COUNT && PHRASES[+m[1]]) out[PHRASES[+m[1]].id] = obj[k];
+    else out[k] = obj[k];
+  });
+  return out;
+}
 const BY_SCENE = {};
 SCENES.forEach(s=>BY_SCENE[s.id]=PHRASES.filter(p=>p.sc===s.id));
 
@@ -621,6 +778,53 @@ const DIALOGUES = [
     ['you',"Small, please. And do I need water shoes?","小でお願いします。マリンシューズは必要ですか"],
     ['staff',"I'd recommend them. The coral can cut your feet.","おすすめします。サンゴで足を切ることがあるので"]
   ]},
+  {title:'ABCストアで会計する', setting:'タモンのABCストア。水とスナック、日焼け止めをレジへ。', lines:[
+    ['staff',"Hi, how's it going?","こんにちは、調子はどう？"],
+    ['you',"Good, thanks. How are you?","いいですよ、ありがとう。そちらは？"],
+    ['staff',"Good! Did you find everything okay?","元気です！ お探しのものは見つかりましたか"],
+    ['you',"Yes, thank you. Do you have reef-safe sunscreen?","はい、ありがとう。リーフセーフの日焼け止めはありますか"],
+    ['staff',"The ones on the end cap are reef-safe.","棚の端にあるものがリーフセーフです"],
+    ['you',"I'll take this one.","これにします"],
+    ['staff',"Your total is twenty-four fifty. Debit or credit?","合計24ドル50セントです。デビットかクレジット？"],
+    ['you',"Credit. And could I get some ones for tips?","クレジットで。あとチップ用に1ドル札をもらえますか"],
+    ['staff',"Sure. Do you need a bag?","もちろん。袋はいりますか"],
+    ['you',"Yes, please. Thank you!","はい、お願いします。ありがとう！"]
+  ]},
+  {title:'カフェで注文する', setting:'モールのコーヒーショップ。混んでいて、後ろに列ができている。', lines:[
+    ['staff',"Hi, what can I get for you?","こんにちは、ご注文は？"],
+    ['you',"Can I get a grande iced latte, please?","アイスラテのグランデをお願いします"],
+    ['staff',"Any milk preference?","ミルクのご希望はありますか"],
+    ['you',"Oat milk, please. And light ice.","オーツミルクで。氷は少なめに"],
+    ['staff',"Anything else?","ほかにはいかがですか"],
+    ['you',"That's it. For here, please.","それだけです。店内で"],
+    ['staff',"Can I get a name for the order?","お名前をいただけますか"],
+    ['you',"Yuki. Y-U-K-I.","ユキです。Y・U・K・I"],
+    ['staff',"Thanks. It'll be ready at the end of the counter.","ありがとう。カウンターの端でお渡しします"]
+  ]},
+  {title:'道を聞く', setting:'タモンの通り。地図アプリはあるが、方向が分からなくなった。', lines:[
+    ['you',"Excuse me, how do I get to Ypao Beach from here?","すみません、ここからイパオビーチへはどう行きますか"],
+    ['passerby',"Go straight down this road, past the hotel, then turn left.","この道をまっすぐ行って、ホテルを過ぎたら左に曲がって"],
+    ['you',"Sorry, could you say that again more slowly?","すみません、もう一度ゆっくり言ってもらえますか"],
+    ['passerby',"Sure. Straight, past the hotel, then left at the light.","もちろん。まっすぐ、ホテルを過ぎて、信号を左です"],
+    ['you',"Could you show me on the map?","地図で示してもらえますか"],
+    ['passerby',"We're here, and the beach is right there.","いまここで、ビーチはちょうどそこです"],
+    ['you',"How long does it take to walk?","歩いてどのくらいかかりますか"],
+    ['passerby',"About ten minutes.","10分くらいです"],
+    ['you',"Thank you so much!","本当にありがとう！"]
+  ]},
+  {title:'帰りの空港でチェックイン', setting:'出発の2時間前。預ける荷物は2つ、座席は隣同士にしたい。', lines:[
+    ['staff',"Good evening. Passports, please. Where are you flying today?","こんばんは。パスポートをお願いします。本日はどちらへ"],
+    ['you',"To Narita. Two bags to check.","成田です。預ける荷物は2つです"],
+    ['staff',"Did you pack these bags yourself?","荷物はご自分で詰めましたか"],
+    ['you',"Yes, I did.","はい、自分で詰めました"],
+    ['staff',"This one is a little over. It's fifty-one pounds.","こちらは少し重量超過です。51ポンドあります"],
+    ['you',"Can I move something to the other bag?","もう一方のかばんに移してもいいですか"],
+    ['staff',"Go ahead. ... That's fine now.","どうぞ。…これで大丈夫です"],
+    ['you',"Could we sit together? And an aisle seat, please.","隣同士にできますか。あと通路側をお願いします"],
+    ['staff',"You're in 32C and 32D. Boarding starts at nine, gate ten.","32Cと32Dです。搭乗は9時、10番ゲートから"],
+    ['you',"Thank you. Is the flight on time?","ありがとう。定刻ですか"],
+    ['staff',"Yes, it's on time.","はい、定刻です"]
+  ]},
   {title:'部屋の不具合を直してもらう', setting:'夜10時。エアコンが冷えず、タオルも足りない。フロントに電話する。', lines:[
     ['you',"Hello, this is room 812.","もしもし、812号室です"],
     ['staff',"Yes, how can I help you?","はい、どうされましたか"],
@@ -638,13 +842,17 @@ const DIALOGUES = [
    状態（☆・成績）: db があればそちらに、無ければこの端末に保存
    =================================================================== */
 const LS_KEY = 'hafa-adai-progress-v1';
-let state = {mastered:{}, stats:{}, rounds:[], made:[]};
+let state = {mastered:{}, stats:{}, rounds:[], made:[], voiceURI:''};
 let dbns = null, saveTimer = null;
 
 function loadLocal(){
   try{
     const raw = localStorage.getItem(LS_KEY);
-    if(raw) Object.assign(state, JSON.parse(raw));
+    if(raw){
+      Object.assign(state, JSON.parse(raw));
+      state.mastered = migrateKeys(state.mastered);
+      state.stats = migrateKeys(state.stats);
+    }
   }catch(e){ /* プライベートウィンドウ等: 既定値のまま進む */ }
 }
 function save(){
@@ -673,8 +881,8 @@ function setSync(t){ const el=document.getElementById('mSync'); if(el) el.textCo
     if(snap.exists && snap.data){
       const d = snap.data;
       const remote = {
-        mastered: d.mastered && typeof d.mastered==='object' ? d.mastered : {},
-        stats:    d.stats    && typeof d.stats==='object'    ? d.stats    : {},
+        mastered: migrateKeys(d.mastered && typeof d.mastered==='object' ? d.mastered : {}),
+        stats:    migrateKeys(d.stats    && typeof d.stats==='object'    ? d.stats    : {}),
         rounds:   Array.isArray(d.rounds) ? d.rounds : [],
         made:     Array.isArray(d.made)   ? d.made   : []
       };
@@ -694,35 +902,115 @@ function setSync(t){ const el=document.getElementById('mSync'); if(el) el.textCo
 /* ===================================================================
    発音（端末の音声合成）
    =================================================================== */
-let slow = false, voice = null, speakingBtn = null;
-function pickVoice(){
-  if(!('speechSynthesis' in window)) return;
-  const vs = speechSynthesis.getVoices();
-  if(!vs.length) return;
-  voice = vs.find(v=>/^en[-_]US$/i.test(v.lang) && /samantha|aria|jenny|google/i.test(v.name))
-       || vs.find(v=>/^en[-_]US$/i.test(v.lang))
-       || vs.find(v=>/^en/i.test(v.lang)) || null;
+const TTS_OK = (typeof window.speechSynthesis !== 'undefined' && typeof window.SpeechSynthesisUtterance !== 'undefined');
+let slow = false, voices = [], voice = null, speakingBtn = null, watchTimer = null;
+let audioState = TTS_OK ? 'unknown' : 'unsupported';
+
+const AUDIO_MSG = {
+  unknown:'まだ試していません', ok:'鳴っています', silent:'音が返ってきません',
+  blocked:'ブラウザが再生を止めています', error:'再生に失敗しました',
+  novoice:'英語の声が見つかりません', unsupported:'この端末では音声合成が使えません'
+};
+function setAudio(st){ if(audioState===st) return; audioState = st; renderAudioPanel(); }
+function cleanForSpeech(t){
+  return String(t).replace(/[\u00e5\u00c5]/g,'a').replace(/[\u2018\u2019]/g,"'")
+    .replace(/[\u201c\u201d]/g,'"').replace(/\u2014/g,', ');
 }
-if('speechSynthesis' in window){
-  pickVoice();
-  speechSynthesis.onvoiceschanged = pickVoice;
+function refreshVoices(){
+  if(!TTS_OK) return;
+  let all = [];
+  try{ all = speechSynthesis.getVoices() || []; }catch(e){ all = []; }
+  const en = all.filter(v=>/^en/i.test(v.lang));
+  voices = en.length ? en : all;
+  const saved = state.voiceURI ? voices.filter(v=>v.voiceURI===state.voiceURI)[0] : null;
+  if(saved) voice = saved;
+  else if(!voice || voices.indexOf(voice) < 0){
+    voice = voices.filter(v=>/^en[-_]us$/i.test(v.lang) && v.localService)[0]
+         || voices.filter(v=>/^en[-_]us$/i.test(v.lang))[0]
+         || voices[0] || null;
+  }
+  if(!voices.length && audioState === 'unknown') setAudio('novoice');
+  else if(voices.length && audioState === 'novoice') setAudio('unknown');
+  renderAudioPanel();
 }
+if(TTS_OK){
+  refreshVoices();
+  try{ speechSynthesis.onvoiceschanged = refreshVoices; }catch(e){}
+  setTimeout(refreshVoices, 400);
+  setTimeout(refreshVoices, 1600);
+}
+
 function speak(text, btn, onend){
-  if(!('speechSynthesis' in window)){ if(onend) onend(); return; }
-  speechSynthesis.cancel();
-  if(speakingBtn){ speakingBtn.classList.remove('is-on'); speakingBtn = null; }
-  const u = new SpeechSynthesisUtterance(text.replace(/[åÅ]/g,'a').replace(/[’']/g,"'"));
-  u.lang = 'en-US';
-  if(voice) u.voice = voice;
-  u.rate = slow ? 0.62 : 0.94;
-  if(btn){ btn.classList.add('is-on'); speakingBtn = btn; }
-  u.onend = u.onerror = ()=>{
-    if(btn) btn.classList.remove('is-on');
-    if(speakingBtn === btn) speakingBtn = null;
-    if(onend) onend();
+  if(!TTS_OK){ setAudio('unsupported'); if(onend) onend(); return; }
+  const run = ()=>{
+    let u;
+    try{ u = new SpeechSynthesisUtterance(cleanForSpeech(text)); }
+    catch(e){ setAudio('error'); if(onend) onend(); return; }
+    u.lang = (voice && voice.lang) || 'en-US';
+    if(voice) u.voice = voice;
+    u.rate = slow ? 0.6 : 0.95; u.pitch = 1; u.volume = 1;
+    let started = false, done = false;
+    const finish = ()=>{
+      if(done) return;
+      done = true; clearTimeout(watchTimer);
+      if(btn) btn.classList.remove('is-on');
+      if(speakingBtn === btn) speakingBtn = null;
+      if(onend) onend();
+    };
+    u.onstart = ()=>{ started = true; clearTimeout(watchTimer); setAudio('ok'); };
+    u.onend = finish;
+    u.onerror = (ev)=>{
+      const err = (ev && ev.error) || '';
+      if(err !== 'interrupted' && err !== 'canceled'){
+        setAudio(err === 'not-allowed' ? 'blocked' : 'error');
+      }
+      finish();
+    };
+    if(btn){ btn.classList.add('is-on'); speakingBtn = btn; }
+    try{ speechSynthesis.resume(); }catch(e){}
+    try{ speechSynthesis.speak(u); }
+    catch(e){ setAudio('error'); finish(); return; }
+    clearTimeout(watchTimer);
+    watchTimer = setTimeout(()=>{
+      if(!started && !speechSynthesis.speaking){ setAudio('silent'); finish(); }
+    }, 1600);
   };
-  speechSynthesis.speak(u);
+  /* 直前の再生を止めた直後に speak すると無音になる端末があるので少し待つ */
+  if(speechSynthesis.speaking || speechSynthesis.pending){
+    try{ speechSynthesis.cancel(); }catch(e){}
+    setTimeout(run, 90);
+  }else{
+    run();
+  }
 }
+
+function audioNote(){
+  if(!TTS_OK) return 'このブラウザは音声合成に対応していません。カタカナの発音表記を手がかりにしてください。Chrome か Safari の新しい版で開くと使えます。';
+  if(audioState === 'ok') return '鳴っています。声を変えると聞き取りやすさが変わります。';
+  return (audioState === 'blocked' ? '<p>ブラウザが再生を止めています。まず下の「テスト再生」を押してください。</p>' : '')
+    + '<ul><li>端末の音量とミュートを確認（iPhoneは<b>本体横のサイレントスイッチ</b>でも消えます）</li>'
+    + '<li>下の「声」を別のものに変えて、もう一度テスト</li>'
+    + '<li>ほかのタブやアプリが音を出していると止まることがあります</li>'
+    + '<li>それでも鳴らないときは、このページを<b>ブラウザの別タブで開く</b>と鳴ることがあります</li></ul>';
+}
+function renderAudioPanel(){
+  const pill = document.getElementById('apill');
+  if(pill){
+    pill.textContent = '音: ' + AUDIO_MSG[audioState];
+    pill.className = 'apill' + (audioState === 'ok' ? ' good' : (audioState === 'unknown' ? '' : ' bad'));
+  }
+  const sel = document.getElementById('voiceSel');
+  if(sel){
+    sel.innerHTML = voices.length
+      ? voices.map(v=>'<option value="'+esc(v.voiceURI)+'"'+((voice && v.voiceURI===voice.voiceURI)?' selected':'')+'>'
+          + esc(v.name + '（' + v.lang + '）') + '</option>').join('')
+      : '<option value="">声が見つかりません</option>';
+    sel.disabled = !voices.length;
+  }
+  const note = document.getElementById('aNote');
+  if(note) note.innerHTML = audioNote();
+}
+
 const SPK_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h3l5-4v14l-5-4H4zM16.5 8.5a5 5 0 0 1 0 7 .9.9 0 0 1-1.3-1.3 3.2 3.2 0 0 0 0-4.4.9.9 0 0 1 1.3-1.3zM19 6a8.5 8.5 0 0 1 0 12 .9.9 0 0 1-1.3-1.3 6.7 6.7 0 0 0 0-9.4A.9.9 0 0 1 19 6z"/></svg>';
 function speakBtn(text, label){
   return '<button class="speak" data-speak="'+esc(text)+'" aria-label="'+esc(label||text)+'を読む">'+SPK_SVG+'</button>';
@@ -731,7 +1019,26 @@ function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
 
 document.addEventListener('click', e=>{
   const b = e.target.closest('[data-speak]');
-  if(b){ speak(b.getAttribute('data-speak'), b); }
+  if(b){ speak(b.getAttribute('data-speak'), b); return; }
+  if(e.target.closest('#tAudio')){
+    const panel = document.getElementById('apanel');
+    const btn = document.getElementById('tAudio');
+    panel.hidden = !panel.hidden;
+    btn.setAttribute('aria-expanded', String(!panel.hidden));
+    btn.setAttribute('aria-pressed', String(!panel.hidden));
+    if(!panel.hidden){ refreshVoices(); renderAudioPanel(); }
+    return;
+  }
+  if(e.target.closest('#aTest')){
+    speak('Hafa Adai! This is a test. Could I have some water, no ice?', e.target.closest('#aTest'));
+    return;
+  }
+});
+document.addEventListener('change', e=>{
+  if(e.target.id === 'voiceSel'){
+    const v = voices.filter(x=>x.voiceURI === e.target.value)[0];
+    if(v){ voice = v; state.voiceURI = v.voiceURI; save(); speak('Could I have some water, no ice?'); }
+  }
 });
 
 /* ===================================================================
@@ -802,7 +1109,7 @@ function renderToday(){
 /* ===================================================================
    会話
    =================================================================== */
-const ROLE_JA = {officer:'係官', server:'店員', staff:'係員', you:'自分'};
+const ROLE_JA = {officer:'係官', server:'店員', staff:'係員', passerby:'通行人', you:'自分'};
 function renderDialogues(){
   document.getElementById('dialogues').innerHTML = DIALOGUES.map((d,di)=>
     '<article class="dlg"><h3>'+esc(d.title)+'</h3><p class="setting">'+esc(d.setting)+'</p>'
@@ -842,8 +1149,17 @@ document.addEventListener('click', e=>{
 /* ===================================================================
    クイズ
    =================================================================== */
-const QN = 8;
+/* 相手のセリフ → 自分の返し、の組を会話データから作る */
+const REPLY_PAIRS = [];
+DIALOGUES.forEach((d,di)=>d.lines.forEach((l,li)=>{
+  const nx = d.lines[li+1];
+  if(l[0] !== 'you' && nx && nx[0] === 'you') REPLY_PAIRS.push({key:'r'+di+'_'+li, q:l, a:nx, title:d.title});
+}));
+
+const KIND_LABEL = {listen:'聞き取り', ja2en:'日本語から', reply:'こう言われたら', cloze:'穴うめ', order:'語順'};
 let quiz = null;
+let qConf = {n:8, scene:'all'};
+
 function weight(p){
   const st = state.stats[p.id] || {ok:0,ng:0};
   let w = 1;
@@ -862,25 +1178,86 @@ function pickWeighted(pool, n){
   }
   return out;
 }
-const TTS = ('speechSynthesis' in window);
-function startQuiz(){
-  const items = pickWeighted(PHRASES, QN).map((p,i)=>{
-    const kind = (i % 2 === 0 && TTS) ? 'listen' : 'ja2en';
-    const sameScene = BY_SCENE[p.sc].filter(x=>x.id!==p.id);
-    const others = PHRASES.filter(x=>x.id!==p.id && x.sc!==p.sc);
-    const pool = shuffle(sameScene).slice(0,2).concat(shuffle(others).slice(0,3));
-    const distractors = [];
-    for(const d of pool){
-      if(distractors.length>=3) break;
-      const txt = kind==='listen' ? d.ja : d.en;
-      if(!distractors.some(x=>(kind==='listen'?x.ja:x.en)===txt)) distractors.push(d);
-    }
-    return {p, kind, options: shuffle([p].concat(distractors))};
+function shuffle(a){ const b=a.slice(); for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]];} return b; }
+function norm(t){ return String(t).toLowerCase().replace(/[^a-z0-9']+/g,' ').trim(); }
+
+function buildItem(kind, p){
+  if(kind === 'reply'){
+    const opts = [{t:p.a[1], ok:true}];
+    shuffle(REPLY_PAIRS.filter(x=>x.key !== p.key)).forEach(o=>{
+      if(opts.length < 4 && !opts.some(x=>x.t === o.a[1])) opts.push({t:o.a[1], ok:false});
+    });
+    return {kind:'reply', r:p, statKey:p.key, opts:shuffle(opts), enOpts:true};
+  }
+  if(kind === 'cloze'){
+    const words = p.en.split(/\s+/);
+    const cand = words.map((w,i)=>({i, w, c:w.replace(/[^A-Za-z']/g,'')})).filter(x=>x.i > 0 && x.c.length >= 4);
+    if(!cand.length) return buildItem('ja2en', p);
+    const pick = cand[Math.floor(Math.random()*cand.length)];
+    const bag = [];
+    shuffle(PHRASES).slice(0,70).forEach(x=>x.en.split(/\s+/).forEach(w=>{
+      const c = w.replace(/[^A-Za-z']/g,'');
+      if(c.length >= 4 && c.toLowerCase() !== pick.c.toLowerCase()) bag.push(c);
+    }));
+    const opts = [{t:pick.c, ok:true}];
+    shuffle(bag).forEach(w=>{
+      if(opts.length < 4 && !opts.some(o=>o.t.toLowerCase() === w.toLowerCase())) opts.push({t:w, ok:false});
+    });
+    const blank = words.map((w,i)=> i === pick.i ? w.replace(pick.c, '____') : w).join(' ');
+    return {kind:'cloze', p, statKey:p.id, opts:shuffle(opts), enOpts:true, blank};
+  }
+  if(kind === 'order'){
+    const toks = p.en.split(/\s+/);
+    if(toks.length < 4 || toks.length > 8) return buildItem('ja2en', p);
+    let pool = shuffle(toks);
+    if(pool.join(' ') === toks.join(' ')) pool = shuffle(toks);
+    return {kind:'order', p, statKey:p.id, toks, pool, chosen:[]};
+  }
+  const useJa = (kind === 'listen');
+  const near = shuffle(BY_SCENE[p.sc].filter(x=>x.id !== p.id)).slice(0,2);
+  const far  = shuffle(PHRASES.filter(x=>x.sc !== p.sc)).slice(0,5);
+  const opts = [{t: useJa ? p.ja : p.en, ok:true}];
+  near.concat(far).forEach(d=>{
+    const t = useJa ? d.ja : d.en;
+    if(opts.length < 4 && !opts.some(o=>o.t === t)) opts.push({t, ok:false});
   });
-  quiz = {items, i:0, correct:0, answered:false, wrong:[]};
+  return {kind, p, statKey:p.id, opts:shuffle(opts), enOpts:!useJa};
+}
+
+function startQuiz(){
+  const types = [];
+  if(TTS_OK && audioState !== 'unsupported' && audioState !== 'novoice') types.push('listen');
+  types.push('ja2en', 'cloze', 'order');
+  if(REPLY_PAIRS.length >= 4) types.push('reply');
+  const pool = qConf.scene === 'all' ? PHRASES : (BY_SCENE[qConf.scene] || PHRASES);
+  const picks = pickWeighted(pool, qConf.n);
+  if(!picks.length) return;
+  const items = [];
+  for(let i=0; i<qConf.n; i++){
+    const kind = types[i % types.length];
+    if(kind === 'reply') items.push(buildItem('reply', REPLY_PAIRS[Math.floor(Math.random()*REPLY_PAIRS.length)]));
+    else items.push(buildItem(kind, picks[i % picks.length]));
+  }
+  quiz = {items:shuffle(items), i:0, correct:0, answered:false, wrong:[]};
   renderQuiz();
 }
-function shuffle(a){ const b=a.slice(); for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]];} return b; }
+
+function optionsHtml(it){
+  return '<div class="opts" id="opts">' + it.opts.map((o,oi)=>
+    '<button class="opt'+(it.enOpts?' en-opt':'')+'" data-opt="'+oi+'">'
+    + '<span class="key">'+'ABCD'[oi]+'</span>'
+    + '<span class="body'+(it.enOpts?' en':'')+'">'+esc(o.t)+'</span></button>').join('') + '</div>';
+}
+function renderTokens(){
+  const it = quiz.items[quiz.i];
+  const ans = document.getElementById('tkAns'), pool = document.getElementById('tkPool');
+  if(!ans || !pool) return;
+  ans.innerHTML = it.chosen.length
+    ? it.chosen.map((w,i)=>'<button class="tok" data-tkback="'+i+'">'+esc(w)+'</button>').join('')
+    : '<span class="tokph">下の語を順に押して文を作ります</span>';
+  pool.innerHTML = it.pool.map((w,i)=> w === null ? '' :
+    '<button class="tok" data-tkadd="'+i+'">'+esc(w)+'</button>').join('');
+}
 
 function renderQuiz(){
   const box = document.getElementById('quizbox');
@@ -889,9 +1266,16 @@ function renderQuiz(){
     const last = done ? state.rounds[state.rounds.length-1] : null;
     box.innerHTML = '<div class="qhead"><span class="qcount">READY</span>'
       + '<span class="qscore">'+(last ? '前回 '+last.correct+' / '+last.total : '初回')+'</span></div>'
-      + '<p class="qprompt">全'+PHRASES.length+'フレーズから8問。'+(done? 'これまで'+done+'回。':'')+'</p>'
+      + '<p class="qprompt">聞き取り・日本語から英語・穴うめ・語順・「こう言われたら」の5種類が順に出ます。'
+      + (done ? 'これまで'+done+'回。' : '') + '</p>'
+      + '<div class="qconf"><span class="lbl">問題数</span>'
+      + [8,12,16].map(n=>'<button class="chip" data-qn="'+n+'" aria-pressed="'+(qConf.n===n)+'">'+n+'問</button>').join('')
+      + '</div>'
+      + '<div class="qconf"><span class="lbl">場面</span><select id="qScene"><option value="all">すべて</option>'
+      + SCENES.map(sc=>'<option value="'+sc.id+'"'+(qConf.scene===sc.id?' selected':'')+'>'+sc.no+' '+sc.ja+'</option>').join('')
+      + '</select></div>'
       + '<div class="btnrow"><button class="btn" id="qStart">はじめる</button>'
-      + (done? '<button class="btn ghost" id="qReset">成績を消す</button>':'') + '</div>';
+      + (done ? '<button class="btn ghost" id="qReset">成績を消す</button>' : '') + '</div>';
     return;
   }
   if(quiz.i >= quiz.items.length){
@@ -903,66 +1287,126 @@ function renderQuiz(){
     box.innerHTML = '<div class="result"><div class="big">'+quiz.correct+'<span style="font-size:20px;color:var(--ink-3)"> / '+quiz.items.length+'</span></div>'
       + '<p class="msg">'+msg+'</p>'
       + (quiz.wrong.length ? '<div class="weaklist"><h4>もう一度</h4>'
-          + quiz.wrong.map(p=>'<div>'+esc(p.en)+'<span>'+esc(p.ja)+'</span></div>').join('') + '</div>' : '')
-      + '<div class="btnrow" style="justify-content:center"><button class="btn" id="qStart">もう1回</button></div></div>';
+          + quiz.wrong.map(it=>{
+              const en = it.kind==='reply' ? it.r.a[1] : it.p.en;
+              const ja = it.kind==='reply' ? it.r.a[2] : it.p.ja;
+              return '<div>'+esc(en)+'<span>'+esc(ja)+'</span></div>';
+            }).join('') + '</div>' : '')
+      + '<div class="btnrow" style="justify-content:center"><button class="btn" id="qStart">もう1回</button>'
+      + '<button class="btn ghost" id="qHome">設定を変える</button></div></div>';
     return;
   }
   const it = quiz.items[quiz.i];
-  const isListen = it.kind === 'listen';
-  box.innerHTML = '<div class="qhead"><span class="qcount">Q '+(quiz.i+1)+' / '+quiz.items.length+'</span>'
-    + '<span class="qscore">正解 '+quiz.correct+'</span></div>'
-    + '<p class="qprompt">'+(isListen?'聞こえた英語の意味はどれですか':'この日本語に合う英語はどれですか')+'</p>'
-    + (isListen
-        ? '<div class="qlisten">'+speakBtn(it.p.en,'問題')
-          + '<span>押すともう一度読みます</span>'
-          + '<button class="toggle" id="qReveal">英語を表示</button></div>'
-          + '<div class="qbig en" id="qText" hidden>'+esc(it.p.en)+'</div>'
-        : '<div class="qbig">'+esc(it.p.ja)+'</div>')
-    + '<div class="opts" id="opts">' + it.options.map((o,oi)=>
-        '<button class="opt'+(isListen?'':' en-opt')+'" data-opt="'+oi+'">'
-        + '<span class="key">'+'ABCD'[oi]+'</span><span class="body'+(isListen?'':' en')+'">'
-        + esc(isListen ? o.ja : o.en) + '</span></button>').join('') + '</div>'
-    + '<div id="verdict"></div>';
-  if(isListen) setTimeout(()=>speak(it.p.en, document.querySelector('.qlisten .speak')), 260);
+  let head = '<div class="qhead"><span class="qcount">Q '+(quiz.i+1)+' / '+quiz.items.length+'</span>'
+    + '<span class="qkind">'+KIND_LABEL[it.kind]+'</span>'
+    + '<span class="qscore">正解 '+quiz.correct+'</span></div>';
+  let body = '';
+  if(it.kind === 'listen'){
+    body = '<p class="qprompt">聞こえた英語の意味はどれですか</p>'
+      + '<div class="qlisten">'+speakBtn(it.p.en,'問題')
+      + '<span>押すともう一度読みます</span>'
+      + '<button class="toggle" id="qReveal">英語を表示</button></div>'
+      + '<div class="qbig en" id="qText" hidden>'+esc(it.p.en)+'</div>'
+      + optionsHtml(it);
+  }else if(it.kind === 'ja2en'){
+    body = '<p class="qprompt">この日本語に合う英語はどれですか</p>'
+      + '<div class="qbig">'+esc(it.p.ja)+'</div>' + optionsHtml(it);
+  }else if(it.kind === 'reply'){
+    body = '<p class="qprompt">こう言われました。返す言葉はどれですか</p>'
+      + '<div class="qsaid"><div class="s-en">'+esc(it.r.q[1])+'</div>'
+      + '<div class="s-ja">'+esc(it.r.q[2])+'　— '+esc(it.r.title)+'</div></div>'
+      + '<div class="btnrow" style="margin-top:10px">'+speakBtn(it.r.q[1],'相手のことば')+'</div>'
+      + optionsHtml(it);
+  }else if(it.kind === 'cloze'){
+    body = '<p class="qprompt">空いているところに入る語はどれですか</p>'
+      + '<div class="qcloze">'+esc(it.blank).replace('____','<b>____</b>')+'</div>'
+      + '<p class="qhint">'+esc(it.p.ja)+'</p>' + optionsHtml(it);
+  }else{
+    body = '<p class="qprompt">語を押して、この日本語に合う英文を作ってください</p>'
+      + '<div class="qbig">'+esc(it.p.ja)+'</div>'
+      + '<div class="tokline" id="tkAns"></div><div class="tokpool" id="tkPool"></div>'
+      + '<div class="btnrow"><button class="btn" id="tkGo">これで決定</button>'
+      + '<button class="btn ghost" id="tkClr">やり直す</button></div>';
+  }
+  box.innerHTML = head + body + '<div id="verdict"></div>';
+  if(it.kind === 'order') renderTokens();
+  if(it.kind === 'listen') setTimeout(()=>speak(it.p.en, document.querySelector('.qlisten .speak')), 260);
 }
 
-document.addEventListener('click', e=>{
-  if(e.target.closest('#qStart')){ startQuiz(); return; }
-  if(e.target.closest('#qReset')){
-    state.stats = {}; state.rounds = []; save(); renderAll(); return;
-  }
-  if(e.target.closest('#qReveal')){
-    const t = document.getElementById('qText');
-    if(t){ t.hidden = false; e.target.closest('#qReveal').hidden = true; }
-    return;
-  }
-  if(e.target.closest('#qNext')){ quiz.i++; quiz.answered=false; renderQuiz(); return; }
-  const ob = e.target.closest('[data-opt]');
-  if(!ob || !quiz || quiz.answered) return;
-  quiz.answered = true;
+function finishAnswer(ok){
   const it = quiz.items[quiz.i];
-  const chosen = it.options[+ob.getAttribute('data-opt')];
-  const ok = chosen.id === it.p.id;
-  const st = state.stats[it.p.id] || (state.stats[it.p.id] = {ok:0,ng:0});
-  if(ok){ st.ok++; quiz.correct++; } else { st.ng++; quiz.wrong.push(it.p); }
+  quiz.answered = true;
+  const st = state.stats[it.statKey] || (state.stats[it.statKey] = {ok:0, ng:0});
+  if(ok){ st.ok++; quiz.correct++; } else { st.ng++; quiz.wrong.push(it); }
   save();
-  document.querySelectorAll('[data-opt]').forEach((b,i)=>{
-    b.disabled = true;
-    if(it.options[i].id === it.p.id) b.classList.add('correct');
-    else if(b === ob) b.classList.add('wrong');
-  });
+  const en   = it.kind === 'reply' ? it.r.a[1] : it.p.en;
+  const ja   = it.kind === 'reply' ? it.r.a[2] : it.p.ja;
+  const kana = it.kind === 'reply' ? '' : it.p.kana;
   document.getElementById('verdict').innerHTML =
     '<div class="verdict"><div class="v-head '+(ok?'ok':'ng')+'">'+(ok?'正解':'惜しい')+'</div>'
-    + '<div class="v-en en">'+esc(it.p.en)+'</div>'
-    + '<div class="v-kana">'+esc(it.p.kana)+'</div>'
-    + '<div style="margin-top:4px">'+esc(it.p.ja)+'</div>'
-    + '<div class="btnrow">'+speakBtn(it.p.en,'答え')
-    + '<button class="btn" id="qNext">'+(quiz.i+1>=quiz.items.length?'結果を見る':'次へ')+'</button></div></div>';
+    + '<div class="v-en en">'+esc(en)+'</div>'
+    + (kana ? '<div class="v-kana">'+esc(kana)+'</div>' : '')
+    + '<div style="margin-top:4px">'+esc(ja)+'</div>'
+    + '<div class="btnrow">'+speakBtn(en,'答え')
+    + '<button class="btn" id="qNext">'+(quiz.i+1 >= quiz.items.length ? '結果を見る' : '次へ')+'</button></div></div>';
   if(quiz.i+1 >= quiz.items.length){
     state.rounds.push({at:Date.now(), correct:quiz.correct, total:quiz.items.length});
     if(state.rounds.length > 40) state.rounds = state.rounds.slice(-40);
     save();
   }
+}
+
+document.addEventListener('click', e=>{
+  if(e.target.closest('#qStart')){ startQuiz(); return; }
+  if(e.target.closest('#qHome')){ quiz = null; renderQuiz(); return; }
+  if(e.target.closest('#qReset')){ state.stats = {}; state.rounds = []; save(); quiz = null; renderAll(); return; }
+  const qn = e.target.closest('[data-qn]');
+  if(qn){ qConf.n = +qn.getAttribute('data-qn'); renderQuiz(); return; }
+  if(e.target.closest('#qReveal')){
+    const t = document.getElementById('qText');
+    if(t){ t.hidden = false; e.target.closest('#qReveal').hidden = true; }
+    return;
+  }
+  if(e.target.closest('#qNext')){ quiz.i++; quiz.answered = false; renderQuiz(); return; }
+  if(!quiz || quiz.answered) return;
+
+  const add = e.target.closest('[data-tkadd]');
+  if(add){
+    const it = quiz.items[quiz.i], i = +add.getAttribute('data-tkadd');
+    it.chosen.push(it.pool[i]); it.pool[i] = null; renderTokens(); return;
+  }
+  const back = e.target.closest('[data-tkback]');
+  if(back){
+    const it = quiz.items[quiz.i], i = +back.getAttribute('data-tkback');
+    const w = it.chosen.splice(i,1)[0];
+    const slot = it.pool.indexOf(null);
+    if(slot >= 0) it.pool[slot] = w; else it.pool.push(w);
+    renderTokens(); return;
+  }
+  if(e.target.closest('#tkClr')){
+    const it = quiz.items[quiz.i];
+    it.pool = shuffle(it.toks); it.chosen = []; renderTokens(); return;
+  }
+  if(e.target.closest('#tkGo')){
+    const it = quiz.items[quiz.i];
+    if(!it.chosen.length) return;
+    finishAnswer(norm(it.chosen.join(' ')) === norm(it.p.en));
+    document.querySelectorAll('[data-tkadd],[data-tkback],#tkGo,#tkClr').forEach(b=>b.disabled = true);
+    return;
+  }
+  const ob = e.target.closest('[data-opt]');
+  if(!ob) return;
+  const it = quiz.items[quiz.i];
+  const chosen = it.opts[+ob.getAttribute('data-opt')];
+  document.querySelectorAll('[data-opt]').forEach((b,i)=>{
+    b.disabled = true;
+    if(it.opts[i].ok) b.classList.add('correct');
+    else if(b === ob) b.classList.add('wrong');
+  });
+  finishAnswer(!!chosen.ok);
+});
+document.addEventListener('change', e=>{
+  if(e.target.id === 'qScene'){ qConf.scene = e.target.value; }
 });
 
 /* ===================================================================
@@ -1077,7 +1521,12 @@ document.addEventListener('click', e=>{
   }
 });
 
-function renderAll(){ renderMeter(); renderToday(); renderChips(); renderPhrases(); renderMade(); if(tab==='quiz') renderQuiz(); }
+function renderAll(){
+  const lead = document.getElementById('leadCount');
+  if(lead) lead.textContent = PHRASES.length;
+  renderMeter(); renderToday(); renderChips(); renderPhrases(); renderMade(); renderAudioPanel();
+  if(tab==='quiz') renderQuiz();
+}
 
 function boot(hot){
   loadLocal();
