@@ -291,8 +291,15 @@ citekey が `_Ovid_` になり、添付もPDFでなくHTMLになる。2026-09-08
 ### プロジェクトに属さない論文の置き場
 
 ダイジェストから拾った論文が既存プロジェクトのRQに関係しない場合、
-`papers\head_neck_general\` に入れ、`notes_content.json` の `folder` を
+**`papers\<domain>_general\`** に入れ、`notes_content.json` の `folder` を
 `10_article` にする。プロジェクト固有のRQを持たないので**MOCは作らない**。
+
+`<domain>` は `papers\domains.json` の key。現在あるのは `head_neck_general`、
+`lymphedema_general`。**該当するフォルダが無ければ作る**（`library.json`・
+`notes_content.json`・`fulltext\` の3つ。`check.ps1` は `library.json` のある
+直下フォルダを自動検出するので、別途の登録作業は要らない）。
+`library.json` の `topic` はフォルダ名、`notes_content.json` の `folder` は
+`10_article` で固定。**ノートの置き場は領域が違っても `10_article` 1つにまとめる。**
 
 ### 検証は雑にやらない
 
