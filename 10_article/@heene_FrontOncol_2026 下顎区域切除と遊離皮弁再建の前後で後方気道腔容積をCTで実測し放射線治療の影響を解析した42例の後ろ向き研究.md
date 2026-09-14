@@ -2,7 +2,7 @@
 tags:
   - PMID/42712385
 citekey: "heene_FrontOncol_2026"
-dateread: '2026-09-12'
+dateread: '2026-09-14'
 read: false
 topic: head_neck_general
 domain: head_neck
