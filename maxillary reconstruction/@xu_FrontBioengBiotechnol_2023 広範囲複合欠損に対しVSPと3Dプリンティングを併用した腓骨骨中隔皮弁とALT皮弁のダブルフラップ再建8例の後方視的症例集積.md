@@ -2,7 +2,7 @@
 tags:
   - PMID/38026888
 citekey: "xu_FrontBioengBiotechnol_2023"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: double-flap
 > https://doi.org/10.3389/fbioe.2023.1273318
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

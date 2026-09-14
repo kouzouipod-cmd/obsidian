@@ -2,7 +2,7 @@
 tags:
   - PMID/42706185
 citekey: "deng_ZhonghuaErBiYanHouTouJingWaiKeZaZhi_2026"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,8 @@ arm: recipient-vessel
 > https://doi.org/10.3760/cma.j.cn115330-20260323-00169
 
 # 1 AI要約
+![[90_attachments/deng_ZhonghuaErBiYanHouTouJingWaiKeZaZhi_2026/infographic.png]]
+
 
 ## 要約
 

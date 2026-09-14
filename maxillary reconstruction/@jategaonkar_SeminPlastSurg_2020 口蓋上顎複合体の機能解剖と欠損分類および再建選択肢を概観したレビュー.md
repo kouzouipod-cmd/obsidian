@@ -2,7 +2,7 @@
 tags:
   - PMID/32390773
 citekey: "jategaonkar_SeminPlastSurg_2020"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: review-overview
 > https://doi.org/10.1055/s-0040-1709430
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

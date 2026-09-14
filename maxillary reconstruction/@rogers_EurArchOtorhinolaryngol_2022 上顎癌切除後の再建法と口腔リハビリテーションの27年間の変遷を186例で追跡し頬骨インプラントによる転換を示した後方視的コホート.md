@@ -2,7 +2,7 @@
 tags:
   - PMID/35106619
 citekey: "rogers_EurArchOtorhinolaryngol_2022"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: single-flap-practice-pattern
 > https://doi.org/10.1007/s00405-022-07277-y
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

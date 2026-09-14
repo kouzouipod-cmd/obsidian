@@ -2,7 +2,7 @@
 tags:
   - PMID/37164898
 citekey: "quadri_OtolaryngolClinNorthAm_2023"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: review-overview
 > https://doi.org/10.1016/j.otc.2023.04.002
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

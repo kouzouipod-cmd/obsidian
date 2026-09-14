@@ -2,7 +2,7 @@
 tags:
   - PMID/34855629
 citekey: "yu_JCraniofacSurg_2021"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: single-flap-and-composite
 > https://doi.org/10.1097/SCS.0000000000008399
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

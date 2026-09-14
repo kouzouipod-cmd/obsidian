@@ -2,7 +2,7 @@
 tags:
   - PMID/10845285
 citekey: "cordeiro_PlastReconstrSurg_2000"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,8 @@ arm: classification
 > https://doi.org/10.1097/00006534-200006000-00004
 
 # 1 AI要約
+![[90_attachments/cordeiro_PlastReconstrSurg_2000/infographic.png]]
+
 
 ## 要約
 

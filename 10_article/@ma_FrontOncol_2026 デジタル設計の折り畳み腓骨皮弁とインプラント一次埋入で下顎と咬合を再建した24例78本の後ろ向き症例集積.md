@@ -2,7 +2,7 @@
 tags:
   - PMID/42729199
 citekey: "ma_FrontOncol_2026"
-dateread: '2026-09-14'
+dateread: '2026-09-15'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.3389/fonc.2026.1909133
 
 # 1 AI要約
+
 
 ## 要約
 

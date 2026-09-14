@@ -2,7 +2,7 @@
 tags:
   - PMID/42701659
 citekey: "stigger_JPRASOpen_2026"
-dateread: '2026-09-14'
+dateread: '2026-09-15'
 read: false
 topic: head_neck_general
 domain: craniofacial
@@ -16,6 +16,8 @@ arm: surgical-anatomy
 > https://doi.org/10.1016/j.jpra.2026.07.042
 
 # 1 AI要約
+![[90_attachments/stigger_JPRASOpen_2026/infographic.png]]
+
 
 ## 要約
 

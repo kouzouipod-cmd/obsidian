@@ -2,7 +2,7 @@
 tags:
   - PMID/39113633
 citekey: "wang_OtolaryngolHeadNeckSurg_2024"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: double-flap-methodology
 > https://doi.org/10.1002/ohn.922
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

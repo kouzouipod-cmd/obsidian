@@ -2,7 +2,7 @@
 tags:
   - PMID/42729646
 citekey: "guevara-carvajal_JPRASOpen_2026"
-dateread: '2026-09-14'
+dateread: '2026-09-15'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1016/j.jpra.2026.08.014
 
 # 1 AI要約
+
 
 ## 要約
 

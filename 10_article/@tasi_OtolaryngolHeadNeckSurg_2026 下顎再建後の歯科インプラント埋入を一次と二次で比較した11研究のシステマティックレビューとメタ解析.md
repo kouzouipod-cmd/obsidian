@@ -2,7 +2,7 @@
 tags:
   - PMID/42726925
 citekey: "tasi_OtolaryngolHeadNeckSurg_2026"
-dateread: '2026-09-14'
+dateread: '2026-09-15'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,8 @@ domain: head_neck
 > https://doi.org/10.1002/ohn.70392
 
 # 1 AI要約
+![[90_attachments/tasi_OtolaryngolHeadNeckSurg_2026/infographic.png]]
+
 
 ## 要約
 

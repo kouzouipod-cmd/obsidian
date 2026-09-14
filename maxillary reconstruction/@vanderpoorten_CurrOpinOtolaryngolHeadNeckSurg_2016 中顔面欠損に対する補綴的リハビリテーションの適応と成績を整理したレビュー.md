@@ -2,7 +2,7 @@
 tags:
   - PMID/26785170
 citekey: "vanderpoorten_CurrOpinOtolaryngolHeadNeckSurg_2016"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: non-flap-comparator
 > https://doi.org/10.1097/MOO.0000000000000241
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

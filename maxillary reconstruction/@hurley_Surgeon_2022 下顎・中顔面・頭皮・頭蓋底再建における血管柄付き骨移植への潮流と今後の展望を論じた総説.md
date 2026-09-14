@@ -2,7 +2,7 @@
 tags:
   - PMID/35525818
 citekey: "hurley_Surgeon_2022"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: review-overview
 > https://doi.org/10.1016/j.surge.2022.04.004
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

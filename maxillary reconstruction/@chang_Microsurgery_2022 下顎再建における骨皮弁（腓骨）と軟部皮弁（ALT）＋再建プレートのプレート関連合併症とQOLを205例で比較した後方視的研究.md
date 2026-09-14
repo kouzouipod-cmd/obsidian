@@ -2,7 +2,7 @@
 tags:
   - PMID/35553089
 citekey: "chang_Microsurgery_2022"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: bone-flap-vs-soft-tissue-flap
 > https://doi.org/10.1002/micr.30893
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

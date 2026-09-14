@@ -2,7 +2,7 @@
 tags:
   - PMID/20932492
 citekey: "brown_LancetOncol_2010"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: classification
 > https://doi.org/10.1016/S1470-2045(10)70113-3
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

@@ -2,7 +2,7 @@
 tags:
   - PMID/39059873
 citekey: "tishko_AtlasOralMaxillofacSurgClinNorthAm_2024"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: single-flap-chimeric-alternative
 > https://doi.org/10.1016/j.cxom.2024.01.004
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

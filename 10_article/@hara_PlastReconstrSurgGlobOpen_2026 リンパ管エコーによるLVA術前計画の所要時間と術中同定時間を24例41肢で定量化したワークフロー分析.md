@@ -2,7 +2,7 @@
 tags:
   - PMID/42719927
 citekey: "hara_PlastReconstrSurgGlobOpen_2026"
-dateread: '2026-09-12'
+dateread: '2026-09-15'
 read: false
 topic: lymphedema_general
 domain: lymphedema
@@ -14,6 +14,8 @@ domain: lymphedema
 > https://doi.org/10.1097/GOX.0000000000007984
 
 # 1 AI要約
+![[90_attachments/hara_PlastReconstrSurgGlobOpen_2026/infographic.png]]
+
 
 ## 要約
 

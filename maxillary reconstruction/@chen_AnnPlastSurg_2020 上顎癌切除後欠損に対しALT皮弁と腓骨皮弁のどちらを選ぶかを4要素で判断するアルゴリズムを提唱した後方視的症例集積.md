@@ -2,7 +2,7 @@
 tags:
   - PMID/31833884
 citekey: "chen_AnnPlastSurg_2020"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: selection-algorithm
 > https://doi.org/10.1097/SAP.0000000000002176
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

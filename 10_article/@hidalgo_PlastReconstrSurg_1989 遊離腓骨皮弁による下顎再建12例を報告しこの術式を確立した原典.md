@@ -2,7 +2,7 @@
 tags:
   - PMID/2734406
 citekey: "hidalgo_PlastReconstrSurg_1989"
-dateread: '2026-09-14'
+dateread: '2026-09-15'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,7 @@ domain: head_neck
 > https://pubmed.ncbi.nlm.nih.gov/2734406/ （この論文にDOIは無い）
 
 # 1 AI要約
+
 
 ## 要約
 

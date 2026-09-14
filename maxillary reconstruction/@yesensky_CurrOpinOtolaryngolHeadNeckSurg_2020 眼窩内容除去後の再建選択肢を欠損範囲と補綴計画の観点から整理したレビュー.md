@@ -2,7 +2,7 @@
 tags:
   - PMID/32841961
 citekey: "yesensky_CurrOpinOtolaryngolHeadNeckSurg_2020"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: extended-defect
 > https://doi.org/10.1097/MOO.0000000000000662
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**

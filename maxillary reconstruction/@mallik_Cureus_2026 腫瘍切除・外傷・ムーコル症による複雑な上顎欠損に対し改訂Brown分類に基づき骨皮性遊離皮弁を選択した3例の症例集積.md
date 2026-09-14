@@ -2,7 +2,7 @@
 tags:
   - PMID/42698939
 citekey: "mallik_Cureus_2026"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,8 @@ arm: selection-algorithm
 > https://doi.org/10.7759/cureus.113987
 
 # 1 AI要約
+![[90_attachments/mallik_Cureus_2026/infographic.png]]
+
 
 ## 要約
 

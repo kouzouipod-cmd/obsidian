@@ -2,7 +2,7 @@
 tags:
   - PMID/38437499
 citekey: "bao_JCraniofacSurg_2024"
-dateread: '2026-09-09'
+dateread: '2026-09-15'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -16,6 +16,7 @@ arm: double-flap
 > https://doi.org/10.1097/SCS.0000000000010036
 
 # 1 AI要約
+
 
 ## AI要約
 ### **研究の概要**
