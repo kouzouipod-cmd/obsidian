@@ -2,12 +2,21 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-15 09:09  ／  全 36 件中 **取得済み 18 件**
+生成: 2026-09-15 19:57  ／  全 60 件中 **取得済み 39 件**
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 16 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 19 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
+- **Abernethy ML 1995 J Rheumatol**
+  - https://pubmed.ncbi.nlm.nih.gov/7562777/
+  - `C:\Users\user\claude\papers\caps_freeflap\fulltext\Abernethy_1995_widespread_cutaneous_necrosis_initial_APS_JRheumatol.pdf`
+- **Bekeny JC 2021 Clin Plast Surg**
+  - https://doi.org/10.1016/j.cps.2021.01.004
+  - `C:\Users\user\claude\papers\caps_freeflap\fulltext\Bekeny_2021_free_tissue_transfer_chronic_LE_wounds_ClinPlastSurg.pdf`
+- **Kyoung J 2024 J Wound Care**
+  - https://doi.org/10.12968/jowc.2023.0285
+  - `C:\Users\user\claude\papers\caps_freeflap\fulltext\Kyoung_2024_catastrophic_APS_case_review_JWoundCare.pdf`
 - **Urken ML 1998 Arch Otolaryngol Head Neck Surg**
   - https://doi.org/10.1001/archotol.124.1.46
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Urken_1998_oromandibular_reconstruction_210cases_ArchOtolaryngol.pdf`
@@ -71,8 +80,29 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - 1989年・1991年のPlast Reconstr Surg。Ovidの機関アクセスが電子化以前の巻号に及ばない。2026-09-15にユーザーが試みて不可。必要ならILL（図書館の文献複写依頼）。1991年はdiscussion(586-7)も併せて依頼すること。
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Hidalgo_1991_aesthetic_bone_shaping_mandible_PRS.pdf`
 
-## 取得済み — 18 件
+## 取得済み — 39 件
 
+- Asai E 2010 Microsurgery
+- Davison SP 2009 Plast Reconstr Surg
+- Dawoud BES 2022 Br J Oral Maxillofac Surg
+- Deldar R 2023 Plast Reconstr Surg
+- DiFrancesco LM 2003 Ann Plast Surg
+- Dutton JW 2013 Plast Reconstr Surg
+- Edrees A 2011 J Clin Rheumatol
+- Endara M 2013 Plast Reconstr Surg
+- Faber J 2024 J Med Case Rep
+- Fiehn C 2001 Ann Rheum Dis
+- Hamdi M 2010 Plast Reconstr Surg
+- Huynh MNQ 2022 Plast Surg (Oakv)
+- Karimi K 2017 J Cutan Med Surg
+- Keating M 2024 Cureus
+- Nelson JA 2017 J Plast Reconstr Aesthet Surg
+- Niu N 2020 Adv Skin Wound Care
+- Salgarello M 2008 Microsurgery
+- Shibuya M 2021 Anesth Prog
+- Uppal RS 2008 J Plast Reconstr Aesthet Surg
+- Wang TY 2012 Plast Reconstr Surg
+- Wu K 2022 J Oral Maxillofac Surg
 - Alves AS 2026 JPRAS Open
 - Brown JS 2016 Lancet Oncol
 - Guevara-Carvajal SA 2026 JPRAS Open
