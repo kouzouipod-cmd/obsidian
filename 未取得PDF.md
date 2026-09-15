@@ -1,0 +1,93 @@
+# 本文PDF 未取得リスト
+
+pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
+
+生成: 2026-09-15 09:09  ／  全 36 件中 **取得済み 18 件**
+
+## ユーザーにお願いする（購読誌・PMC収載なし）— 16 件
+
+機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
+
+- **Urken ML 1998 Arch Otolaryngol Head Neck Surg**
+  - https://doi.org/10.1001/archotol.124.1.46
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Urken_1998_oromandibular_reconstruction_210cases_ArchOtolaryngol.pdf`
+- **Bao M 2024 J Craniofac Surg**
+  - https://doi.org/10.1097/SCS.0000000000010036
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Bao_2024_flowthrough_fibula_ALT_maxillary_JCraniofacSurg.pdf`
+- **Chang TY 2022 Microsurgery**
+  - https://doi.org/10.1002/micr.30893
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Chang_2022_fibula_vs_ALT_plate_HRQOL_Microsurgery.pdf`
+- **Cordeiro PG 2000 Plast Reconstr Surg**
+  - https://doi.org/10.1097/00006534-200006000-00004
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Cordeiro_2000_maxillectomy_classification_algorithm_PRS.pdf`
+- **Deng HY 2026 Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi**
+  - https://doi.org/10.3760/cma.j.cn115330-20260323-00169
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Deng_2026_recipient_vessels_skull_base_ZhonghuaErBiYanHou.pdf`
+- **Eskander A 2017 Curr Opin Otolaryngol Head Neck Surg**
+  - https://doi.org/10.1097/MOO.0000000000000396
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Eskander_2017_midface_beyond_reconstructive_ladder_CurrOpin.pdf`
+- **Hurley CM 2022 Surgeon**
+  - https://doi.org/10.1016/j.surge.2022.04.004
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Hurley_2022_current_trends_craniofacial_reconstruction_Surgeon.pdf`
+- **Mavrogenis AF 2019 Injury**
+  - https://doi.org/10.1016/j.injury.2019.10.061
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf`
+- **Quadri P 2023 Otolaryngol Clin North Am**
+  - https://doi.org/10.1016/j.otc.2023.04.002
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Quadri_2023_oral_cavity_reconstruction_OtolaryngolClin.pdf`
+- **Strohl M 2024 Facial Plast Surg Clin North Am**
+  - https://doi.org/10.1016/j.fsc.2024.07.004
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Strohl_2024_advances_midface_reconstruction_FPSCNA.pdf`
+- **Tishko G 2024 Atlas Oral Maxillofac Surg Clin North Am**
+  - https://doi.org/10.1016/j.cxom.2024.01.004
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Tishko_2024_scapular_reconstruction_midface_maxilla_AtlasOMS.pdf`
+- **Vander Poorten V 2016 Curr Opin Otolaryngol Head Neck Surg**
+  - https://doi.org/10.1097/MOO.0000000000000241
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\VanderPoorten_2016_midface_prosthetic_rehabilitation_CurrOpin.pdf`
+- **Vashistha A 2024 J Stomatol Oral Maxillofac Surg**
+  - https://doi.org/10.1016/j.jormas.2024.102067
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Vashistha_2024_delayed_maxillary_reconstruction_mucormycosis_JOMS.pdf`
+- **Wang J 2024 Otolaryngol Head Neck Surg**
+  - https://doi.org/10.1002/ohn.922
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Wang_2024_chimeric_vs_multiple_free_flaps_OHNS.pdf`
+- **Yesensky J 2020 Curr Opin Otolaryngol Head Neck Surg**
+  - https://doi.org/10.1097/MOO.0000000000000662
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yesensky_2020_orbital_exenteration_reconstruction_CurrOpin.pdf`
+- **Yu S 2021 J Craniofac Surg**
+  - https://doi.org/10.1097/SCS.0000000000008399
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yu_2021_complete_bilateral_maxillary_defects_free_flaps_JCraniofacSurg.pdf`
+
+## 入手困難（依頼しない・記録のみ）— 2 件
+
+試して取れなかったもの。**このリストにある論文のPDFはユーザーに依頼しないこと。**
+必要になったら図書館の文献複写依頼（ILL）で取り寄せる。
+
+- **Hidalgo DA 1989 Plast Reconstr Surg**
+  - https://pubmed.ncbi.nlm.nih.gov/2734406/
+  - 1989年・1991年のPlast Reconstr Surg。Ovidの機関アクセスが電子化以前の巻号に及ばない。2026-09-15にユーザーが試みて不可。必要ならILL（図書館の文献複写依頼）。1991年はdiscussion(586-7)も併せて依頼すること。
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Hidalgo_1989_fibula_free_flap_mandible_origin_PRS.pdf`
+- **Hidalgo DA 1991 Plast Reconstr Surg**
+  - https://pubmed.ncbi.nlm.nih.gov/1896529/
+  - 1989年・1991年のPlast Reconstr Surg。Ovidの機関アクセスが電子化以前の巻号に及ばない。2026-09-15にユーザーが試みて不可。必要ならILL（図書館の文献複写依頼）。1991年はdiscussion(586-7)も併せて依頼すること。
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Hidalgo_1991_aesthetic_bone_shaping_mandible_PRS.pdf`
+
+## 取得済み — 18 件
+
+- Alves AS 2026 JPRAS Open
+- Brown JS 2016 Lancet Oncol
+- Guevara-Carvajal SA 2026 JPRAS Open
+- Heene S 2026 Front Oncol
+- Ma Z 2026 Front Oncol
+- Stigger T 2026 JPRAS Open
+- Tasi LZ 2026 Otolaryngol Head Neck Surg
+- Hara H 2026 Plast Reconstr Surg Glob Open
+- Badhey AK 2020 Semin Plast Surg
+- Brown JS 2010 Lancet Oncol
+- Chen SH 2020 Ann Plast Surg
+- Jategaonkar AA 2020 Semin Plast Surg
+- Kämmerer PW 2023 Int J Implant Dent
+- Mallik M 2026 Cureus
+- Rogers SN 2022 Eur Arch Otorhinolaryngol
+- Tsuge I 2022 Plast Reconstr Surg Glob Open
+- Vahidi N 2020 Semin Plast Surg
+- Xu Y 2023 Front Bioeng Biotechnol

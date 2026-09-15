@@ -9,7 +9,7 @@ domain: head_neck
 ---
 > [!Data]
 > **PDF**
-> [Brown_2016_mandibular_defect_classification_LancetOncol.pdf](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Brown_2016_mandibular_defect_classification_LancetOncol.pdf)
+> [brown_LancetOncol_2016 PDF](file://C:/Users/user/Zotero/storage/5YDQNQAT/Brown%20et%20al.%20-%202016%20-%20A%20new%20classification%20for%20mandibular%20defects%20after%20oncological%20resection.pdf)
 > **Link**
 > https://doi.org/10.1016/S1470-2045(15)00310-1
 
