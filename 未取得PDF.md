@@ -2,9 +2,9 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-15 19:57  ／  全 60 件中 **取得済み 39 件**
+生成: 2026-09-19 13:43  ／  全 70 件中 **取得済み 45 件**
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 19 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 23 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -17,9 +17,21 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Kyoung J 2024 J Wound Care**
   - https://doi.org/10.12968/jowc.2023.0285
   - `C:\Users\user\claude\papers\caps_freeflap\fulltext\Kyoung_2024_catastrophic_APS_case_review_JWoundCare.pdf`
+- **Eichhorn S 2026 Eur Arch Otorhinolaryngol**
+  - https://doi.org/10.1007/s00405-026-10583-4
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Eichhorn_2026_oropharyngeal_carcinoma_inpatient_EHR_Germany_EurArchOtorhinolaryngol.pdf`
+- **Gao H 2026 Head Neck**
+  - https://doi.org/10.1002/hed.70481
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Gao_2026_vasopressor_fluid_oral_cavity_free_flap_HeadNeck.pdf`
+- **Landfald IC 2026 Surg Radiol Anat**
+  - https://doi.org/10.1007/s00276-026-03989-6
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Landfald_2026_lingual_artery_variants_scoping_review_SurgRadiolAnat.pdf`
 - **Urken ML 1998 Arch Otolaryngol Head Neck Surg**
   - https://doi.org/10.1001/archotol.124.1.46
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Urken_1998_oromandibular_reconstruction_210cases_ArchOtolaryngol.pdf`
+- **Salim D 2026 Ugeskr Laeger**
+  - https://doi.org/10.61409/V02260157
+  - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Salim_2026_lymphatic_supermicrosurgery_neurodegeneration_review_UgeskrLaeger.pdf`
 - **Bao M 2024 J Craniofac Surg**
   - https://doi.org/10.1097/SCS.0000000000010036
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Bao_2024_flowthrough_fibula_ALT_maxillary_JCraniofacSurg.pdf`
@@ -80,7 +92,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - 1989年・1991年のPlast Reconstr Surg。Ovidの機関アクセスが電子化以前の巻号に及ばない。2026-09-15にユーザーが試みて不可。必要ならILL（図書館の文献複写依頼）。1991年はdiscussion(586-7)も併せて依頼すること。
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Hidalgo_1991_aesthetic_bone_shaping_mandible_PRS.pdf`
 
-## 取得済み — 39 件
+## 取得済み — 45 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -103,14 +115,20 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Uppal RS 2008 J Plast Reconstr Aesthet Surg
 - Wang TY 2012 Plast Reconstr Surg
 - Wu K 2022 J Oral Maxillofac Surg
+- Abend A 2026 OTO Open
+- Alotaibi SM 2026 Saudi Dent J
 - Alves AS 2026 JPRAS Open
 - Brown JS 2016 Lancet Oncol
+- Cárdenas Serres C 2026 J Clin Med
 - Guevara-Carvajal SA 2026 JPRAS Open
 - Heene S 2026 Front Oncol
 - Ma Z 2026 Front Oncol
+- Maglitto F 2026 J Clin Med
 - Stigger T 2026 JPRAS Open
 - Tasi LZ 2026 Otolaryngol Head Neck Surg
+- Vega Morales AQ 2026 Cureus
 - Hara H 2026 Plast Reconstr Surg Glob Open
+- Lilja C 2026 JPRAS Open
 - Badhey AK 2020 Semin Plast Surg
 - Brown JS 2010 Lancet Oncol
 - Chen SH 2020 Ann Plast Surg
