@@ -2,7 +2,7 @@
 tags:
   - PMID/1896529
 citekey: "hidalgo_PlastReconstrSurg_1991"
-dateread: '2026-09-15'
+dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,7 @@ domain: head_neck
 > https://pubmed.ncbi.nlm.nih.gov/1896529/ （この論文にDOIは無い）
 
 # 1 AI要約
+![[90_attachments/hidalgo_PlastReconstrSurg_1991/infographic.png]]
 
 
 ## 要約

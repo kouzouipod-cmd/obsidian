@@ -2,7 +2,7 @@
 tags:
   - PMID/9440780
 citekey: "urken_ArchOtolaryngolHeadNeckSurg_1998"
-dateread: '2026-09-15'
+dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1001/archotol.124.1.46
 
 # 1 AI要約
+![[90_attachments/urken_ArchOtolaryngolHeadNeckSurg_1998/infographic.png]]
 
 
 ## 要約

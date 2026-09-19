@@ -2,7 +2,7 @@
 tags:
   - PMID/26758757
 citekey: "brown_LancetOncol_2016"
-dateread: '2026-09-15'
+dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1016/S1470-2045(15)00310-1
 
 # 1 AI要約
+![[90_attachments/brown_LancetOncol_2016/infographic.png]]
 
 
 ## 要約

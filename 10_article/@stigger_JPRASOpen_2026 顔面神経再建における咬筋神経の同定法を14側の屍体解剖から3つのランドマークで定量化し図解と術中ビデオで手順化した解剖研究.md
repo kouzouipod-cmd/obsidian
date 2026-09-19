@@ -2,7 +2,7 @@
 tags:
   - PMID/42701659
 citekey: "stigger_JPRASOpen_2026"
-dateread: '2026-09-15'
+dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: craniofacial
