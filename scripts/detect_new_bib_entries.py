@@ -6,6 +6,7 @@ Outputs: new_entries.json (only if new entries found)
 """
 
 import os
+import argparse
 import json
 import subprocess
 import re
@@ -63,7 +64,7 @@ def get_new_entry_keys():
     return new_entry_keys
 
 
-def parse_bibtex_file(bib_file, entry_keys_filter=None):
+def parse_bibtex_file(bib_file, entry_keys_filter=None, require_abstract=True):
     """Parse BibTeX file and return entries with abstracts, optionally filtered by keys."""
 
     with open(bib_file, 'r', encoding='utf-8') as f:
@@ -85,7 +86,7 @@ def parse_bibtex_file(bib_file, entry_keys_filter=None):
 
         # Check if abstract exists and is not empty
         abstract = entry.get('abstract', '').strip()
-        if not abstract:
+        if not abstract and require_abstract:
             print(f"Skipping {entry_key}: No abstract")
             continue
 
@@ -138,7 +139,99 @@ def build_existing_note_index():
     return index
 
 
+def note_text_for_infographic(note_path):
+    """Abstract substitute taken from the note itself.
+
+    Many Zotero items have no abstract in the bib (CAPS, traumatic neuroma),
+    but the builder note carries it in the '> [!Abstract]' callout. If that
+    is empty too, fall back to the note's '# 1 AI要約' body.
+    """
+    text = Path(note_path).read_text(encoding="utf-8", errors="ignore")
+    lines = text.split("\n")
+
+    for i, l in enumerate(lines):
+        if l.strip().startswith("> [!Abstract]"):
+            out = []
+            for m in lines[i + 1:]:
+                if not m.startswith(">"):
+                    break
+                out.append(re.sub(r"^>\s?", "", m))
+            abstract = " ".join(out).strip()
+            if len(abstract) > 100:
+                return abstract, "note-abstract"
+            break
+
+    try:
+        start = next(i for i, l in enumerate(lines) if l.strip() == "# 1 AI要約")
+    except StopIteration:
+        return "", ""
+    body = []
+    for m in lines[start + 1:]:
+        if m.startswith("# "):
+            break
+        if "infographic.png" in m:
+            continue
+        body.append(m)
+    summary = "\n".join(body).strip()
+    return (summary, "note-summary") if len(summary) > 100 else ("", "")
+
+
+def backfill(folder, limit):
+    """Entries whose note exists but has no infographic yet (manual run)."""
+    print("=" * 60)
+    print(f"Backfill: notes without infographic (folder='{folder}', limit={limit})")
+    print("=" * 60)
+
+    existing = build_existing_note_index()
+    targets = {
+        k: p for k, p in existing.items()
+        if not k.startswith("{{")
+        and not p.startswith("99_template")
+        and (not folder or p.split("/")[0] == folder)
+        and not (Path("90_attachments") / k / "infographic.png").exists()
+    }
+    print(f"Notes without infographic: {len(targets)}")
+    if not targets:
+        # 空集合を渡すと parse_bibtex_file の絞り込みが外れて bib 全件になる
+        return
+
+    entries = parse_bibtex_file("15_zotero/zotero.bib",
+                                entry_keys_filter=set(targets), require_abstract=False)
+    out = []
+    for e in sorted(entries, key=lambda x: targets[x['entry_key']]):
+        e['existing_note'] = targets[e['entry_key']]
+        source = "bib"
+        if not e['abstract']:
+            e['abstract'], source = note_text_for_infographic(e['existing_note'])
+        if not e['abstract']:
+            print(f"  skip {e['entry_key']}: no abstract or summary anywhere")
+            continue
+        e['abstract_source'] = source
+        out.append(e)
+        if len(out) >= limit:
+            break
+
+    for e in out:
+        print(f"  - {e['entry_key']} [{e['abstract_source']}] -> {e['existing_note']}")
+    if out:
+        with open('new_entries.json', 'w', encoding='utf-8') as f:
+            json.dump(out, f, indent=2, ensure_ascii=False)
+    print(f"\nBackfill targets this run: {len(out)} "
+          f"(remaining after this run: {len(targets) - len(out)})")
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--backfill", action="store_true",
+                        help="process existing notes that have no infographic")
+    parser.add_argument("--folder", default="",
+                        help="backfill only notes in this top-level folder")
+    parser.add_argument("--limit", type=int, default=25)
+    args = parser.parse_args()
+    if args.backfill:
+        backfill(args.folder, args.limit)
+        return
+
     print("=" * 60)
     print("Detecting new BibTeX entries (last 24 hours)")
     print("=" * 60)
