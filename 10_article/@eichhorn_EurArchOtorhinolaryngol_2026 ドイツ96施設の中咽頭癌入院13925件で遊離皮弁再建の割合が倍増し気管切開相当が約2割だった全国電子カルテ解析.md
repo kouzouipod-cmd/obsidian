@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1007/s00405-026-10583-4
 
 # 1 AI要約
+![[90_attachments/eichhorn_EurArchOtorhinolaryngol_2026/infographic.png]]
 
 
 ## 要約

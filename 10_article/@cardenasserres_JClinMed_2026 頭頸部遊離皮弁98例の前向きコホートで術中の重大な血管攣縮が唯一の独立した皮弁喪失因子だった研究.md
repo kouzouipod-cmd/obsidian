@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.3390/jcm15176819
 
 # 1 AI要約
+![[90_attachments/cardenasserres_JClinMed_2026/infographic.png]]
 
 
 ## 要約

@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1007/s44445-026-00238-9
 
 # 1 AI要約
+![[90_attachments/alotaibi_SaudiDentJ_2026/infographic.png]]
 
 
 ## 要約

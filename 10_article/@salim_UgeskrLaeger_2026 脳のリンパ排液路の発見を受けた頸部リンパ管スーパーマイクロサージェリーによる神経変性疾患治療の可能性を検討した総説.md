@@ -14,6 +14,7 @@ domain: lymphedema
 > https://doi.org/10.61409/V02260157
 
 # 1 AI要約
+![[90_attachments/salim_UgeskrLaeger_2026/infographic.png]]
 
 
 ## 要約
