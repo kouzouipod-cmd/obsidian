@@ -16,6 +16,7 @@ arm: aps-skin-necrosis
 > https://doi.org/10.1097/RHU.0b013e31823b0fd9
 
 # 1 AI要約
+![[90_attachments/edrees_JClinRheumatol_2011/infographic.png]]
 
 
 ## 要約

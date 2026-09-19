@@ -16,6 +16,7 @@ arm: perioperative-management
 > https://doi.org/10.1016/j.cps.2021.01.004
 
 # 1 AI要約
+![[90_attachments/bekeny_ClinPlastSurg_2021/infographic.png]]
 
 
 ## 要約

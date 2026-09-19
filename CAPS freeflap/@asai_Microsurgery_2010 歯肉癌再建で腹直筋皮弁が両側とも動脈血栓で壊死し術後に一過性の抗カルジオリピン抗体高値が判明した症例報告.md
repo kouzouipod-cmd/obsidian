@@ -16,6 +16,7 @@ arm: aps-case-report
 > https://doi.org/10.1002/micr.20734
 
 # 1 AI要約
+![[90_attachments/asai_Microsurgery_2010/infographic.png]]
 
 
 ## 要約

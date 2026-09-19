@@ -16,6 +16,7 @@ arm: aps-skin-necrosis
 > https://pubmed.ncbi.nlm.nih.gov/7562777/ （この論文にDOIは無い）
 
 # 1 AI要約
+![[90_attachments/abernethy_JRheumatol_1995/infographic.png]]
 
 
 ## 要約

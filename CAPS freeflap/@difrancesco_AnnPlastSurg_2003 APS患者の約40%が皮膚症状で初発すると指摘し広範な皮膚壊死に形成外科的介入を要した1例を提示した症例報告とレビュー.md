@@ -16,6 +16,7 @@ arm: aps-skin-necrosis
 > https://doi.org/10.1097/01.SAP.0000058926.77448.9D
 
 # 1 AI要約
+![[90_attachments/difrancesco_AnnPlastSurg_2003/infographic.png]]
 
 
 ## 要約

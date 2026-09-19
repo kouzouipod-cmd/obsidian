@@ -16,6 +16,7 @@ arm: aps-skin-necrosis
 > https://doi.org/10.1097/PRS.0b013e31828be745
 
 # 1 AI要約
+![[90_attachments/dutton_PlastReconstrSurg_2013/infographic.png]]
 
 
 ## 要約

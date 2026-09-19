@@ -16,6 +16,7 @@ arm: anticoagulation-protocol
 > https://doi.org/10.1097/PRS.0000000000010293
 
 # 1 AI要約
+![[90_attachments/deldar_PlastReconstrSurg_2023/infographic.png]]
 
 
 ## 要約
