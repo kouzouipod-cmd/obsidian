@@ -17,6 +17,7 @@ arm: aps-skin-necrosis
 
 # 1 AI要約
 
+![[90_attachments/fiehn_AnnRheumDis_2001/infographic.png]]
 
 ## 要約
 

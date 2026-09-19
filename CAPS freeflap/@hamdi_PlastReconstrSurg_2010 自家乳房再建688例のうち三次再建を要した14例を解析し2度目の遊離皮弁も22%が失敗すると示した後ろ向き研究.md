@@ -17,6 +17,7 @@ arm: flap-outcome-thrombophilia
 
 # 1 AI要約
 
+![[90_attachments/hamdi_PlastReconstrSurg_2010/infographic.png]]
 
 ## 要約
 

@@ -17,6 +17,7 @@ arm: anticoagulation-protocol
 
 # 1 AI要約
 
+![[90_attachments/huynh_PlastSurgOakv_2022/infographic.png]]
 
 ## 要約
 

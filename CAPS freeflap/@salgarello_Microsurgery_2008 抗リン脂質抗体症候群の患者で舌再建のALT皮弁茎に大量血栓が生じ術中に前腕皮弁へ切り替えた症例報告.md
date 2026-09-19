@@ -17,6 +17,7 @@ arm: aps-case-report
 
 # 1 AI要約
 
+![[90_attachments/salgarello_Microsurgery_2008/infographic.png]]
 
 ## 要約
 

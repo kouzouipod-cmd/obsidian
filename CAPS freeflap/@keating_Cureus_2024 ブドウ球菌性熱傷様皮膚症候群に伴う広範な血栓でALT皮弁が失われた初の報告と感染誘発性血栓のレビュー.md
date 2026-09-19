@@ -17,6 +17,7 @@ arm: aps-case-report
 
 # 1 AI要約
 
+![[90_attachments/keating_Cureus_2024/infographic.png]]
 
 ## 要約
 

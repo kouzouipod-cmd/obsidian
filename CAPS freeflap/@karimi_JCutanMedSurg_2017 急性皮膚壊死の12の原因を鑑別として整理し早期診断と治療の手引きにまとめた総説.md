@@ -17,6 +17,7 @@ arm: aps-skin-necrosis
 
 # 1 AI要約
 
+![[90_attachments/karimi_JCutanMedSurg_2017/infographic.png]]
 
 ## 要約
 

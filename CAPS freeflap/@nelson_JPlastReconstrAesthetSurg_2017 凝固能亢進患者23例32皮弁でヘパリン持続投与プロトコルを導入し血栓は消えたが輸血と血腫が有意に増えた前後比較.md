@@ -17,6 +17,7 @@ arm: anticoagulation-protocol
 
 # 1 AI要約
 
+![[90_attachments/nelson_JPlastReconstrAesthetSurg_2017/infographic.png]]
 
 ## 要約
 

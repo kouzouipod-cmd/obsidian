@@ -17,6 +17,7 @@ arm: flap-outcome-thrombophilia
 
 # 1 AI要約
 
+![[90_attachments/faber_JMedCaseRep_2024/infographic.png]]
 
 ## 要約
 
