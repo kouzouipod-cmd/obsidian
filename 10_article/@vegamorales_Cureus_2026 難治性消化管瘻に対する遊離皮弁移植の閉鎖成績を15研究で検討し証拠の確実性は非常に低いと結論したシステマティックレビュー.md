@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.7759/cureus.114687
 
 # 1 AI要約
+![[90_attachments/vegamorales_Cureus_2026/infographic.png]]
 
 
 ## 要約

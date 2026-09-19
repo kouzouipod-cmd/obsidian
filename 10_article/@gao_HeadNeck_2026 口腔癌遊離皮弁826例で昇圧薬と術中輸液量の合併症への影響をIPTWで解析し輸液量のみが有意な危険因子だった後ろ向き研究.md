@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1002/hed.70481
 
 # 1 AI要約
+![[90_attachments/gao_HeadNeck_2026/infographic.png]]
 
 
 ## 要約

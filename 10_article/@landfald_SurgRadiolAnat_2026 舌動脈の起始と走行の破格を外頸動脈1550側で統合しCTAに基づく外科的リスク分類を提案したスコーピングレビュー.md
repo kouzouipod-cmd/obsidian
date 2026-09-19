@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1007/s00276-026-03989-6
 
 # 1 AI要約
+![[90_attachments/landfald_SurgRadiolAnat_2026/infographic.png]]
 
 
 ## 要約
