@@ -67,7 +67,8 @@ jobs:
             ```bash
             cat new_entries.json
             ```
-            このJSONファイルに含まれるエントリ**のみ**を処理してください。各エントリには entry_key, author, title, journal, year, abstract が含まれます。
+            このJSONファイルに含まれるエントリ**のみ**を処理してください。各エントリには entry_key, author, title, journal, year, abstract, existing_note が含まれます。
+            **【最重要】`existing_note` が空でないエントリは、すでにノートがあります。2-1と2-2（要約とインフォグラフィック）だけを行い、2-3のMarkdownファイルは絶対に作成しないでください。** 画像の埋め込みは後続のスクリプトが行います。
             ### 2. 各エントリに対して以下を実行：
             #### 2-1. AI要約の生成
             以下のフォーマットでabstractから要約を作成：
@@ -109,7 +110,7 @@ jobs:
             ls -la 90_attachments/エントリキー/infographic.png
             ```
             ファイルが存在しない場合はエラーをログに記録し、次のエントリの処理に進んでください。
-            #### 2-3. Markdownファイルの作成
+            #### 2-3. Markdownファイルの作成（`existing_note` が空のエントリのみ）
             `10_article/@{entry_key}.md` を作成（entry_keyをそのままファイル名に使用）。
             **注意**: 既存ファイルは絶対に読み込まないでください。以下のテンプレートのみを使用：
             **【重要】テンプレート内の `![[90_attachments/エントリキー/infographic.png]]` の行は必ずそのまま含めてください。エントリキー部分のみ実際の値に置換し、それ以外の記法は一切変更しないでください。**
@@ -155,11 +156,19 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      # ノートが既にある論文は、画像を既存ノートに埋め込むだけにする。
+      # LLMが指示に反して @key.md を書いた場合もここで取り除く（今回の実行で作られた未追跡ファイルのみ）。
+      - name: Embed infographics into existing notes
+        if: steps.detect.outputs.has_new == 'true'
+        run: python scripts/embed_infographic.py
+
       - name: Commit and push changes
         if: steps.detect.outputs.has_new == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          # -u: 既存ノート（10_article外の CAPS freeflap/ 等も含む）への埋め込みを拾う
+          git add -u
           git add 10_article/ 90_attachments/
           if git diff --staged --quiet; then
             echo "No changes to commit"

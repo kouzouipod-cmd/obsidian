@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Detect new BibTeX entries added in the last 24 hours with abstracts.
-Checks for duplicates in 10_article/ directory.
+Marks entries that already have a note anywhere in the vault (existing_note).
 Outputs: new_entries.json (only if new entries found)
 """
 
@@ -110,23 +110,32 @@ def parse_bibtex_file(bib_file, entry_keys_filter=None):
     return entries_with_abstract
 
 
-def check_duplicate_in_10_article(entry_data):
-    """Check if an entry already exists in 10_article/ directory based on citation key."""
-    article_dir = Path("10_article")
+SKIP_DIRS = {".git", ".github", ".obsidian", ".trash", "scripts", "90_attachments", "15_zotero"}
+CITEKEY_RE = re.compile(r'^citekey:\s*["\']?([^"\'\s]+)["\']?\s*$', re.MULTILINE)
 
-    if not article_dir.exists():
-        return False
 
-    # Check if file exists using citation key directly
-    entry_key = entry_data['entry_key']
-    expected_filename = f"@{entry_key}.md"
-    expected_path = article_dir / expected_filename
+def build_existing_note_index():
+    """Map citekey -> existing note path, searching the whole vault.
 
-    if expected_path.exists():
-        print(f"Duplicate found: {entry_key} -> {expected_filename}")
-        return True
-
-    return False
+    Notes made by the local builder (build_vault_notes.ps1) are named
+    '@<citekey> <Japanese title>.md' and may live outside 10_article/
+    (e.g. 'CAPS freeflap/'). The old check only looked for the exact
+    '10_article/@<citekey>.md', so it missed them and this workflow wrote
+    a second note for the same paper (2026-09-12, 09-15, 09-16).
+    We therefore match by the frontmatter 'citekey:' field, anywhere.
+    """
+    index = {}
+    for path in Path(".").rglob("*.md"):
+        if any(part in SKIP_DIRS for part in path.parts):
+            continue
+        try:
+            head = path.read_text(encoding="utf-8", errors="ignore")[:2000]
+        except OSError:
+            continue
+        m = CITEKEY_RE.search(head)
+        if m:
+            index.setdefault(m.group(1), path.as_posix())
+    return index
 
 
 def main():
@@ -153,13 +162,20 @@ def main():
 
     print(f"Found {len(all_new_entries)} new entries with abstracts")
 
-    # Step 3: Check for duplicates
+    # Step 3: Mark entries that already have a note.
+    # They still get an infographic, but the workflow must NOT write a note;
+    # embed_infographic.py inserts the image into the existing note instead.
+    existing = build_existing_note_index()
     new_entries = []
     for entry in all_new_entries:
-        if not check_duplicate_in_10_article(entry):
-            new_entries.append(entry)
+        note = existing.get(entry['entry_key'], '')
+        entry['existing_note'] = note
+        if note:
+            print(f"Existing note: {entry['entry_key']} -> {note} (infographic only)")
+        new_entries.append(entry)
 
-    print(f"\nNew entries (with abstract, no duplicates): {len(new_entries)}")
+    print(f"\nEntries to process: {len(new_entries)} "
+          f"({sum(1 for e in new_entries if e['existing_note'])} infographic only)")
 
     # Step 4: Output results
     if new_entries:
