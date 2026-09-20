@@ -16,6 +16,7 @@ arm: perioperative-management
 > https://doi.org/10.2344/anpr-67-03-07
 
 # 1 AI要約
+![[90_attachments/shibuya_AnesthProg_2021/infographic.png]]
 
 
 ## 要約

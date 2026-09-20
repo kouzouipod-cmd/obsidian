@@ -16,6 +16,7 @@ arm: aps-case-report
 > https://doi.org/10.1016/j.bjps.2007.11.016
 
 # 1 AI要約
+![[90_attachments/uppal_JPlastReconstrAesthetSurg_2008/infographic.png]]
 
 
 ## 要約

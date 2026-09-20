@@ -16,6 +16,7 @@ arm: anticoagulation-protocol
 > https://doi.org/10.1016/j.joms.2022.01.005
 
 # 1 AI要約
+![[90_attachments/wu_JournalofOralandMaxillofacialSurgery_2022/infographic.png]]
 
 
 ## 要約

@@ -16,6 +16,7 @@ arm: flap-outcome-thrombophilia
 > https://doi.org/10.1097/PRS.0b013e31823aec4d
 
 # 1 AI要約
+![[90_attachments/wang_PlastReconstrSurg_2012/infographic.png]]
 
 
 ## 要約
