@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.1097/PRS.0000000000012488
 
 # 1 AI要約
-![[90_attachments/elia_Plast.Reconstr.Surg._2026/infographic.png]]
 
 ## AI要約
 

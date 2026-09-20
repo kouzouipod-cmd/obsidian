@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.1245/s10434-025-17762-3
 
 # 1 AI要約
-![[90_attachments/araki_AnnSurgOncol_2025/infographic.png]]
 
 ## AI要約
 ### **研究の概要**

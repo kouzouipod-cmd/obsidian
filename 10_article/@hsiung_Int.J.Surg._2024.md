@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.1097/JS9.0000000000002069
 
 # 1 AI要約
-![[90_attachments/hsiung_Int.J.Surg._2024/infographic.png]]
 
 ## AI要約
 ### **研究の概要**

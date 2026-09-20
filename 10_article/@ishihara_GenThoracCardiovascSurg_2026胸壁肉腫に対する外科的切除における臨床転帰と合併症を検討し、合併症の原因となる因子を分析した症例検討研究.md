@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.1007/s11748-025-02191-6
 
 # 1 AI要約
-![[90_attachments/ishihara_GenThoracCardiovascSurg_2026/infographic.png]]
 
 ## AI要約
 ### **研究の概要**

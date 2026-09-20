@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.3109/2000656X.2015.1125359
 
 # 1 AI要約
-![[90_attachments/numajiri_J.Plast.Surg.HandSurg._2016/infographic.png]]
 
 ## AI要約
 ### **研究の概要**

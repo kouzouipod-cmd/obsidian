@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.1097/SAP.0000000000004330
 
 # 1 AI要約
-![[90_attachments/furuse_Ann.Plast.Surg._2025/infographic.png]]
 
 ## AI要約
 ### **研究の概要**

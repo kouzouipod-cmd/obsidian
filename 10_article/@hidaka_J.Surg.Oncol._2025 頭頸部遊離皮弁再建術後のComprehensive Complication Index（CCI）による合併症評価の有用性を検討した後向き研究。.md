@@ -11,7 +11,6 @@ read: false
 > https://doi.org/10.1002/jso.70077
 
 # 1 AI要約
-![[90_attachments/hidaka_J.Surg.Oncol._2025/infographic.png]]
 
 ## AI要約
 ### **研究の概要**
