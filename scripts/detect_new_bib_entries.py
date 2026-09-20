@@ -150,7 +150,9 @@ def note_text_for_infographic(note_path):
     lines = text.split("\n")
 
     for i, l in enumerate(lines):
-        if l.strip().startswith("> [!Abstract]"):
+        # 古いノートは '>[!Abstract]'（空白なし）で書かれている。空白を仮定すると
+        # 抄録を見落とし、代わりにAI要約から画像を作ることになる（Hsiung/Numajiriで発生）。
+        if l.strip().replace("> [", ">[").startswith(">[!Abstract]"):
             out = []
             for m in lines[i + 1:]:
                 if not m.startswith(">"):
