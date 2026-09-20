@@ -178,6 +178,23 @@ def note_text_for_infographic(note_path):
     return (summary, "note-summary") if len(summary) > 100 else ("", "")
 
 
+IMAGE_EMBED_RE = re.compile(r"!\[\[[^\]]+\.(?:png|jpe?g|webp|gif)(?:\|[^\]]*)?\]\]", re.IGNORECASE)
+
+
+def has_embedded_image(note_path):
+    """True if the note already shows an image of its own.
+
+    The traumatic neuroma notes carry NotebookLM infographics pasted as
+    '![[Pasted image ....png]]' (sometimes with a |width suffix) rather than
+    90_attachments/<citekey>/infographic.png, so a backfill that only checked
+    that path would add a second, redundant figure to every one of them.
+    """
+    try:
+        return bool(IMAGE_EMBED_RE.search(Path(note_path).read_text(encoding="utf-8", errors="ignore")))
+    except OSError:
+        return False
+
+
 def backfill(folder, limit):
     """Entries whose note exists but has no infographic yet (manual run)."""
     print("=" * 60)
@@ -191,6 +208,7 @@ def backfill(folder, limit):
         and not p.startswith("99_template")
         and (not folder or p.split("/")[0] == folder)
         and not (Path("90_attachments") / k / "infographic.png").exists()
+        and not has_embedded_image(p)
     }
     print(f"Notes without infographic: {len(targets)}")
     if not targets:
