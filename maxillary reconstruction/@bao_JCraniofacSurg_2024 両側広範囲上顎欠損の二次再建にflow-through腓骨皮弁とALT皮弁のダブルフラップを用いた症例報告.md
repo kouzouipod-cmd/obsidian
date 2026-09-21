@@ -18,31 +18,39 @@ arm: double-flap
 # 1 AI要約
 ![[90_attachments/bao_JCraniofacSurg_2024/infographic.png]]
 
-## 要約
-上顎欠損の不十分な再建は咀嚼・発語・審美に大きな障害をきたす。広範かつ両側性の欠損に対しては十分な骨量と軟部組織量の双方が必要であり、単一皮弁では対応困難な場合がある。本例は48歳男性の両側広範囲上顎欠損に対して腓骨遊離皮弁（flow-through型）とALT皮弁の複合再建を二次手術として実施した症例報告である。
-
-二次再建では一次再建に比べて受容血管が乏しく、ペディクル長も問題になる。Flow-through技術を腓骨皮弁に適用することで、ALTへの血流を腓骨のペディクル末端から供給し、1セットの受容血管で2皮弁を同時に養う吻合構成を実現した。この戦略が二次再建の技術的障壁を克服する鍵となった。
-
-術後経過は良好で、両側欠損の再建に成功した。現在インプラント科にリファーしており、骨結合型インプラントによる咬合機能再建を予定している。Flow-through設計は二次再建における受容血管不足の現実的解決策として今後の応用が期待される。
 
 ## AI要約
 ### **研究の概要**
-- 両側広範囲上顎欠損の二次再建にflow-through腓骨皮弁＋ALT皮弁のダブルフラップを用いた48歳男性の症例報告。
+- 48歳男性の両側広範囲上顎欠損に対し、flow-through腓骨遊離皮弁とALT遊離皮弁を組み合わせて二次再建した症例報告。
+
 ### **先行研究との差異および優位性**
-- Flow-through技術によりドナー血管不足という二次再建特有の課題を克服した点が新規性。
+- 二次再建で問題となる**受容血管の不足**と**血管茎長の制限**を、flow-through法で同時に解決した点。
+- 腓骨皮弁の遠位側で血流を継いでALTを吻合するため、頸部で2組の受容血管を確保する必要がない。
+
 ### **研究手法**
-- 症例報告（n=1）。二次再建における血管吻合戦略と皮弁デザインを詳述。
+- flow-through腓骨遊離皮弁＋ALT遊離皮弁による二次再建。
+
 ### **結果**
-- 両側欠損の再建に成功。術後合併症なし。インプラント科へリファー済み。
+- 両側上顎欠損の再建に成功、術後経過は問題なし（uneventful）。
+- 患者の満足度は良好。骨結合型歯科インプラント埋入のためインプラント科へ紹介。
+- ⚠️ 症例報告のため n=1。定量的アウトカムなし。
+
 ### **考察および課題**
-- 二次再建では受容血管が乏しいためflow-through設計が有効。長期インプラント骨結合の成績確認が今後の課題。
+- **ダブルフラップの技術的ボトルネックが「血管」であること**を明示し、その解法を示した点に価値がある。
+- 上顎という部位でのfibula+ALTダブルフラップの数少ない報告。
+- 二次再建（＝瘢痕・照射後）という最も条件の悪い状況での実施例。
+- 同じflow-through戦略は tsuge_PlastReconstrSurgGlobOpen_2022 でも下顎で用いられている。
+
 ### **キーワード**
-- #flow_through_flap, #fibula_free_flap, #ALT_flap, #maxillary_reconstruction, #secondary_reconstruction
+- #double_free_flap, #flow_through, #maxillary_reconstruction, #secondary_reconstruction, #recipient_vessel
+
 ### **wikilink**
-- [[腓骨皮弁]]
-- [[前外側大腿皮弁]]
-- [[上顎再建]]
-- [[Flow-through皮弁]]
+- [[Double Free Flap]]
+- [[Flow-through Anastomosis]]
+- [[Maxillary Reconstruction]]
+- [[Fibula Free Flap]]
+- [[Anterolateral Thigh Flap]]
+- [[Vessel Selection]]
 
 # 2 Citation
 Bao M, Paka Lubamba G, Hua Y, Zhang G, Wang M, Gao N, Li C. Reconstruction of Extensive Maxillary Defects Using Flow-Through Fibula Free Flap With Anterolateral Thigh Free Flap. J Craniofac Surg. 2024;35(4):1268-1271.

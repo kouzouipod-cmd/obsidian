@@ -18,31 +18,45 @@ arm: single-flap-practice-pattern
 # 1 AI要約
 ![[90_attachments/rogers_EurArchOtorhinolaryngol_2022/infographic.png]]
 
-## 要約
-上顎切除後の再建と歯科リハビリテーションにおける最適解は長年の議論対象であるが、頬骨インプラント技術の洗練がその答えを変えつつある。本研究は27年間（1994〜2020年）の連続186例を解析し、上顎再建と口腔リハビリの潮流変化を明らかにした。
-
-186例の内訳は歯槽部56%（104例）、硬口蓋19%（35例）、上顎洞18%（34例）、鼻部7%（13例）。Brown class 2が52%（97例）を占めた。45例が補綴（オブチュレーター）で対応し、78%（142/183例）が遊離組織移植を受けた。使用皮弁は橈骨前腕52例・ALT 27例・DCIA 22例・肩甲骨13例・腓骨11例の順であった。
-
-27年間で再建様式・一次インプラント使用・歯科修復方法・入院期間に有意な変化がみられた。2年生存率64%、5年生存率42%。頬骨インプラントの台頭が皮弁選択にも影響を与えており、従来は骨皮弁が選ばれていた場面でも軟部皮弁＋頬骨インプラントという選択肢が現実的になってきた。
 
 ## AI要約
 ### **研究の概要**
-- 上顎癌切除後の再建法と口腔リハビリテーションの27年間の変遷を186例で追跡し、頬骨インプラントによる転換を示した後方視的コホート。
+- 1994年1月〜2020年11月の27年間、単一施設の上顎切除症例186例について、再建法・補綴リハビリ・生存を追跡。
+- 頬骨インプラント（zygomatic implant）技術の洗練が、皮弁選択そのものを変えたという主張。
+
 ### **先行研究との差異および優位性**
-- 27年間の単施設連続症例で長期トレンドを定量化し、頬骨インプラントが再建選択に与えた影響を実証。
+- 27年という長期の**実践パターンの変遷**を追った研究は稀。単発の手技報告ではなく、施設の意思決定がどう動いたかを示す。
+- ZIP flap（zygomatic implant perforated flap）という概念を含む。
+
 ### **研究手法**
-- 後方視的コホート研究。n=186。1994年1月〜2020年11月。主要評価項目：再建様式の経時変化・生存率。
+- 診療録の後方視的レビュー。腫瘍部位、再建法、一次インプラント使用、歯科補綴の種類、在院日数、生存を経時的に比較。
+
 ### **結果**
-- 遊離皮弁施行率78%（142/183）。主要皮弁：橈骨52、ALT 27、DCIA 22、肩甲骨13、腓骨11。2年生存率64%、5年生存率42%。再建型・インプラント使用・歯科修復・入院日数に有意な経時変化。
+- 腫瘍部位: 歯槽 56%（104）、硬口蓋 19%（35）、上顎洞 18%（34）、鼻腔 7%（13）
+- **Brown class 2 が 52%（97例）** ＝最多
+- 顎義歯（obturation）で管理 45例、遊離組織移植 **78%（142/183）**
+- 皮弁内訳: **前腕 52 / ALT 27 / DCIA 22 / 肩甲骨 13 / 腓骨 11**
+- 全生存: 24ヶ月 64%（SE 4%）、60ヶ月 42%（SE 4%）
+- 再建法・一次インプラント使用・歯科修復の種類・在院日数のいずれにも経時的な有意変化あり。
+
 ### **考察および課題**
-- 頬骨インプラントの普及が皮弁選択と歯科リハ速度を変えた。長期QOLデータが不足。
+- **注目すべきは皮弁内訳。軟部皮弁（前腕52＋ALT27＝79例）が骨皮弁（DCIA22＋肩甲骨13＋腓骨11＝46例）を上回る。** 上顎では骨再建が必須ではないという実践を示す。
+- 頬骨インプラントが「骨がなくても歯科リハビリができる」経路を開いたため、骨皮弁の必要性が相対的に低下した、というのが著者の論旨。
+- **本研究のRQに対する最も強い対抗仮説。** 「ダブルフラップで骨と軟部を両方入れる」ことの必要性そのものを問い直す。Discussionで正面から扱うべき。
+- [[Zygomatic Implant]] の成績は kammerer_IntJImplantDent_2023 と併読すること。
+
 ### **キーワード**
-- #maxillary_reconstruction, #zygomatic_implant, #microvascular_reconstruction, #dental_rehabilitation, #longitudinal
+- #maxillary_reconstruction, #zygomatic_implant, #dental_rehabilitation, #practice_pattern, #brown_classification
+
 ### **wikilink**
-- [[上顎再建]]
-- [[頬骨インプラント]]
-- [[前外側大腿皮弁]]
-- [[橈骨前腕皮弁]]
+- [[Maxillary Reconstruction]]
+- [[Zygomatic Implant]]
+- [[Dental Rehabilitation]]
+- [[Brown Classification]]
+- [[Obturator]]
+- [[Anterolateral Thigh Flap]]
+- [[Radial Forearm Free Flap]]
+- [[Free Flap]]
 
 # 2 Citation
 Rogers SN, Adatia A, Hackett S, Boscarino A, Patel A, Lowe D, Butterworth CJ. Changing trends in the microvascular reconstruction and oral rehabilitation following maxillary cancer. Eur Arch Otorhinolaryngol. 2022;279(8):4113-4126.

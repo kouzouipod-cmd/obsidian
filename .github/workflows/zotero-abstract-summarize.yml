@@ -78,7 +78,9 @@ jobs:
           mode: 'agent'
           model: 'claude-sonnet-4-6'
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          allowed_tools: "Read,Write,Bash(python:*),Bash(ls:*),Bash(cat:*),Bash(mkdir:*)"
+          # backfill では既存ノートに画像を足すだけなので Write を渡さない。
+          # 2026-09-21、maxillary の15ノートが指示に反して要約ごと書き換えられた。
+          allowed_tools: ${{ inputs.mode == 'backfill' && 'Read,Bash(python:*),Bash(ls:*),Bash(cat:*),Bash(mkdir:*)' || 'Read,Write,Bash(python:*),Bash(ls:*),Bash(cat:*),Bash(mkdir:*)' }}
           direct_prompt: |
             新規文献エントリの処理を行います。
             ## 重要な制約
@@ -184,6 +186,12 @@ jobs:
       - name: Embed infographics into existing notes
         if: steps.detect.outputs.has_new == 'true'
         run: python scripts/embed_infographic.py
+
+      # 既存ノートへの変更は「画像の行を1行足す」以外あってはならない。
+      # それ以外の差分があるノートは、この実行の変更を捨てて元に戻す。
+      - name: Revert unexpected edits to existing notes
+        if: steps.detect.outputs.has_new == 'true'
+        run: python scripts/guard_note_edits.py
 
       - name: Commit and push changes
         if: steps.detect.outputs.has_new == 'true'
