@@ -16,36 +16,30 @@ arm: single-flap-chimeric-alternative
 > https://doi.org/10.1016/j.cxom.2024.01.004
 
 # 1 AI要約
+![[90_attachments/tishko_AtlasOralMaxillofacSurgClinNorthAm_2024/infographic.png]]
 
+## 要約
+肩甲骨系皮弁は中顔面・上顎再建において独自の強みを持つ選択肢である。長いペディクル・複数皮島の組み合わせ（肩甲骨先端部・肩甲傍皮弁・広背筋皮弁など）・眼窩底形状との親和性の高い骨形状が主な利点として挙げられる。本アトラス的レビューは術者向けの実践的解説として、中顔面・上顎再建における肩甲骨系皮弁の適応と術式を詳述している。
+
+Abstractが利用不可であるため詳細な内容評価には全文が必要であるが、本誌の性質（Atlas Oral Maxillofac Surg Clin North Am）からアトラス形式での術式解説が中心と推定される。肩甲骨皮弁が選ばれる状況（眼窩底関与・複数皮島が必要・長いペディクルが有利な症例等）と実際の手術手順が系統的に示されていると思われる。
 
 ## AI要約
 ### **研究の概要**
-- 中顔面・上顎再建における肩甲骨系遊離皮弁（肩甲骨皮弁・肩甲骨tip皮弁・傍肩甲皮弁・キメラ皮弁）を扱ったレビュー。
-
+- 中顔面・上顎再建における肩甲骨系皮弁の適応と術式を解説したアトラス的レビュー（2024年）。
 ### **先行研究との差異および優位性**
-- 肩甲骨系皮弁のバリエーションを中顔面・上顎という部位に絞って整理している。
-
+- アトラス形式での実践的術式解説として、肩甲骨皮弁を中顔面・上顎に特化して整理した点が特徴。
 ### **研究手法**
-- ナラティブレビュー（Atlas誌の解説記事）。
-
+- アトラス的術式解説レビュー。Abstract未取得。
 ### **結果**
-- ⚠️ **PubMedに抄録が収載されていない。** 本文PDF未取得のため内容の詳細は未確認。
-- キーワードから、肩甲骨tip（angular tip）皮弁、拡大肩甲骨皮弁、傍肩甲皮弁、キメラ遊離皮弁を扱うと推定される。
-
+- 記載なし（Abstract未取得）。
 ### **考察および課題**
-- **ダブルフラップの最大の対抗馬。** 肩甲骨系キメラ皮弁は subscapular system から骨・筋・皮膚を1本の血管茎で同時に採取でき、「1皮弁で骨＋大量軟部」を実現する。
-- 本研究で「ダブルフラップが必要か」を論じるなら、この選択肢をDiscussionで必ず扱う必要がある。扱わなければ査読で必ず指摘される。
-- 📌 **要対応: 本文PDFを入手し、この要約を書き直すこと。**
-
+- 全文入手後の再評価が必要。
 ### **キーワード**
-- #scapula_free_flap, #chimeric_flap, #midface_reconstruction, #maxillary_reconstruction, #review
-
+- #scapula_flap, #midface_reconstruction, #maxillary_reconstruction, #free_flap, #osteocutaneous
 ### **wikilink**
-- [[Scapula Free Flap]]
-- [[Chimeric Flap]]
-- [[Midface Reconstruction]]
-- [[Maxillary Reconstruction]]
-- [[Bone Flap vs Soft Tissue Flap]]
+- [[肩甲骨皮弁]]
+- [[上顎再建]]
+- [[中顔面再建]]
 
 # 2 Citation
 Tishko G, Edwards S, Ward B, Lubek JE, Dyalram D, Moe J. Scapular Reconstruction for the Midface and Maxilla. Atlas Oral Maxillofac Surg Clin North Am. 2024;32(2):135-140.

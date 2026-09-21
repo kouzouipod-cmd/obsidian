@@ -16,43 +16,34 @@ arm: double-flap
 > https://doi.org/10.1097/GOX.0000000000004607
 
 # 1 AI要約
+![[90_attachments/tsuge_PlastReconstrSurgGlobOpen_2022/infographic.png]]
 
+## 要約
+下顎関節突起を含む広範な下顎切除は、咬合機能と顔貌審美の再建という二重の難題をもたらす。16歳女性の急速増大性下顎骨肉腫に対し、腓骨骨皮弁とY字型ALT皮弁（筋膜皮弁＋脱上皮脂肪皮弁に分割）のダブルフラップ再建を実施した症例報告である。
+
+3Dモデルと事前屈曲チタンプレートを用いて腓骨をプレファブリケーションし、腓骨で新たな関節突起を形成した。Y字型ALT皮弁の筋膜弁は腓骨製代替関節突起を覆う関節包の代用として使用され、脱上皮脂肪弁は側頭部の陥凹変形防止に用いられた。腓骨の腓骨動静脈はALT下行枝の末端にflow-through様式で吻合することで、1セットの受容血管で2皮弁を養う血行再建を実現した。
+
+術後12ヶ月で咬合機能・審美バランスとも良好な結果が得られた。関節突起を含む複雑な下顎再建において、3Dプランニング・flow-through吻合・複合皮弁戦略の統合が有効であることを示した症例である。
 
 ## AI要約
 ### **研究の概要**
-- 16歳女性の急速増大する下顎骨肉腫に対し、右第一小臼歯部から関節突起までの下顎切除（側頭筋・咬筋・頬粘膜・上顎の一部を含む）後、血管柄付き腓骨骨皮弁とY字型ALT皮弁で再建した症例報告。
-- 京都大学からの報告。
-
+- 16歳女性の下顎骨肉腫に対し、腓骨皮弁＋Y字型ALT皮弁のダブルフラップで関節突起を含む下顎再建を行った症例報告。
 ### **先行研究との差異および優位性**
-- **ALT皮弁を筋膜弁と脱上皮脂肪弁に分割**し、1皮弁を2つの目的に使い分けた点が技術的に新しい。
-    - 筋膜弁 → 切除した顎関節包の代替として腓骨で作った代替関節突起を被覆
-    - 脱上皮脂肪弁 → 側頭部の陥凹変形を予防
-
+- 3Dプランニング・flow-through吻合・複合皮弁の統合により、関節突起を含む複雑な下顎再建を実現した点が新規性。
 ### **研究手法**
-- 3Dモデルと事前屈曲チタンプレートを用いたプレファブリケーション。
-- ALT皮弁は 23 × 6 cm。近位 8 × 4 cm の皮島を左頬粘膜の再建に、遠位は脱上皮脂肪弁と筋膜弁の2層に分割。
-- 腓骨動静脈をALT下行枝の動静脈遠位端に**flow-through**で顕微鏡下吻合。
-
+- 症例報告（n=1、16歳女性、下顎骨肉腫）。評価：術後12ヶ月の咬合機能・審美。
 ### **結果**
-- 術後12ヶ月で咬合機能・整容的バランスとも良好。
-- 手術時間・ドナー部瘢痕とも許容範囲と記載。
-- ⚠️ 症例報告のため n=1。定量的アウトカムなし。
-
+- 術後12ヶ月で咬合機能・審美バランスとも良好。脂肪弁による側頭陥凹防止・筋膜弁による関節包代替に成功。
 ### **考察および課題**
-- **ALTを分割して複数の役割を担わせる発想は上顎再建にも応用可能**（頬部volume補填＋口腔内被覆など）。
-- flow-through吻合により受容血管を1組に節約する戦略は bao_JCraniofacSurg_2024 と共通。ダブルフラップの血管問題への標準解答になりつつある。
-- 部位は下顎・顎関節であり上顎そのものではない。RQでは「ダブルフラップの技術的レパートリー」を示す補助文献として扱う。
-
+- 関節突起再建における代替関節突起戦略の有用性を示す。長期経過の追跡が必要。
 ### **キーワード**
-- #double_free_flap, #flow_through, #fibula_free_flap, #anterolateral_thigh_flap, #mandibular_reconstruction
-
+- #mandibular_reconstruction, #fibula_free_flap, #ALT_flap, #double_flap, #condylar_reconstruction
 ### **wikilink**
-- [[Double Free Flap]]
-- [[Flow-through Anastomosis]]
-- [[Fibula Free Flap]]
-- [[Anterolateral Thigh Flap]]
-- [[Head and Neck Reconstruction]]
-- [[Microsurgery]]
+- [[腓骨皮弁]]
+- [[前外側大腿皮弁]]
+- [[下顎再建]]
+- [[Flow-through皮弁]]
+- [[バーチャルサージカルプランニング]]
 
 # 2 Citation
 Tsuge I, Yamanaka H, Katsube M, Sowa Y, Sakamoto M, Morimoto N. Double-flap Mandibular Reconstruction around the Condylar Head Using Fibula and Anterolateral Thigh Flaps. Plast Reconstr Surg Glob Open. 2022;10(11):e4607.
