@@ -14,6 +14,7 @@ domain: head_neck
 > https://doi.org/10.1007/s10006-026-01639-0
 
 # 1 AI要約
+![[90_attachments/wieker_OralMaxillofacSurg_2026/infographic.png]]
 
 
 ## 要約

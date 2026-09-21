@@ -14,6 +14,7 @@ domain: lymphedema
 > https://doi.org/10.1016/j.bjps.2026.08.044
 
 # 1 AI要約
+![[90_attachments/malagon_JPlastReconstrAesthetSurg_2026/infographic.png]]
 
 
 ## 要約

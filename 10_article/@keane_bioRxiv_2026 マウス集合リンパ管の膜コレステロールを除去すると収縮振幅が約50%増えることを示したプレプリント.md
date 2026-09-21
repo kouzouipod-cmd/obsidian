@@ -14,6 +14,7 @@ domain: lymphedema
 > https://doi.org/10.64898/2026.08.04.742795
 
 # 1 AI要約
+![[90_attachments/keane_bioRxiv_2026/infographic.png]]
 
 
 ## 要約
