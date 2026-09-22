@@ -16,7 +16,7 @@ arm: flap-technique
 > https://doi.org/10.1007/s10006-024-01237-y
 
 # 1 AI要約
-
+![[90_attachments/miyamoto_OralMaxillofacSurg_2024/infographic.png]]
 
 ## 要約
 
