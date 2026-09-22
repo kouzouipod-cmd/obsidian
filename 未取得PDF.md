@@ -2,9 +2,9 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-19 13:43  ／  全 70 件中 **取得済み 45 件**
+生成: 2026-09-22 10:19  ／  全 74 件中 **取得済み 45 件**
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 23 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 26 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -29,6 +29,12 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Urken ML 1998 Arch Otolaryngol Head Neck Surg**
   - https://doi.org/10.1001/archotol.124.1.46
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Urken_1998_oromandibular_reconstruction_210cases_ArchOtolaryngol.pdf`
+- **Wieker H 2026 Oral Maxillofac Surg**
+  - https://doi.org/10.1007/s10006-026-01639-0
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Wieker_2026_transoral_robotic_palate_upper_arm_flap_OralMaxillofacSurg.pdf`
+- **Malagón P 2026 J Plast Reconstr Aesthet Surg**
+  - https://doi.org/10.1016/j.bjps.2026.08.044
+  - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Malagon_2026_HFUS_skin_thickness_lower_limb_lymphedema_JPRAS.pdf`
 - **Salim D 2026 Ugeskr Laeger**
   - https://doi.org/10.61409/V02260157
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Salim_2026_lymphatic_supermicrosurgery_neurodegeneration_review_UgeskrLaeger.pdf`
@@ -53,6 +59,9 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Mavrogenis AF 2019 Injury**
   - https://doi.org/10.1016/j.injury.2019.10.061
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf`
+- **Miyamoto S 2024 Oral Maxillofac Surg**
+  - https://doi.org/10.1007/s10006-024-01237-y
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Miyamoto_2024_scapula_harvest_supine_mandibular_OralMaxillofacSurg.pdf`
 - **Quadri P 2023 Otolaryngol Clin North Am**
   - https://doi.org/10.1016/j.otc.2023.04.002
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Quadri_2023_oral_cavity_reconstruction_OtolaryngolClin.pdf`
@@ -78,7 +87,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - https://doi.org/10.1097/SCS.0000000000008399
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yu_2021_complete_bilateral_maxillary_defects_free_flaps_JCraniofacSurg.pdf`
 
-## 入手困難（依頼しない・記録のみ）— 2 件
+## 入手困難（依頼しない・記録のみ）— 3 件
 
 試して取れなかったもの。**このリストにある論文のPDFはユーザーに依頼しないこと。**
 必要になったら図書館の文献複写依頼（ILL）で取り寄せる。
@@ -91,6 +100,10 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - https://pubmed.ncbi.nlm.nih.gov/1896529/
   - 1989年・1991年のPlast Reconstr Surg。Ovidの機関アクセスが電子化以前の巻号に及ばない。2026-09-15にユーザーが試みて不可。必要ならILL（図書館の文献複写依頼）。1991年はdiscussion(586-7)も併せて依頼すること。
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Hidalgo_1991_aesthetic_bone_shaping_mandible_PRS.pdf`
+- **Keane K 2026 bioRxiv**
+  - https://doi.org/10.64898/2026.08.04.742795
+  - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
+  - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
 
 ## 取得済み — 45 件
 
