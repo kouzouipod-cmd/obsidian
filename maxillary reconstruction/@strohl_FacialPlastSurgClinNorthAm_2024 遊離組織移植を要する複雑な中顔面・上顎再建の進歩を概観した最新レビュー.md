@@ -2,7 +2,7 @@
 tags:
   - PMID/39523036
 citekey: "strohl_FacialPlastSurgClinNorthAm_2024"
-dateread: '2026-09-15'
+dateread: '2026-09-22'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

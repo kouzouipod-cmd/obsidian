@@ -2,7 +2,7 @@
 tags:
   - PMID/33380908
 citekey: "vahidi_SeminPlastSurg_2020"
-dateread: '2026-09-15'
+dateread: '2026-09-22'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

@@ -2,7 +2,7 @@
 tags:
   - PMID/39059873
 citekey: "tishko_AtlasOralMaxillofacSurgClinNorthAm_2024"
-dateread: '2026-09-15'
+dateread: '2026-09-22'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

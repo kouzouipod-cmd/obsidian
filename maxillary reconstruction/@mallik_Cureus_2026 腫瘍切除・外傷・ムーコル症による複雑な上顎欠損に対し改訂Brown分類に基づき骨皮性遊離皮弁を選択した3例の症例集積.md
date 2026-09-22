@@ -2,7 +2,7 @@
 tags:
   - PMID/42698939
 citekey: "mallik_Cureus_2026"
-dateread: '2026-09-15'
+dateread: '2026-09-22'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

@@ -2,9 +2,9 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-22 10:19  ／  全 74 件中 **取得済み 45 件**
+生成: 2026-09-22 10:50  ／  全 74 件中 **取得済み 47 件**
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 26 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 24 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -59,9 +59,6 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Mavrogenis AF 2019 Injury**
   - https://doi.org/10.1016/j.injury.2019.10.061
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf`
-- **Miyamoto S 2024 Oral Maxillofac Surg**
-  - https://doi.org/10.1007/s10006-024-01237-y
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Miyamoto_2024_scapula_harvest_supine_mandibular_OralMaxillofacSurg.pdf`
 - **Quadri P 2023 Otolaryngol Clin North Am**
   - https://doi.org/10.1016/j.otc.2023.04.002
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Quadri_2023_oral_cavity_reconstruction_OtolaryngolClin.pdf`
@@ -77,9 +74,6 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Vashistha A 2024 J Stomatol Oral Maxillofac Surg**
   - https://doi.org/10.1016/j.jormas.2024.102067
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Vashistha_2024_delayed_maxillary_reconstruction_mucormycosis_JOMS.pdf`
-- **Wang J 2024 Otolaryngol Head Neck Surg**
-  - https://doi.org/10.1002/ohn.922
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Wang_2024_chimeric_vs_multiple_free_flaps_OHNS.pdf`
 - **Yesensky J 2020 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000662
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yesensky_2020_orbital_exenteration_reconstruction_CurrOpin.pdf`
@@ -105,7 +99,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
 
-## 取得済み — 45 件
+## 取得済み — 47 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -148,7 +142,9 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Jategaonkar AA 2020 Semin Plast Surg
 - Kämmerer PW 2023 Int J Implant Dent
 - Mallik M 2026 Cureus
+- Miyamoto S 2024 Oral Maxillofac Surg
 - Rogers SN 2022 Eur Arch Otorhinolaryngol
 - Tsuge I 2022 Plast Reconstr Surg Glob Open
 - Vahidi N 2020 Semin Plast Surg
+- Wang J 2024 Otolaryngol Head Neck Surg
 - Xu Y 2023 Front Bioeng Biotechnol

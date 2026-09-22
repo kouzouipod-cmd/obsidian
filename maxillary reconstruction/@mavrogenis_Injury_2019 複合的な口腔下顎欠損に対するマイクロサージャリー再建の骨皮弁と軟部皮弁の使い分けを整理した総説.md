@@ -2,7 +2,7 @@
 tags:
   - PMID/31732121
 citekey: "mavrogenis_Injury_2019"
-dateread: '2026-09-15'
+dateread: '2026-09-22'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
