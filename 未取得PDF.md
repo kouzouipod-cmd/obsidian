@@ -2,9 +2,9 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-22 11:03  ／  全 74 件中 **取得済み 47 件**
+生成: 2026-09-22 11:26  ／  全 74 件中 **取得済み 48 件**
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 24 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 23 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -71,9 +71,6 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Vander Poorten V 2016 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000241
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\VanderPoorten_2016_midface_prosthetic_rehabilitation_CurrOpin.pdf`
-- **Vashistha A 2024 J Stomatol Oral Maxillofac Surg**
-  - https://doi.org/10.1016/j.jormas.2024.102067
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Vashistha_2024_delayed_maxillary_reconstruction_mucormycosis_JOMS.pdf`
 - **Yesensky J 2020 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000662
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yesensky_2020_orbital_exenteration_reconstruction_CurrOpin.pdf`
@@ -99,7 +96,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
 
-## 取得済み — 47 件
+## 取得済み — 48 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -146,5 +143,6 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Rogers SN 2022 Eur Arch Otorhinolaryngol
 - Tsuge I 2022 Plast Reconstr Surg Glob Open
 - Vahidi N 2020 Semin Plast Surg
+- Vashistha A 2024 J Stomatol Oral Maxillofac Surg
 - Wang J 2024 Otolaryngol Head Neck Surg
 - Xu Y 2023 Front Bioeng Biotechnol
