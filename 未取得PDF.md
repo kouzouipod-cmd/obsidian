@@ -2,9 +2,16 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-22 11:26  ／  全 74 件中 **取得済み 48 件**
+生成: 2026-09-24 15:50  ／  全 84 件中 **取得済み 48 件**
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 23 件
+## 私が取得できる（PMC掲載）— 1 件
+
+etch_pmc_pdf.ps1 で取れる。ユーザーの操作は不要。
+
+- **Sampathirao LMCSR 2013 Craniomaxillofac Trauma Reconstr** — PMC3721007
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.pdf`
+
+## ユーザーにお願いする（購読誌・PMC収載なし）— 32 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -44,24 +51,48 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Chang TY 2022 Microsurgery**
   - https://doi.org/10.1002/micr.30893
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Chang_2022_fibula_vs_ALT_plate_HRQOL_Microsurgery.pdf`
+- **Cho MJ 2024 Plast Reconstr Surg**
+  - https://doi.org/10.1097/PRS.0000000000011711
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Cho_2024_maxillary_reconstruction_free_fibula_15yr_experience_PRS.pdf`
 - **Cordeiro PG 2000 Plast Reconstr Surg**
   - https://doi.org/10.1097/00006534-200006000-00004
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Cordeiro_2000_maxillectomy_classification_algorithm_PRS.pdf`
+- **Cordeiro PG 2012 Plast Reconstr Surg**
+  - https://doi.org/10.1097/PRS.0b013e318221dca4
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Cordeiro_2012_midface_15yr_review_part_I_algorithm_outcomes_PRS.pdf`
+- **Cordeiro PG 2012 Plast Reconstr Surg**
+  - https://doi.org/10.1097/PRS.0b013e318221dc60
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Cordeiro_2012_midface_15yr_review_part_II_technical_modifications_PRS.pdf`
 - **Deng HY 2026 Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi**
   - https://doi.org/10.3760/cma.j.cn115330-20260323-00169
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Deng_2026_recipient_vessels_skull_base_ZhonghuaErBiYanHou.pdf`
+- **Dugast S 2023 Head Neck**
+  - https://doi.org/10.1002/hed.27352
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Dugast_2023_orbit_reconstruction_Brown_class_III_SR_HeadNeck.pdf`
 - **Eskander A 2017 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000396
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Eskander_2017_midface_beyond_reconstructive_ladder_CurrOpin.pdf`
+- **Fenske J 2025 J Craniomaxillofac Surg**
+  - https://doi.org/10.1016/j.jcms.2025.09.003
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Fenske_2025_indications_simultaneous_chimeric_free_flaps_maxillofacial_JCMS.pdf`
+- **Hanasono MM 2013 Plast Reconstr Surg**
+  - https://doi.org/10.1097/PRS.0b013e3182729e73
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Hanasono_2013_comprehensive_algorithm_oncologic_maxillary_reconstruction_PRS.pdf`
 - **Hurley CM 2022 Surgeon**
   - https://doi.org/10.1016/j.surge.2022.04.004
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Hurley_2022_current_trends_craniofacial_reconstruction_Surgeon.pdf`
+- **Kagaya Y 2021 J Plast Reconstr Aesthet Surg**
+  - https://doi.org/10.1016/j.bjps.2021.05.021
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Kagaya_2021_RAMC_flap_volume_change_total_maxillectomy_JPRAS.pdf`
 - **Mavrogenis AF 2019 Injury**
   - https://doi.org/10.1016/j.injury.2019.10.061
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf`
 - **Quadri P 2023 Otolaryngol Clin North Am**
   - https://doi.org/10.1016/j.otc.2023.04.002
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Quadri_2023_oral_cavity_reconstruction_OtolaryngolClin.pdf`
+- **Stalder MW 2019 Ann Plast Surg**
+  - https://doi.org/10.1097/SAP.0000000000001713
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Stalder_2019_single_vs_simultaneous_double_free_flaps_head_neck_AnnPlastSurg.pdf`
 - **Strohl M 2024 Facial Plast Surg Clin North Am**
   - https://doi.org/10.1016/j.fsc.2024.07.004
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Strohl_2024_advances_midface_reconstruction_FPSCNA.pdf`
@@ -71,6 +102,9 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Vander Poorten V 2016 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000241
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\VanderPoorten_2016_midface_prosthetic_rehabilitation_CurrOpin.pdf`
+- **Yamamoto Y 2004 Head Neck**
+  - https://doi.org/10.1002/hed.10366
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yamamoto_2004_buttress_reconstruction_maxillectomy_defects_HeadNeck.pdf`
 - **Yesensky J 2020 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000662
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yesensky_2020_orbital_exenteration_reconstruction_CurrOpin.pdf`
