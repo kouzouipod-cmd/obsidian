@@ -2,7 +2,7 @@
 tags:
   - PMID/38485840
 citekey: "miyamoto_OralMaxillofacSurg_2024"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -17,6 +17,7 @@ arm: flap-technique
 
 # 1 AI要約
 ![[90_attachments/miyamoto_OralMaxillofacSurg_2024/infographic.png]]
+
 
 ## 要約
 

@@ -2,16 +2,16 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-24 15:50  ／  全 84 件中 **取得済み 48 件**
+生成: 2026-09-24 17:24  ／  全 84 件中 **取得済み 53 件**
 
 ## 私が取得できる（PMC掲載）— 1 件
 
 etch_pmc_pdf.ps1 で取れる。ユーザーの操作は不要。
 
-- **Sampathirao LMCSR 2013 Craniomaxillofac Trauma Reconstr** — PMC3721007
+- **Sampathirao LMCSR 2013 Craniomaxillofac Trauma Reconstr** — PMC3721007（全文テキストは取得済み）
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.pdf`
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 32 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 27 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -78,21 +78,9 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Hanasono MM 2013 Plast Reconstr Surg**
   - https://doi.org/10.1097/PRS.0b013e3182729e73
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Hanasono_2013_comprehensive_algorithm_oncologic_maxillary_reconstruction_PRS.pdf`
-- **Hurley CM 2022 Surgeon**
-  - https://doi.org/10.1016/j.surge.2022.04.004
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Hurley_2022_current_trends_craniofacial_reconstruction_Surgeon.pdf`
-- **Kagaya Y 2021 J Plast Reconstr Aesthet Surg**
-  - https://doi.org/10.1016/j.bjps.2021.05.021
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Kagaya_2021_RAMC_flap_volume_change_total_maxillectomy_JPRAS.pdf`
-- **Mavrogenis AF 2019 Injury**
-  - https://doi.org/10.1016/j.injury.2019.10.061
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf`
 - **Quadri P 2023 Otolaryngol Clin North Am**
   - https://doi.org/10.1016/j.otc.2023.04.002
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Quadri_2023_oral_cavity_reconstruction_OtolaryngolClin.pdf`
-- **Stalder MW 2019 Ann Plast Surg**
-  - https://doi.org/10.1097/SAP.0000000000001713
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Stalder_2019_single_vs_simultaneous_double_free_flaps_head_neck_AnnPlastSurg.pdf`
 - **Strohl M 2024 Facial Plast Surg Clin North Am**
   - https://doi.org/10.1016/j.fsc.2024.07.004
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Strohl_2024_advances_midface_reconstruction_FPSCNA.pdf`
@@ -102,9 +90,6 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Vander Poorten V 2016 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000241
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\VanderPoorten_2016_midface_prosthetic_rehabilitation_CurrOpin.pdf`
-- **Yamamoto Y 2004 Head Neck**
-  - https://doi.org/10.1002/hed.10366
-  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yamamoto_2004_buttress_reconstruction_maxillectomy_defects_HeadNeck.pdf`
 - **Yesensky J 2020 Curr Opin Otolaryngol Head Neck Surg**
   - https://doi.org/10.1097/MOO.0000000000000662
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yesensky_2020_orbital_exenteration_reconstruction_CurrOpin.pdf`
@@ -130,7 +115,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
 
-## 取得済み — 48 件
+## 取得済み — 53 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -170,13 +155,18 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Badhey AK 2020 Semin Plast Surg
 - Brown JS 2010 Lancet Oncol
 - Chen SH 2020 Ann Plast Surg
+- Hurley CM 2022 Surgeon
 - Jategaonkar AA 2020 Semin Plast Surg
+- Kagaya Y 2021 J Plast Reconstr Aesthet Surg
 - Kämmerer PW 2023 Int J Implant Dent
 - Mallik M 2026 Cureus
+- Mavrogenis AF 2019 Injury
 - Miyamoto S 2024 Oral Maxillofac Surg
 - Rogers SN 2022 Eur Arch Otorhinolaryngol
+- Stalder MW 2019 Ann Plast Surg
 - Tsuge I 2022 Plast Reconstr Surg Glob Open
 - Vahidi N 2020 Semin Plast Surg
 - Vashistha A 2024 J Stomatol Oral Maxillofac Surg
 - Wang J 2024 Otolaryngol Head Neck Surg
 - Xu Y 2023 Front Bioeng Biotechnol
+- Yamamoto Y 2004 Head Neck

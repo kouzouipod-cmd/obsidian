@@ -2,7 +2,7 @@
 tags:
   - PMID/38026888
 citekey: "xu_FrontBioengBiotechnol_2023"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

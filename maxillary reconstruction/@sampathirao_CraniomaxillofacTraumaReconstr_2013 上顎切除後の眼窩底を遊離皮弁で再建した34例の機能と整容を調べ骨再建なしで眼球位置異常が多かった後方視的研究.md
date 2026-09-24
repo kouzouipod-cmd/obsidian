@@ -11,7 +11,7 @@ arm: extended-defect
 ---
 > [!Data]
 > **PDF**
-> （全文なし）
+> [Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.txt](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.txt) ※PMC全文テキスト（PDFではない）
 > **Link**
 > https://doi.org/10.1055/s-0033-1343777
 

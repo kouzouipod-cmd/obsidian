@@ -2,7 +2,7 @@
 tags:
   - PMID/31732121
 citekey: "mavrogenis_Injury_2019"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
@@ -11,7 +11,7 @@ arm: review-overview
 ---
 > [!Data]
 > **PDF**
-> （全文なし）
+> [Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf)
 > **Link**
 > https://doi.org/10.1016/j.injury.2019.10.061
 

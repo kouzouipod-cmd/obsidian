@@ -2,7 +2,7 @@
 tags:
   - PMID/32390775
 citekey: "badhey_SeminPlastSurg_2020"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

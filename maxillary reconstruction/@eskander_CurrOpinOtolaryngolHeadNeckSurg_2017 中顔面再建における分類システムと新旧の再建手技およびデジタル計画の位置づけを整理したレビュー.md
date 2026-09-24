@@ -2,7 +2,7 @@
 tags:
   - PMID/28692450
 citekey: "eskander_CurrOpinOtolaryngolHeadNeckSurg_2017"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

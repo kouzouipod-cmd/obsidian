@@ -2,7 +2,7 @@
 tags:
   - PMID/42706185
 citekey: "deng_ZhonghuaErBiYanHouTouJingWaiKeZaZhi_2026"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck

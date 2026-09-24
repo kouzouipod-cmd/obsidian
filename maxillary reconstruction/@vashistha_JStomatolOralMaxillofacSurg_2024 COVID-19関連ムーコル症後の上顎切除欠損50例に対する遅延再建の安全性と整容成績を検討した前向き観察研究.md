@@ -2,7 +2,7 @@
 tags:
   - PMID/39278596
 citekey: "vashistha_JStomatolOralMaxillofacSurg_2024"
-dateread: '2026-09-22'
+dateread: '2026-09-24'
 read: false
 topic: maxillary_reconstruction
 domain: head_neck
