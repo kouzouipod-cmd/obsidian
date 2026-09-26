@@ -1,20 +1,20 @@
 ---
 tags:
   - PMID/42776854
-citekey: "brunetti_PlastReconstrSurg_2026"
-dateread: '2026-09-25'
-read: false
+citekey: brunetti_PlastReconstrSurg_2026
+dateread: 2026-09-25
+read: true
 topic: head_neck_general
 domain: head_neck
-title_ja: '全身麻酔に耐えられない虚弱な患者の頭頸部遊離皮弁を神経ブロックと鎮静の覚醒下で行った40例の比較研究'
-title: 'Head and neck free flap reconstruction in frail patients with the Awake Integrated Microsurgical approach.'
-first_author: 'Brunetti B'
+title_ja: 全身麻酔に耐えられない虚弱な患者の頭頸部遊離皮弁を神経ブロックと鎮静の覚醒下で行った40例の比較研究
+title: Head and neck free flap reconstruction in frail patients with the Awake Integrated Microsurgical approach.
+first_author: Brunetti B
 year: 2026
-journal: 'Plast Reconstr Surg'
-design: 'Retrospective cohort'
+journal: Plast Reconstr Surg
+design: Retrospective cohort
 n: 40
-domain_ja: '頭頸部再建'
-topic_ja: '頭頸部再建 一般'
+domain_ja: 頭頸部再建
+topic_ja: 頭頸部再建 一般
 ---
 > [!Data]
 > **PDF**

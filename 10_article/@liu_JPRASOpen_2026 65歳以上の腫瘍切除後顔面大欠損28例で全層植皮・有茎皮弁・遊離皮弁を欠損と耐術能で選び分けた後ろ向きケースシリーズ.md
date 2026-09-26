@@ -1,20 +1,20 @@
 ---
 tags:
   - PMID/42781438
-citekey: "liu_JPRASOpen_2026"
-dateread: '2026-09-25'
-read: false
+citekey: liu_JPRASOpen_2026
+dateread: 2026-09-25
+read: true
 topic: head_neck_general
 domain: head_neck
-title_ja: '65歳以上の腫瘍切除後顔面大欠損28例で全層植皮・有茎皮弁・遊離皮弁を欠損と耐術能で選び分けた後ろ向きケースシリーズ'
-title: 'An individualized reconstructive algorithm for large facial defects after tumor resection in elderly patients: A retrospective case series.'
-first_author: 'Liu X'
+title_ja: 65歳以上の腫瘍切除後顔面大欠損28例で全層植皮・有茎皮弁・遊離皮弁を欠損と耐術能で選び分けた後ろ向きケースシリーズ
+title: "An individualized reconstructive algorithm for large facial defects after tumor resection in elderly patients: A retrospective case series."
+first_author: Liu X
 year: 2026
-journal: 'JPRAS Open'
-design: 'Retrospective case series'
+journal: JPRAS Open
+design: Retrospective case series
 n: 28
-domain_ja: '頭頸部再建'
-topic_ja: '頭頸部再建 一般'
+domain_ja: 頭頸部再建
+topic_ja: 頭頸部再建 一般
 ---
 > [!Data]
 > **PDF**
