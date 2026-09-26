@@ -1,7 +1,7 @@
 ---
 tags:
   - PMID/42751637
-citekey: abend_OTOOpen_2026
+citekey: "abend_OTOOpen_2026"
 dateread: 2026-09-19
 read: false
 topic: head_neck_general

@@ -6,15 +6,15 @@ dateread: 2026-09-26
 read: true
 topic: microsurgery_general
 domain: microsurgery
-title_ja: SCIP皮弁の深層に血管柄付きの筋膜周囲疎性組織を残して腱・神経・喉頭の癒着を防ぐ滑走面とした6例の症例集積
-title: Vascularized Perifascial Areolar Tissue-augmented Superficial Circumflex Iliac Artery Perforator Flap as an Adhesion-tolerant Functional Gliding Interface.
-first_author: Takagi S
+title_ja: 'SCIP皮弁の深層に血管柄付きの筋膜周囲疎性組織を残して腱・神経・喉頭の癒着を防ぐ滑走面とした6例の症例集積'
+title: 'Vascularized Perifascial Areolar Tissue-augmented Superficial Circumflex Iliac Artery Perforator Flap as an Adhesion-tolerant Functional Gliding Interface.'
+first_author: 'Takagi S'
 year: 2026
-journal: Plast Reconstr Surg Glob Open
-design: Retrospective case series
+journal: 'Plast Reconstr Surg Glob Open'
+design: 'Retrospective case series'
 n: 6
-domain_ja: マイクロサージャリー（領域横断）
-topic_ja: マイクロサージャリー・皮弁 一般（領域横断）
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: 'マイクロサージャリー・皮弁 一般（領域横断）'
 ---
 > [!Data]
 > **PDF**

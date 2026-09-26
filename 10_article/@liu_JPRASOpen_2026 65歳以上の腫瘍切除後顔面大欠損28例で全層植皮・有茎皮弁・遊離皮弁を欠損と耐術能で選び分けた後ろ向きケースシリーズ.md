@@ -1,24 +1,24 @@
 ---
 tags:
   - PMID/42781438
-citekey: liu_JPRASOpen_2026
+citekey: "liu_JPRASOpen_2026"
 dateread: 2026-09-25
 read: true
 topic: head_neck_general
 domain: head_neck
-title_ja: 65歳以上の腫瘍切除後顔面大欠損28例で全層植皮・有茎皮弁・遊離皮弁を欠損と耐術能で選び分けた後ろ向きケースシリーズ
-title: "An individualized reconstructive algorithm for large facial defects after tumor resection in elderly patients: A retrospective case series."
-first_author: Liu X
+title_ja: '65歳以上の腫瘍切除後顔面大欠損28例で全層植皮・有茎皮弁・遊離皮弁を欠損と耐術能で選び分けた後ろ向きケースシリーズ'
+title: 'An individualized reconstructive algorithm for large facial defects after tumor resection in elderly patients: A retrospective case series.'
+first_author: 'Liu X'
 year: 2026
-journal: JPRAS Open
-design: Retrospective case series
+journal: 'JPRAS Open'
+design: 'Retrospective case series'
 n: 28
-domain_ja: 頭頸部再建
-topic_ja: 頭頸部再建 一般
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**
-> [Liu_2026_elderly_large_facial_defect_algorithm_JPRASOpen.pdf](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Liu_2026_elderly_large_facial_defect_algorithm_JPRASOpen.pdf)
+> [liu_JPRASOpen_2026 PDF](file://C:/Users/user/Zotero/storage/H4BUCDAY/Liu%20et%20al.%20-%202026%20-%20An%20individualized%20reconstructive%20algorithm%20for%20large%20facial%20defects%20after%20tumor%20resection%20in%20elderly.pdf)
 > **Link**
 > https://doi.org/10.1016/j.jpra.2026.09.007
 
