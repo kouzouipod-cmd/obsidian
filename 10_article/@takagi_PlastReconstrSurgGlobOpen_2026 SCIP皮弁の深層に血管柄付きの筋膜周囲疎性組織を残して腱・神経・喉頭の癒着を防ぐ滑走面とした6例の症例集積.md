@@ -23,6 +23,7 @@ topic_ja: 'マイクロサージャリー・皮弁 一般（領域横断）'
 > https://doi.org/10.1097/GOX.0000000000008111
 
 # 1 AI要約
+![[90_attachments/takagi_PlastReconstrSurgGlobOpen_2026/infographic.png]]
 
 
 ## 要約
