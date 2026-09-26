@@ -2,14 +2,16 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-25 17:52  ／  全 88 件中 **取得済み 57 件**
+生成: 2026-09-26 15:42  ／  全 89 件中 **取得済み 57 件**
 
-## 私が取得できる（PMC掲載）— 1 件
+## 私が取得できる（PMC掲載）— 2 件
 
 etch_pmc_pdf.ps1 で取れる。ユーザーの操作は不要。
 
 - **Sampathirao LMCSR 2013 Craniomaxillofac Trauma Reconstr** — PMC3721007（全文テキストは取得済み）
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.pdf`
+- **Dastagir K 2026 Plast Reconstr Surg Glob Open** — PMC13596937（全文テキストは取得済み）
+  - `C:\Users\user\claude\papers\microsurgery_general\fulltext\Dastagir_2026_Symani_robot_assisted_microsurgery_40cases_PRSGO.pdf`
 
 ## ユーザーにお願いする（購読誌・PMC収載なし）— 27 件
 

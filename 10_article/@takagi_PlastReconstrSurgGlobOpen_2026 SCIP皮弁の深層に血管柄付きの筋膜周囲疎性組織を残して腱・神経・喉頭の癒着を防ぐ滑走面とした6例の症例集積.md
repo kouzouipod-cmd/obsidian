@@ -2,14 +2,14 @@
 tags:
   - PMID/42781158
 citekey: "takagi_PlastReconstrSurgGlobOpen_2026"
-dateread: '2026-09-25'
+dateread: '2026-09-26'
 read: false
 topic: microsurgery_general
 domain: microsurgery
 ---
 > [!Data]
 > **PDF**
-> [Takagi_2026_vascularized_PAT_SCIP_gliding_interface_PRSGO.pdf](file://C:/Users/user/claude/papers/microsurgery_general/fulltext/Takagi_2026_vascularized_PAT_SCIP_gliding_interface_PRSGO.pdf)
+> [takagi_PlastReconstrSurgGlobOpen_2026 PDF](file://C:/Users/user/Zotero/storage/CTYYMWAL/Takagi%20et%20al.%20-%202026%20-%20Vascularized%20Perifascial%20Areolar%20Tissue-augmented%20Superficial%20Circumflex%20Iliac%20Artery%20Perforator%20Fla.pdf)
 > **Link**
 > https://doi.org/10.1097/GOX.0000000000008111
 
