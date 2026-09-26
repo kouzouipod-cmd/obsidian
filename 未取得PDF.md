@@ -2,7 +2,7 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-24 17:24  ／  全 84 件中 **取得済み 53 件**
+生成: 2026-09-25 17:52  ／  全 88 件中 **取得済み 57 件**
 
 ## 私が取得できる（PMC掲載）— 1 件
 
@@ -115,7 +115,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
 
-## 取得済み — 53 件
+## 取得済み — 57 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -142,9 +142,11 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Alotaibi SM 2026 Saudi Dent J
 - Alves AS 2026 JPRAS Open
 - Brown JS 2016 Lancet Oncol
+- Brunetti B 2026 Plast Reconstr Surg
 - Cárdenas Serres C 2026 J Clin Med
 - Guevara-Carvajal SA 2026 JPRAS Open
 - Heene S 2026 Front Oncol
+- Liu X 2026 JPRAS Open
 - Ma Z 2026 Front Oncol
 - Maglitto F 2026 J Clin Med
 - Stigger T 2026 JPRAS Open
@@ -156,6 +158,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Brown JS 2010 Lancet Oncol
 - Chen SH 2020 Ann Plast Surg
 - Hurley CM 2022 Surgeon
+- Ishida K 2026 J Reconstr Microsurg
 - Jategaonkar AA 2020 Semin Plast Surg
 - Kagaya Y 2021 J Plast Reconstr Aesthet Surg
 - Kämmerer PW 2023 Int J Implant Dent
@@ -170,3 +173,4 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Wang J 2024 Otolaryngol Head Neck Surg
 - Xu Y 2023 Front Bioeng Biotechnol
 - Yamamoto Y 2004 Head Neck
+- Takagi S 2026 Plast Reconstr Surg Glob Open
