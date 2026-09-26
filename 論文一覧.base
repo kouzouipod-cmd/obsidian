@@ -42,6 +42,10 @@ views:
     sort:
       - property: dateread
         direction: DESC
+    columnSize:
+      file.name: 400
+      note.design: 130
+      note.domain_ja: 128
   - type: table
     name: 領域別
     groupBy:
