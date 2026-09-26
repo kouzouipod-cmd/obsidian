@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: wound_burn
 relevance: core
 arm: aps-skin-necrosis
+title_ja: '二次性APSによる両下肢の広範な皮膚筋壊死に自家植皮を行い免疫抑制下でのみ生着したことを示した症例報告'
+title: 'Autologous skin transplantation for widespread cutaneous necrosis in secondary antiphospholipid syndrome'
+first_author: 'Fiehn C'
+year: 2001
+journal: 'Ann Rheum Dis'
+design: 'Case report'
+n: 1
+domain_ja: '創傷治癒・熱傷'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

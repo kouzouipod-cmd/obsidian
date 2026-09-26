@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: high
 arm: anticoagulation-protocol
+title_ja: '凝固能亢進患者23例32皮弁でヘパリン持続投与プロトコルを導入し血栓は消えたが輸血と血腫が有意に増えた前後比較'
+title: 'Prevention of thrombosis in hypercoagulable patients undergoing microsurgery: A novel anticoagulation protocol'
+first_author: 'Nelson JA'
+year: 2017
+journal: 'J Plast Reconstr Aesthet Surg'
+design: 'Retrospective before-after cohort'
+n: 23
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

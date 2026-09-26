@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: bone-flap-vs-soft-tissue-flap
+title_ja: '下顎再建における骨皮弁（腓骨）と軟部皮弁（ALT）＋再建プレートのプレート関連合併症とQOLを205例で比較した後方視的研究'
+title: 'Plate-related complication and health-related quality of life after mandibular reconstruction by fibula flap with reconstruction plate or miniplate versus anterolateral thigh flap with reconstruction plate'
+first_author: 'Chang TY'
+year: 2022
+journal: 'Microsurgery'
+design: 'Retrospective comparative study'
+n: 205
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

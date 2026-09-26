@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: aps-case-report
+title_ja: '歯肉癌再建で腹直筋皮弁が両側とも動脈血栓で壊死し術後に一過性の抗カルジオリピン抗体高値が判明した症例報告'
+title: 'Free flap failure in an anticardiolipin antibody-positive patient with neoplasm--a case report'
+first_author: 'Asai E'
+year: 2010
+journal: 'Microsurgery'
+design: 'Case report'
+n: 1
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

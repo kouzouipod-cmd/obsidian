@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: review-overview
+title_ja: '中顔面再建における分類システムと新旧の再建手技およびデジタル計画の位置づけを整理したレビュー'
+title: 'Advances in midface reconstruction: beyond the reconstructive ladder'
+first_author: 'Eskander A'
+year: 2017
+journal: 'Curr Opin Otolaryngol Head Neck Surg'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

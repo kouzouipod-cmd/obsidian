@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: review-overview
+title_ja: '遊離組織移植を要する複雑な中顔面・上顎再建の進歩を概観した最新レビュー'
+title: 'Advances in Midface Reconstruction'
+first_author: 'Strohl M'
+year: 2024
+journal: 'Facial Plast Surg Clin North Am'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

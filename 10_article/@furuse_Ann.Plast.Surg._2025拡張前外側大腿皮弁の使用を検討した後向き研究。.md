@@ -4,6 +4,15 @@ tags:
 citekey: "furuse_Ann.Plast.Surg._2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: microsurgery
+title_ja: '拡張前外側大腿皮弁の使用を検討した後向き研究。'
+title: 'Extended Anterolateral Thigh Flaps: Maximum Size for Covering Cancerous Defects'
+first_author: 'Furuse'
+year: 2025
+journal: 'Annals of Plastic Surgery'
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

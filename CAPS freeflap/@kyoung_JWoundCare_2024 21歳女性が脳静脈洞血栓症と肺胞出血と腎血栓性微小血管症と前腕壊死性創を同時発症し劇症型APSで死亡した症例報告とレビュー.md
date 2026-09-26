@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: wound_burn
 relevance: high
 arm: aps-skin-necrosis
+title_ja: '21歳女性が脳静脈洞血栓症と肺胞出血と腎血栓性微小血管症と前腕壊死性創を同時発症し劇症型APSで死亡した症例報告とレビュー'
+title: 'Catastrophic antiphospholipid syndrome: a case report and literature review'
+first_author: 'Kyoung J'
+year: 2024
+journal: 'J Wound Care'
+design: 'Case report and review'
+n: 1
+domain_ja: '創傷治癒・熱傷'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

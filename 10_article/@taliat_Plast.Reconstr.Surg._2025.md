@@ -4,6 +4,14 @@ tags:
 citekey: "taliat_Plast.Reconstr.Surg._2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: lymphedema
+title: 'Impact of Lymphedema Duration on Lymphatic Vessel Quality and Outcomes after Super-microsurgical Lymphaticovenous Anastomosis'
+first_author: 'Taliat'
+year: 2025
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

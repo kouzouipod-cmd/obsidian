@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: review-overview
+title_ja: '硬口蓋を含む口腔各部位の再建選択肢を機能転帰の観点から部位別に整理したレビュー'
+title: 'Oral Cavity Reconstruction'
+first_author: 'Quadri P'
+year: 2023
+journal: 'Otolaryngol Clin North Am'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

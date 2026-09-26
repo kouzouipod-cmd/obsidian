@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: single-flap
+title_ja: 'COVID-19関連ムーコル症後の上顎切除欠損50例に対する遅延再建の安全性と整容成績を検討した前向き観察研究'
+title: 'Delayed maxillary reconstruction following mucormycosis: A comprehensive analysis of surgical strategies and outcomes'
+first_author: 'Vashistha A'
+year: 2024
+journal: 'J Stomatol Oral Maxillofac Surg'
+design: 'Prospective observational study'
+n: 50
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

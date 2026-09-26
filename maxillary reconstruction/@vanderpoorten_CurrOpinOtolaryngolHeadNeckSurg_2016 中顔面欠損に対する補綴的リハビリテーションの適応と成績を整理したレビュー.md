@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: non-flap-comparator
+title_ja: '中顔面欠損に対する補綴的リハビリテーションの適応と成績を整理したレビュー'
+title: 'Midface prosthetic rehabilitation'
+first_author: 'Vander Poorten V'
+year: 2016
+journal: 'Curr Opin Otolaryngol Head Neck Surg'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

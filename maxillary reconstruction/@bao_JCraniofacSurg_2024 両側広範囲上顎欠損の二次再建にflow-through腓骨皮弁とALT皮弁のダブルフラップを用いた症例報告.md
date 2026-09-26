@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: double-flap
+title_ja: '両側広範囲上顎欠損の二次再建にflow-through腓骨皮弁とALT皮弁のダブルフラップを用いた症例報告'
+title: 'Reconstruction of Extensive Maxillary Defects Using Flow-Through Fibula Free Flap With Anterolateral Thigh Free Flap'
+first_author: 'Bao M'
+year: 2024
+journal: 'J Craniofac Surg'
+design: 'Case report'
+n: 1
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

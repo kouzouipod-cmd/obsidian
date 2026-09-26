@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: extended-defect
+title_ja: 'Brown III型上顎切除後の眼窩底再建を20研究で整理し遊離骨皮弁と人工物が眼球成績で良好とした系統的レビュー'
+title: 'Reconstruction techniques of the orbit after Brown class III maxillectomy: A systematic review'
+first_author: 'Dugast S'
+year: 2023
+journal: 'Head Neck'
+design: 'Systematic review'
+n: 20
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

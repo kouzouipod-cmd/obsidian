@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '頭頸部遊離皮弁98例の前向きコホートで術中の重大な血管攣縮が唯一の独立した皮弁喪失因子だった研究'
+title: 'Is the Arterial Anastomosis Time a Key Predictor of Free Flap Failure in Oncological Head and Neck Reconstruction? A Prospective Cohort Study'
+first_author: 'Cárdenas Serres C'
+year: 2026
+journal: 'J Clin Med'
+design: 'Prospective cohort'
+n: 98
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

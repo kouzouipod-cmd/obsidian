@@ -1,11 +1,20 @@
 ---
 tags:
   - PMID/42751637
-citekey: "abend_OTOOpen_2026"
-dateread: '2026-09-19'
+citekey: abend_OTOOpen_2026
+dateread: 2026-09-19
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '舌半切除後の前腕皮弁と前外側大腿皮弁の再建舌が照射後に約2割縮小し皮弁の種類で差がなかった後ろ向き研究'
+title: 'Investigating Neotongue Atrophy and Postoperative Outcomes in Patients Undergoing Glossectomy With Free Flap Tongue Reconstruction'
+first_author: 'Abend A'
+year: 2026
+journal: 'OTO Open'
+design: 'Retrospective cohort'
+n: 35
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

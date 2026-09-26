@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: medium
 arm: anticoagulation-protocol
+title_ja: '遊離皮弁の抗血栓戦略についてカナダの微小外科医と血液専門医132名に調査し危険因子の認識から処方まで一致しないことを示した全国調査'
+title: 'Multidisciplinary Practice Variations of Anti-Thrombotic Strategies for Free Tissue Transfers'
+first_author: 'Huynh MNQ'
+year: 2022
+journal: 'Plast Surg (Oakv)'
+design: 'National survey'
+n: 132
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

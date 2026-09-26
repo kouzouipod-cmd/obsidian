@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: review-overview
+title_ja: '口蓋上顎複合体の機能解剖と欠損分類および再建選択肢を概観したレビュー'
+title: 'Surgery of the Palatomaxillary Structure'
+first_author: 'Jategaonkar AA'
+year: 2020
+journal: 'Semin Plast Surg'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

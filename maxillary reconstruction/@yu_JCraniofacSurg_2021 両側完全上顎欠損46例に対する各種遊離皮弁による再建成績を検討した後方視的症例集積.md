@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: single-flap-and-composite
+title_ja: '両側完全上顎欠損46例に対する各種遊離皮弁による再建成績を検討した後方視的症例集積'
+title: 'Reconstruction of Complete Bilateral Maxillary Defects With Free Flaps'
+first_author: 'Yu S'
+year: 2021
+journal: 'J Craniofac Surg'
+design: 'Retrospective case series'
+n: 46
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

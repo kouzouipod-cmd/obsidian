@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: extremity
 relevance: medium
 arm: perioperative-management
+title_ja: '慢性下腿創に対する遊離組織移植の術前最適化と皮弁選択を整理したジョージタウン下肢救済チームの総説'
+title: 'Free Tissue Transfer for Patients with Chronic Lower Extremity Wounds'
+first_author: 'Bekeny JC'
+year: 2021
+journal: 'Clin Plast Surg'
+design: 'Review'
+n: 0
+domain_ja: '四肢・手外科'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

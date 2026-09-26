@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: medium
 arm: aps-case-report
+title_ja: 'ブドウ球菌性熱傷様皮膚症候群に伴う広範な血栓でALT皮弁が失われた初の報告と感染誘発性血栓のレビュー'
+title: 'Staphylococcus Scalded Skin Syndrome-Induced Thrombosis Leading to Free Flap Complications: A Case Report and Review'
+first_author: 'Keating M'
+year: 2024
+journal: 'Cureus'
+design: 'Case report and review'
+n: 1
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: single-flap-and-composite
+title_ja: '腓骨皮弁による上顎再建85皮弁73例の15年間の経験でインプラント95.9%・皮弁全喪失2.7%を示した後方視的研究'
+title: 'Maxillary Reconstruction with Free Vascularized Fibula: 15-Year Experience'
+first_author: 'Cho MJ'
+year: 2024
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective series'
+n: 73
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

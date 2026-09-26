@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: classification
+title_ja: '上顎・中顔面欠損の新しい分類（Brown分類）を提唱し再建戦略を整理したレビュー'
+title: 'Reconstruction of the maxilla and midface: introducing a new classification'
+first_author: 'Brown JS'
+year: 2010
+journal: 'Lancet Oncol'
+design: 'Review (Personal View)'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

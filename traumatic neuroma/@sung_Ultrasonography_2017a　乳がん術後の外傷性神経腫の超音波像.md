@@ -3,6 +3,14 @@ citekey: "sung_Ultrasonography_2017a"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳がん術後の外傷性神経腫の超音波像'
+title: 'Ultrasonographic features of traumatic neuromas in breast cancer patients after mastectomy'
+first_author: 'Sung'
+year: 2017
+journal: 'Ultrasonography'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

@@ -3,6 +3,14 @@ citekey: "boers_J.Plast.Reconstr.Aesthet.Surg._2022"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '大胸筋の神経支配と手術指針'
+title: 'The nerve supply to the pectoralis major: An anatomical study and clinical application of the denervation in subpectoral breast implant surgery'
+first_author: 'Boers'
+year: 2022
+journal: 'Journal of Plastic, Reconstructive & Aesthetic Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

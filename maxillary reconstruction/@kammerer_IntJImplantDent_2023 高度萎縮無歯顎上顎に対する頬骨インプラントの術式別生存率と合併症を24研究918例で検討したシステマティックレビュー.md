@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: dental-rehabilitation
+title_ja: '高度萎縮無歯顎上顎に対する頬骨インプラントの術式別生存率と合併症を24研究918例で検討したシステマティックレビュー'
+title: 'Evaluation of surgical techniques in survival rate and complications of zygomatic implants for the rehabilitation of the atrophic edentulous maxilla: a systematic review'
+first_author: 'Kämmerer PW'
+year: 2023
+journal: 'Int J Implant Dent'
+design: 'Systematic review'
+n: 918
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

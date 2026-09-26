@@ -3,6 +3,14 @@ citekey: "chappell_WorldJ.Plast.Surg._2020a"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房切除後疼痛症候群の予防'
+title: 'Post-Mastectomy Pain Syndrome: Defining Perioperative Etiologies to Guide New Methods of Prevention for Plastic Surgeons'
+first_author: 'Chappell'
+year: 2020
+journal: 'World Journal of Plastic Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

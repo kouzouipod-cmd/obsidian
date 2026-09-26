@@ -4,6 +4,14 @@ tags:
 citekey: "goto_BreastCancer_2026"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: breast
+title: 'Safety and Efficacy of Early Drain Removal in Breast Reconstruction: A Retrospective Cohort Study'
+first_author: 'Goto'
+year: 2026
+journal: 'Breast Cancer'
+domain_ja: '乳房再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

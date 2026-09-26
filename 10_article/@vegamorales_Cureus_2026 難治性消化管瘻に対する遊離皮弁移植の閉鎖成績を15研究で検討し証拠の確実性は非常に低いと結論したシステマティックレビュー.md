@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '難治性消化管瘻に対する遊離皮弁移植の閉鎖成績を15研究で検討し証拠の確実性は非常に低いと結論したシステマティックレビュー'
+title: 'Microvascular Free Flap Transfer for the Closure of Recalcitrant Digestive Fistulas: A Systematic Review of Surgical Success, Definitive Closure, and Clinical Outcomes'
+first_author: 'Vega Morales AQ'
+year: 2026
+journal: 'Cureus'
+design: 'Systematic review (qualitative)'
+n: 15
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: flap-technique
+title_ja: '即時下顎再建のための肩甲骨皮弁採取を仰臥位と側臥位で比較し仰臥位で手術時間が有意に短かった後方視的研究'
+title: 'Scapula harvest in the supine position for immediate mandibular reconstruction'
+first_author: 'Miyamoto S'
+year: 2024
+journal: 'Oral Maxillofac Surg'
+design: 'Retrospective comparative study'
+n: 16
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

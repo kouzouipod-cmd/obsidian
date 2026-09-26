@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '下顎再建後の歯科インプラント埋入を一次と二次で比較した11研究のシステマティックレビューとメタ解析'
+title: 'Primary and Secondary Implantation in Mandibular Reconstruction: A Systematic Review and Meta-analysis'
+first_author: 'Tasi LZ'
+year: 2026
+journal: 'Otolaryngol Head Neck Surg'
+design: 'Systematic review and meta-analysis'
+n: 11
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

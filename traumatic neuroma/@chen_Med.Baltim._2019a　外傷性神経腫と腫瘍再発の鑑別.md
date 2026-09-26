@@ -3,6 +3,14 @@ citekey: "chen_Med.Baltim._2019a"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '外傷性神経腫と腫瘍再発の鑑別'
+title: 'Traumatic neuroma in mastectomy scar: Two case reports and literature review'
+first_author: 'Chen'
+year: 2019
+journal: 'Medicine (Baltimore)'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

@@ -4,6 +4,15 @@ tags:
 citekey: "araki_AnnSurgOncol_2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title_ja: '舌亜全摘全摘後の顕微鏡下再建術における機能的転帰の危険因子を検討した多施設前向き観察研究'
+title: 'Functional Outcomes after Subtotal/Total Glossectomy with Microsurgical Reconstruction: A Multicenter Prospective Observational Study in Japan'
+first_author: 'Araki'
+year: 2025
+journal: 'Annals of Surgical Oncology'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

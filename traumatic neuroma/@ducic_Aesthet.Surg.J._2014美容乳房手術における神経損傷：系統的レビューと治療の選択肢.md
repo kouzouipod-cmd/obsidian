@@ -3,6 +3,14 @@ citekey: "ducic_Aesthet.Surg.J._2014"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '美容乳房手術における神経損傷：系統的レビューと治療の選択肢'
+title: 'Nerve Injuries in Aesthetic Breast Surgery: Systematic Review and Treatment Options'
+first_author: 'Ducic'
+year: 2014
+journal: 'Aesthetic Surgery Journal'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: lymphedema_general
 domain: lymphedema
+title_ja: '乳癌関連リンパ浮腫10例でICGでリンパ管を超高周波エコーで静脈を術前同定し計画どおりLVAを行えたパイロット研究'
+title: 'Targeted LVA guided by ultra-high frequency ultrasound and ICG lymphography: A pilot study'
+first_author: 'Lilja C'
+year: 2026
+journal: 'JPRAS Open'
+design: 'Prospective pilot (single arm)'
+n: 10
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: 'リンパ浮腫・LVA 一般'
 ---
 > [!Data]
 > **PDF**

@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '単一術者11年の血管柄付き骨皮弁による口腔下顎再建210例と歯科インプラント360本の成績'
+title: 'Oromandibular reconstruction using microvascular composite flaps: report of 210 cases'
+first_author: 'Urken ML'
+year: 1998
+journal: 'Arch Otolaryngol Head Neck Surg'
+design: 'Retrospective single-surgeon case series'
+n: 201
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

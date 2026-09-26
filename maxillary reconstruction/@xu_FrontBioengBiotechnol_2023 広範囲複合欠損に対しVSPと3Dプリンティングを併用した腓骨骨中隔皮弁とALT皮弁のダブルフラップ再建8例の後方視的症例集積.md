@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: double-flap
+title_ja: '広範囲複合欠損に対しVSPと3Dプリンティングを併用した腓骨骨中隔皮弁とALT皮弁のダブルフラップ再建8例の後方視的症例集積'
+title: 'Virtual surgical planning/3D printing assisted fibula osteoseptocutaneous flap combined with anterolateral thigh flaps for extensive composite oromandibular defects reconstruction: a retrospective study of case series'
+first_author: 'Xu Y'
+year: 2023
+journal: 'Front Bioeng Biotechnol'
+design: 'Retrospective case series'
+n: 8
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

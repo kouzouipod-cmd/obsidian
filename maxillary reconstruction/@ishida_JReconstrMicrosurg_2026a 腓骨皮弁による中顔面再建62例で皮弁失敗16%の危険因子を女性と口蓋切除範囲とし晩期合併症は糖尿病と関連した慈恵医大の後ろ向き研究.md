@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: double-vs-single
+title_ja: '腓骨皮弁による中顔面再建62例で皮弁失敗16%の危険因子を女性と口蓋切除範囲とし晩期合併症は糖尿病と関連した慈恵医大の後ろ向き研究'
+title: 'Risk Factors for Flap Loss in Midface Reconstruction with Vascularized Fibular Flap.'
+first_author: 'Ishida K'
+year: 2026
+journal: 'J Reconstr Microsurg'
+design: 'Retrospective cohort'
+n: 62
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

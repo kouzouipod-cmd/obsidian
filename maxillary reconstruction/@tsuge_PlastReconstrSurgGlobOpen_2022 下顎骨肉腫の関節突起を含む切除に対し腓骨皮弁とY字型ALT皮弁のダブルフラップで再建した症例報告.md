@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: double-flap
+title_ja: '下顎骨肉腫の関節突起を含む切除に対し腓骨皮弁とY字型ALT皮弁のダブルフラップで再建した症例報告'
+title: 'Double-flap Mandibular Reconstruction around the Condylar Head Using Fibula and Anterolateral Thigh Flaps'
+first_author: 'Tsuge I'
+year: 2022
+journal: 'Plast Reconstr Surg Glob Open'
+design: 'Case report'
+n: 1
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: breast
 relevance: core
 arm: aps-skin-necrosis
+title_ja: '乳房壊死をワルファリン起因性と診断して乳房切除と植皮を行ったが後にHITとAPSの併存が判明し死亡した症例報告'
+title: 'Widespread cutaneous necrosis and antiphospholipid antibody syndrome: discussion of a rare case'
+first_author: 'Dutton JW'
+year: 2013
+journal: 'Plast Reconstr Surg'
+design: 'Case report (letter)'
+n: 1
+domain_ja: '乳房再建'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

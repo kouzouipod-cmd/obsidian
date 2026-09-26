@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '口腔癌遊離皮弁826例で昇圧薬と術中輸液量の合併症への影響をIPTWで解析し輸液量のみが有意な危険因子だった後ろ向き研究'
+title: 'Complication Rates Associated With Evolving Practice Patterns in Vasopressor Use and Fluid Administration for Oral Cavity Cancer Free Flap Reconstruction'
+first_author: 'Gao H'
+year: 2026
+journal: 'Head Neck'
+design: 'Retrospective cohort (IPTW)'
+n: 826
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

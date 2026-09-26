@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: single-flap-chimeric-alternative
+title_ja: '中顔面・上顎再建における肩甲骨系皮弁の適応と術式を解説したレビュー'
+title: 'Scapular Reconstruction for the Midface and Maxilla'
+first_author: 'Tishko G'
+year: 2024
+journal: 'Atlas Oral Maxillofac Surg Clin North Am'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

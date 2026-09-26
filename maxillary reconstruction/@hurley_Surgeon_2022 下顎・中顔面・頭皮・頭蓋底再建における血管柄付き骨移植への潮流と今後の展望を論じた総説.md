@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: review-overview
+title_ja: '下顎・中顔面・頭皮・頭蓋底再建における血管柄付き骨移植への潮流と今後の展望を論じた総説'
+title: 'Current trends in craniofacial reconstruction'
+first_author: 'Hurley CM'
+year: 2022
+journal: 'Surgeon'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

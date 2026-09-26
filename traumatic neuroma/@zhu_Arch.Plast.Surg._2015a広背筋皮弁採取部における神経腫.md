@@ -3,6 +3,14 @@ citekey: "zhu_Arch.Plast.Surg._2015a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '広背筋皮弁採取部における神経腫'
+title: 'Bilateral Thoracodorsal Neuromas: A Cause of Persistent Breast Pain after Bilateral Latissimus Dorsi Breast Reconstruction'
+first_author: 'Zhu'
+year: 2015
+journal: 'Archives of Plastic Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

@@ -4,6 +4,14 @@ tags:
 citekey: "hsiung_Int.J.Surg._2024"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title: 'Cumulative Risk Factors for Flap Failure, Thrombosis, and Hematoma in Free Flap Reconstruction for Head and Neck Cancer: A Retrospective Nested Case-Control Study'
+first_author: 'Hsiung'
+year: 2024
+journal: 'International Journal of Surgery'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: breast
 relevance: high
 arm: aps-case-report
+title_ja: '両側DIEAP皮弁再建中に動脈血栓が解除できず片側をインプラントに変更し術後にループスアンチコアグラントが判明した症例報告'
+title: 'Antiphospholipid syndrome--a rare cause of free flap thrombosis in perforator flap breast reconstruction'
+first_author: 'Uppal RS'
+year: 2008
+journal: 'J Plast Reconstr Aesthet Surg'
+design: 'Case report (letter)'
+n: 1
+domain_ja: '乳房再建'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: 'ドイツ96施設の中咽頭癌入院13925件で遊離皮弁再建の割合が倍増し気管切開相当が約2割だった全国電子カルテ解析'
+title: 'Inpatient morbidity and structural care burden in oropharyngeal carcinoma in Germany: a nationwide cross-institutional EHR analysis using an AI-enabled data network'
+first_author: 'Eichhorn S'
+year: 2026
+journal: 'Eur Arch Otorhinolaryngol'
+design: 'Nationwide retrospective observational (hospitalization-level)'
+n: 13925
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '下顎区域切除と遊離皮弁再建の前後で後方気道腔容積をCTで実測し放射線治療の影響を解析した42例の後ろ向き研究'
+title: 'Posterior airway space following mandibular reconstruction using microvascular free flaps in oral cancer patients in relation to radiotherapy: a single-center study'
+first_author: 'Heene S'
+year: 2026
+journal: 'Front Oncol'
+design: 'Retrospective single-center cohort (CT volumetry)'
+n: 42
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

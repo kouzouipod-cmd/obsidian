@@ -3,6 +3,14 @@ citekey: "henry_Cureus_2017"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '肋間上腕神経の起始、分岐、および交通：乳がんにおける乳房切除術および腋窩リンパ節郭清への意義を伴うメタアナリシス'
+title: 'Origin, Branching, and Communications of the Intercostobrachial Nerve: a Meta-Analysis with Implications for Mastectomy and Axillary Lymph Node Dissection in Breast Cancer'
+first_author: 'Henry'
+year: 2017
+journal: 'Cureus'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

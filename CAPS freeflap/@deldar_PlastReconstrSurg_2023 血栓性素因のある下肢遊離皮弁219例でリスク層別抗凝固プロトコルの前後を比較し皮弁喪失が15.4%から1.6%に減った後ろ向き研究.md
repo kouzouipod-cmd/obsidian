@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: anticoagulation-protocol
+title_ja: '血栓性素因のある下肢遊離皮弁219例でリスク層別抗凝固プロトコルの前後を比較し皮弁喪失が15.4%から1.6%に減った後ろ向き研究'
+title: 'Risk-Stratified Anticoagulation Protocol Increases Success of Lower Extremity Free Tissue Transfer in the Setting of Thrombophilia'
+first_author: 'Deldar R'
+year: 2023
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective before-after cohort'
+n: 219
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

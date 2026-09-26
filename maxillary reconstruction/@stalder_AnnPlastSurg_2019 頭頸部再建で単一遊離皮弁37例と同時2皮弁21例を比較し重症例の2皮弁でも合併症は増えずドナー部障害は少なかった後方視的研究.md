@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: double-vs-single
+title_ja: '頭頸部再建で単一遊離皮弁37例と同時2皮弁21例を比較し重症例の2皮弁でも合併症は増えずドナー部障害は少なかった後方視的研究'
+title: 'Single Versus Simultaneous Double Free Flaps for Head and Neck Reconstruction: Comparison of Flap Outcomes and Donor-Site Morbidity'
+first_author: 'Stalder MW'
+year: 2019
+journal: 'Ann Plast Surg'
+design: 'Retrospective comparative study'
+n: 58
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

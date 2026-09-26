@@ -6,6 +6,13 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '遊離腓骨皮弁による下顎再建12例を報告しこの術式を確立した原典'
+title: 'Fibula free flap: a new method of mandible reconstruction'
+first_author: 'Hidalgo DA'
+year: 1989
+journal: 'Plast Reconstr Surg'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**

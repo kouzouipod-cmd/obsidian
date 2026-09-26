@@ -3,6 +3,14 @@ citekey: "salemis_IntractableRareDis.Res._2018a"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳がん術後疼痛と外傷性神経腫の検討'
+title: 'Traumatic neuroma as a rare cause of intractable neuropathic breast pain following cancer surgery: Management and review of the literature'
+first_author: 'Salemis'
+year: 2018
+journal: 'Intractable & Rare Diseases Research'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

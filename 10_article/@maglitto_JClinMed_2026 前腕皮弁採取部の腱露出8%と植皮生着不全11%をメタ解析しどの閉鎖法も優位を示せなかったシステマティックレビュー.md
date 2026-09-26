@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '前腕皮弁採取部の腱露出8%と植皮生着不全11%をメタ解析しどの閉鎖法も優位を示せなかったシステマティックレビュー'
+title: 'Donor-Site Morbidity Following Radial Forearm Free Flap Harvest for Head and Neck Reconstruction: A Systematic Review and Meta-Analysis'
+first_author: 'Maglitto F'
+year: 2026
+journal: 'J Clin Med'
+design: 'Systematic review and meta-analysis'
+n: 22
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

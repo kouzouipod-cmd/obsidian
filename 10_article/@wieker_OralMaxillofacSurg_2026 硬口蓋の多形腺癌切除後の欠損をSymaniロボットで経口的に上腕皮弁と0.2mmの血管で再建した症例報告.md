@@ -6,6 +6,15 @@ dateread: '2026-09-21'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '硬口蓋の多形腺癌切除後の欠損をSymaniロボットで経口的に上腕皮弁と0.2mmの血管で再建した症例報告'
+title: 'Transoral robotic reconstruction of a posterior palatal defect using an upper arm flap following polymorphous adenocarcinoma resection: a novel minimally invasive approach'
+first_author: 'Wieker H'
+year: 2026
+journal: 'Oral Maxillofac Surg'
+design: 'Case report'
+n: 1
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

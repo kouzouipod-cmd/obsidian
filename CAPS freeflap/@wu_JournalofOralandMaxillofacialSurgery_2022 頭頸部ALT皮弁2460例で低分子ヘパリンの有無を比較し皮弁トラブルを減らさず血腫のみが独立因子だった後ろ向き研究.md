@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: high
 arm: anticoagulation-protocol
+title_ja: '頭頸部ALT皮弁2460例で低分子ヘパリンの有無を比較し皮弁トラブルを減らさず血腫のみが独立因子だった後ろ向き研究'
+title: 'Evaluating the Role of Low Molecular Heparin to Prevent Anterolateral Thigh Flap Compromise in 2460 Head and Neck Defect Cases'
+first_author: 'Wu K'
+year: 2022
+journal: 'J Oral Maxillofac Surg'
+design: 'Retrospective cohort'
+n: 2460
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

@@ -4,6 +4,14 @@ tags:
 citekey: "katayama_Plast.Reconstr.Surg._2021"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: microsurgery
+title: 'Feasibility and Safety of Arterial Transfer for Microscopic Hepatic Artery Reconstruction After Hepatobiliary and Pancreatic Tumor Resection'
+first_author: 'Katayama'
+year: 2021
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

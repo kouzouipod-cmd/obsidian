@@ -3,6 +3,14 @@ citekey: "ducic_Plast.Reconstr.Surg._2011"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房のDanger zone'
+title: 'Chronic postoperative breast pain: danger zones for nerve injuries'
+first_author: 'Ducic'
+year: 2011
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

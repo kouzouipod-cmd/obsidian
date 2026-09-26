@@ -4,6 +4,15 @@ tags:
 citekey: "hidaka_Ann.Plast.Surg._2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title_ja: '口腔腫瘍手術における遊離皮弁再建時の縫合材料（モノフィラメント vs ブレード縫合糸）が手術部位感染に与える影響をプロペンシティスコア解析'
+title: 'Impact of Suture Materials on Surgical Site Infection in Oral Oncological Surgery With Free-Flap Reconstruction: Analysis Using Propensity Scores'
+first_author: 'Hidaka'
+year: 2025
+journal: 'Annals of Plastic Surgery'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

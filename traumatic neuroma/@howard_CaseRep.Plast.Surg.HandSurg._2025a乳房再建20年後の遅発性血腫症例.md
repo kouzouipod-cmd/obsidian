@@ -3,6 +3,14 @@ citekey: "howard_CaseRep.Plast.Surg.HandSurg._2025a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房再建20年後の遅発性血腫症例'
+title: 'Diagnostic and management challenges of late chest wall mass following implant-based breast reconstruction: a case report'
+first_author: 'Howard'
+year: 2025
+journal: 'Case Reports in Plastic Surgery and Hand Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

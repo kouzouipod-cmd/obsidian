@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: flap-outcome-thrombophilia
+title_ja: '凝固能亢進患者41例58皮弁で血栓率20.7%・皮弁喪失15.5%・救済率0%を示しこの集団の危険度を定量した後ろ向き研究'
+title: 'Free tissue transfer in the hypercoagulable patient: a review of 58 flaps'
+first_author: 'Wang TY'
+year: 2012
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective case series'
+n: 41
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

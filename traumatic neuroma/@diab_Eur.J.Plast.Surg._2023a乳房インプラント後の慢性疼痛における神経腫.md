@@ -3,6 +3,14 @@ citekey: "diab_Eur.J.Plast.Surg._2023a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房インプラント後の慢性疼痛における神経腫'
+title: 'Capsular neuroma causing chronic pain in women with breast implants'
+first_author: 'Diab'
+year: 2023
+journal: 'European Journal of Plastic Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

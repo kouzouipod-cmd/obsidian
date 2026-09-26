@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '頭頸部再建後に気管切開を受けた24例で細菌性気管炎の発生率と関連因子を検討した後ろ向きコホート'
+title: 'Characterization of patients with bacterial tracheitis after head and neck reconstruction using flaps at a high-complexity center in Bogota, Colombia'
+first_author: 'Guevara-Carvajal SA'
+year: 2026
+journal: 'JPRAS Open'
+design: 'Retrospective observational cohort'
+n: 24
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

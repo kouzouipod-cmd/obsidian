@@ -4,6 +4,15 @@ tags:
 citekey: "makiuchi_Microsurgery_2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title_ja: '頸部郭清術や放射線治療歴が受容血管選択と皮弁不全に与える影響を671症例で解析した後方視的研究。'
+title: 'Vessel Selection in Head and Neck Reconstruction After Neck Dissection or Radiotherapy'
+first_author: 'Makiuchi'
+year: 2025
+journal: 'Microsurgery'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

@@ -3,6 +3,14 @@ citekey: "bernini_GlandSurg._2017"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房再建における選択的神経遮断術'
+title: 'Selective pectoralis major muscle denervation in breast reconstruction: a technical modification for more effective and cosmetic results'
+first_author: 'Bernini'
+year: 2017
+journal: 'Gland Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

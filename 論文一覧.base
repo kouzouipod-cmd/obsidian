@@ -1,0 +1,107 @@
+filters:
+  and:
+    - file.hasProperty("citekey")
+    - '!file.inFolder("99_template")'
+    - '!file.inFolder("template")'
+properties:
+  file.name:
+    displayName: ノート
+  note.read:
+    displayName: 既読
+  note.first_author:
+    displayName: 第一著者
+  note.year:
+    displayName: 年
+  note.journal:
+    displayName: 雑誌
+  note.design:
+    displayName: デザイン
+  note.n:
+    displayName: 症例数
+  note.domain_ja:
+    displayName: 領域
+  note.topic_ja:
+    displayName: 収集先
+  note.dateread:
+    displayName: 取込日
+views:
+  - type: table
+    name: 未読
+    filters:
+      and:
+        - read != true
+    order:
+      - read
+      - file.name
+      - first_author
+      - year
+      - design
+      - n
+      - domain_ja
+      - dateread
+    sort:
+      - property: dateread
+        direction: DESC
+  - type: table
+    name: 領域別
+    groupBy:
+      property: domain_ja
+      direction: ASC
+    order:
+      - read
+      - file.name
+      - first_author
+      - year
+      - journal
+      - design
+      - n
+      - topic_ja
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: プロジェクト別
+    groupBy:
+      property: topic_ja
+      direction: ASC
+    order:
+      - read
+      - file.name
+      - first_author
+      - year
+      - journal
+      - design
+      - n
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: 最近追加
+    order:
+      - read
+      - file.name
+      - first_author
+      - year
+      - domain_ja
+      - topic_ja
+      - dateread
+    sort:
+      - property: dateread
+        direction: DESC
+    limit: 30
+  - type: table
+    name: すべて
+    order:
+      - read
+      - file.name
+      - first_author
+      - year
+      - journal
+      - design
+      - n
+      - domain_ja
+      - topic_ja
+      - dateread
+    sort:
+      - property: first_author
+        direction: ASC

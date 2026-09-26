@@ -4,6 +4,15 @@ tags:
 citekey: "takanari_Plast.Reconstr.Surg.-Glob.Open_2021"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: trunk
+title_ja: '下位腰部再建における逆転latissimus dorsi筋皮弁の回転弧を延長する新しい手術技術の報告'
+title: 'A Novel Technique to Lengthen the Reverse Latissimus Dorsi Muscle Flap Arc'
+first_author: 'Takanari'
+year: 2021
+journal: 'Plastic and Reconstructive Surgery -- Global Open'
+domain_ja: '体幹・胸壁再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

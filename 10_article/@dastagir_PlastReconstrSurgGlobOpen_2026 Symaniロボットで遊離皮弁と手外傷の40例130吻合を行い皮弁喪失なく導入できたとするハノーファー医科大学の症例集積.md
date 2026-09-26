@@ -6,10 +6,19 @@ dateread: '2026-09-26'
 read: false
 topic: microsurgery_general
 domain: microsurgery
+title_ja: 'Symaniロボットで遊離皮弁と手外傷の40例130吻合を行い皮弁喪失なく導入できたとするハノーファー医科大学の症例集積'
+title: 'Expanding the Role of Robot-assisted Microsurgery: Implementation, Challenges, and Outlook From a High-volume Tertiary Care Center.'
+first_author: 'Dastagir K'
+year: 2026
+journal: 'Plast Reconstr Surg Glob Open'
+design: 'Retrospective case series'
+n: 40
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: 'マイクロサージャリー・皮弁 一般（領域横断）'
 ---
 > [!Data]
 > **PDF**
-> [Dastagir_2026_Symani_robot_assisted_microsurgery_40cases_PRSGO.pdf](file://C:/Users/user/claude/papers/microsurgery_general/fulltext/Dastagir_2026_Symani_robot_assisted_microsurgery_40cases_PRSGO.pdf)
+> [dastagir_PlastReconstrSurgGlobOpen_2026 PDF](file://C:/Users/user/Zotero/storage/GN6HPM4C/Dastagir%20et%20al.%20-%202026%20-%20Expanding%20the%20Role%20of%20Robot-assisted%20Microsurgery%20Implementation,%20Challenges,%20and%20Outlook%20From%20a%20Hi.pdf)
 > **Link**
 > https://doi.org/10.1097/GOX.0000000000008098
 

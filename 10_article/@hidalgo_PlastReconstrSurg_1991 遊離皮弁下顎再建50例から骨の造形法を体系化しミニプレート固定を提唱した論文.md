@@ -6,6 +6,13 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '遊離皮弁下顎再建50例から骨の造形法を体系化しミニプレート固定を提唱した論文'
+title: 'Aesthetic improvements in free-flap mandible reconstruction'
+first_author: 'Hidalgo DA'
+year: 1991
+journal: 'Plast Reconstr Surg'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**

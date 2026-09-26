@@ -4,6 +4,14 @@ tags:
 citekey: "gunenc_SisliEtfalHastanTipBul_2020"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: trunk
+title: 'Closure of a Large Lumbosacral Defect with Reverse Turnover Latissimus Dorsi Muscle Flap and Bilateral Bipedicle Flap: A Case Report'
+first_author: 'Gunenc'
+year: 2020
+journal: 'The Medical Bulletin of Sisli Etfal Hospital'
+domain_ja: '体幹・胸壁再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

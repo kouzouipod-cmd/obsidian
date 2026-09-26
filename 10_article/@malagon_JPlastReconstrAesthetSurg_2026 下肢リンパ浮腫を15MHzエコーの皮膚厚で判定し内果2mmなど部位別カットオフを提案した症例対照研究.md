@@ -6,6 +6,15 @@ dateread: '2026-09-21'
 read: false
 topic: lymphedema_general
 domain: lymphedema
+title_ja: '下肢リンパ浮腫を15MHzエコーの皮膚厚で判定し内果2mmなど部位別カットオフを提案した症例対照研究'
+title: 'Quantitative ultrasound skin thickness measurement for assessment of lower-limb lymphedema'
+first_author: 'Malagón P'
+year: 2026
+journal: 'J Plast Reconstr Aesthet Surg'
+design: 'Case-control comparative study'
+n: 40
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: 'リンパ浮腫・LVA 一般'
 ---
 > [!Data]
 > **PDF**

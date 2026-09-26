@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '下顎の4つの角を基準に欠損をI-IV型へ分類する体系を49研究の解析から提唱した原典'
+title: 'A new classification for mandibular defects after oncological resection'
+first_author: 'Brown JS'
+year: 2016
+journal: 'Lancet Oncol'
+design: 'Review / classification proposal'
+n: 49
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

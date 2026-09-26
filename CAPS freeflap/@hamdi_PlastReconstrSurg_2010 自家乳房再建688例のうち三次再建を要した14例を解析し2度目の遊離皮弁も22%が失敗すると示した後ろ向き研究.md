@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: breast
 relevance: high
 arm: flap-outcome-thrombophilia
+title_ja: '自家乳房再建688例のうち三次再建を要した14例を解析し2度目の遊離皮弁も22%が失敗すると示した後ろ向き研究'
+title: 'Is a second free flap still an option in a failed free flap breast reconstruction?'
+first_author: 'Hamdi M'
+year: 2010
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective cohort'
+n: 688
+domain_ja: '乳房再建'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

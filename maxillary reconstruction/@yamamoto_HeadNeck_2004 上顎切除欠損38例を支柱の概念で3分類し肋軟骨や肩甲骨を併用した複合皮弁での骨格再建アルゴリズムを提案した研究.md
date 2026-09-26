@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: selection-algorithm
+title_ja: '上顎切除欠損38例を支柱の概念で3分類し肋軟骨や肩甲骨を併用した複合皮弁での骨格再建アルゴリズムを提案した研究'
+title: 'Surgical management of maxillectomy defects based on the concept of buttress reconstruction'
+first_author: 'Yamamoto Y'
+year: 2004
+journal: 'Head Neck'
+design: 'Retrospective series (algorithm proposal)'
+n: 38
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

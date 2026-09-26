@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: high
 arm: perioperative-management
+title_ja: '抗リン脂質抗体症候群とSLEを持つ41歳女性の長時間全身麻酔で未診断の心機能低下が判明し一回拍出量変動で管理した症例報告'
+title: 'Cardiovascular Considerations in Anesthetic Management for a Patient With Antiphospholipid Syndrome and Decreased Cardiac Function: A Case Study'
+first_author: 'Shibuya M'
+year: 2021
+journal: 'Anesth Prog'
+design: 'Case report'
+n: 1
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

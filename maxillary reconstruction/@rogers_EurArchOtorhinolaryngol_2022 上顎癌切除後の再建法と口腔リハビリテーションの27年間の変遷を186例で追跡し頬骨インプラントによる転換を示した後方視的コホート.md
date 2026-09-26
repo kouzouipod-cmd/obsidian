@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: single-flap-practice-pattern
+title_ja: '上顎癌切除後の再建法と口腔リハビリテーションの27年間の変遷を186例で追跡し頬骨インプラントによる転換を示した後方視的コホート'
+title: 'Changing trends in the microvascular reconstruction and oral rehabilitation following maxillary cancer'
+first_author: 'Rogers SN'
+year: 2022
+journal: 'Eur Arch Otorhinolaryngol'
+design: 'Retrospective cohort (27-year)'
+n: 186
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

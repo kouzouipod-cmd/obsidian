@@ -4,6 +4,15 @@ tags:
 citekey: "elia_Plast.Reconstr.Surg._2026"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: extremity
+title_ja: '鎖骨欠損に対する遊離腓骨皮弁による再建術の有効性を検討したヨーロッパ多施設症例シリーズ研究。'
+title: 'Free Fibular Flap for Clavicle Reconstruction: An Orthoplastic Approach'
+first_author: 'Elia'
+year: 2026
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: '四肢・手外科'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

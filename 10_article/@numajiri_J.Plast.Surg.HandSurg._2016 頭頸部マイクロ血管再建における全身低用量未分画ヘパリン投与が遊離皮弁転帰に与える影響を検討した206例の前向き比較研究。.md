@@ -4,6 +4,15 @@ tags:
 citekey: "numajiri_J.Plast.Surg.HandSurg._2016"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title_ja: '頭頸部マイクロ血管再建における全身低用量未分画ヘパリン投与が遊離皮弁転帰に与える影響を検討した206例の前向き比較研究。'
+title: 'Use of Systemic Low-Dose Unfractionated Heparin in Microvascular Head and Neck Reconstruction: Influence in Free-Flap Outcomes'
+first_author: 'Numajiri'
+year: 2016
+journal: 'Journal of Plastic Surgery and Hand Surgery'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

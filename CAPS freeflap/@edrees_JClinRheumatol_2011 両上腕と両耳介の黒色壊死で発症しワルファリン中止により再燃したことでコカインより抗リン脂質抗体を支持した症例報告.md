@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: wound_burn
 relevance: high
 arm: aps-skin-necrosis
+title_ja: '両上腕と両耳介の黒色壊死で発症しワルファリン中止により再燃したことでコカインより抗リン脂質抗体を支持した症例報告'
+title: 'Cutaneous necrosis as a presenting manifestation of antiphospholipid antibodies'
+first_author: 'Edrees A'
+year: 2011
+journal: 'J Clin Rheumatol'
+design: 'Case report'
+n: 1
+domain_ja: '創傷治癒・熱傷'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

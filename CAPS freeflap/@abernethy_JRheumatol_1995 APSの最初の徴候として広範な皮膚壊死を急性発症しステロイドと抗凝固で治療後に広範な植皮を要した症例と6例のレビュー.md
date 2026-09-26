@@ -8,6 +8,13 @@ topic: caps_freeflap
 domain: wound_burn
 relevance: high
 arm: aps-skin-necrosis
+title_ja: 'APSの最初の徴候として広範な皮膚壊死を急性発症しステロイドと抗凝固で治療後に広範な植皮を要した症例と6例のレビュー'
+title: 'Widespread cutaneous necrosis as the initial manifestation of the antiphospholipid antibody syndrome'
+first_author: 'Abernethy ML'
+year: 1995
+journal: 'J Rheumatol'
+domain_ja: '創傷治癒・熱傷'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**

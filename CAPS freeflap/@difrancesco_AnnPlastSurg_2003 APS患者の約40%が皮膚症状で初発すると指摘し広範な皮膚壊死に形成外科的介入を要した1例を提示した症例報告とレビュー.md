@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: aps-skin-necrosis
+title_ja: 'APS患者の約40%が皮膚症状で初発すると指摘し広範な皮膚壊死に形成外科的介入を要した1例を提示した症例報告とレビュー'
+title: 'A cutaneous manifestation of antiphospholipid antibody syndrome'
+first_author: 'DiFrancesco LM'
+year: 2003
+journal: 'Ann Plast Surg'
+design: 'Case report and review'
+n: 1
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

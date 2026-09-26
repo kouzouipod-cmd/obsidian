@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: recipient-vessel
+title_ja: '上咽頭癌放射線治療後の頭蓋底壊死に対し顔面動脈と顔面静脈または下顎後静脈を受容血管として遊離皮弁で再建した25例の後方視的研究'
+title: 'Application of free tissue flaps using the facial artery and vein/retromandibular vein as recipient vessels in the repair of postoperative nasopharyngeal skull base necrosis'
+first_author: 'Deng HY'
+year: 2026
+journal: 'Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi'
+design: 'Retrospective study'
+n: 25
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

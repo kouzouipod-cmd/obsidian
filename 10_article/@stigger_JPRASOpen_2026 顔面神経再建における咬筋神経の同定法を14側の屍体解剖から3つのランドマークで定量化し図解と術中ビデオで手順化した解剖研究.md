@@ -8,6 +8,15 @@ topic: head_neck_general
 domain: craniofacial
 relevance: medium
 arm: surgical-anatomy
+title_ja: '顔面神経再建における咬筋神経の同定法を14側の屍体解剖から3つのランドマークで定量化し図解と術中ビデオで手順化した解剖研究'
+title: 'Finding the masseteric nerve: an illustrated surgical guide for facial reanimation'
+first_author: 'Stigger T'
+year: 2026
+journal: 'JPRAS Open'
+design: 'Cadaveric anatomical study'
+n: 14
+domain_ja: '頭蓋顎顔面'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

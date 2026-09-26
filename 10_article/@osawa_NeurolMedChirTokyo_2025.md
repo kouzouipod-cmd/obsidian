@@ -4,6 +4,14 @@ tags:
 citekey: "osawa_NeurolMedChirTokyo_2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: craniofacial
+title: 'One-Stage Surgery for Malignant Skull and Scalp Tumor: Navigation-guided Tumor Resection and Cranioplasty Using Custom-made Implants: Technical Note'
+first_author: 'OSAWA'
+year: 2025
+journal: 'Neurologia medico-chirurgica'
+domain_ja: '頭蓋顎顔面'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

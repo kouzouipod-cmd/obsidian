@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: 'デジタル設計の折り畳み腓骨皮弁とインプラント一次埋入で下顎と咬合を再建した24例78本の後ろ向き症例集積'
+title: 'Clinical study of free folded fibular flap reconstruction combined with implant placement for restoration of mandibular defects and occlusal relationships'
+first_author: 'Ma Z'
+year: 2026
+journal: 'Front Oncol'
+design: 'Retrospective case series'
+n: 24
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

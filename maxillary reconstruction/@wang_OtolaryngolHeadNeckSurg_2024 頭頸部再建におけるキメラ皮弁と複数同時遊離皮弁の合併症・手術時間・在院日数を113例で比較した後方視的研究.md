@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: double-flap-methodology
+title_ja: '頭頸部再建におけるキメラ皮弁と複数同時遊離皮弁の合併症・手術時間・在院日数を113例で比較した後方視的研究'
+title: 'Chimeric Versus Multiple Simultaneous Free Flaps for Head and Neck Reconstruction'
+first_author: 'Wang J'
+year: 2024
+journal: 'Otolaryngol Head Neck Surg'
+design: 'Retrospective comparative study'
+n: 113
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

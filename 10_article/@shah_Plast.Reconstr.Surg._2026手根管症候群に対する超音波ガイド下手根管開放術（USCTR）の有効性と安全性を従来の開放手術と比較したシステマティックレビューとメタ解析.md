@@ -4,6 +4,15 @@ tags:
 citekey: "shah_Plast.Reconstr.Surg._2026"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: extremity
+title_ja: '手根管症候群に対する超音波ガイド下手根管開放術（USCTR）の有効性と安全性を従来の開放手術と比較したシステマティックレビューとメタ解析'
+title: 'Efficacy and Safety of Ultrasound-Guided Carpal Tunnel Release: A Systematic Review and Meta-Analysis'
+first_author: 'Shah'
+year: 2026
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: '四肢・手外科'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

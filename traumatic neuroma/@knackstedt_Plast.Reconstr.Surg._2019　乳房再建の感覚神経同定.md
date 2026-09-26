@@ -3,6 +3,14 @@ citekey: "knackstedt_Plast.Reconstr.Surg._2019"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房再建の感覚神経同定'
+title: 'Predictable Location of Breast Sensory Nerves for Breast Reinnervation'
+first_author: 'Knackstedt'
+year: 2019
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

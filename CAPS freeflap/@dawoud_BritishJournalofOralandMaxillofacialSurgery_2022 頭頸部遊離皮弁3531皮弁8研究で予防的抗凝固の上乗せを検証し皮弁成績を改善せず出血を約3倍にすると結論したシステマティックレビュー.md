@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: anticoagulation-protocol
+title_ja: '頭頸部遊離皮弁3531皮弁8研究で予防的抗凝固の上乗せを検証し皮弁成績を改善せず出血を約3倍にすると結論したシステマティックレビュー'
+title: 'Does anticoagulation improve outcomes of microvascular free flap reconstruction following head and neck surgery: a systematic review and meta-analysis'
+first_author: 'Dawoud BES'
+year: 2022
+journal: 'Br J Oral Maxillofac Surg'
+design: 'Systematic review and meta-analysis'
+n: 8
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

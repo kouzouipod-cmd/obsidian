@@ -6,6 +6,15 @@ dateread: '2026-09-21'
 read: false
 topic: lymphedema_general
 domain: lymphedema
+title_ja: 'マウス集合リンパ管の膜コレステロールを除去すると収縮振幅が約50%増えることを示したプレプリント'
+title: 'Cholesterol-Mediated Modulation of Collecting Lymphatic Vessel Contractility: Exploring Cholesterol Depletion as a Therapeutic Alternative to Improve Lymphatic Function in Hypercholesterolemia'
+first_author: 'Keane K'
+year: 2026
+journal: 'bioRxiv'
+design: 'Basic science (ex vivo mouse lymphatic vessels) — PREPRINT, not peer reviewed'
+n: 0
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: 'リンパ浮腫・LVA 一般'
 ---
 > [!Data]
 > **PDF**

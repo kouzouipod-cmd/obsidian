@@ -4,6 +4,15 @@ tags:
 citekey: "hong_ArchPlastSurg_2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: lymphedema
+title_ja: '脳リンパ排液障害に対するLVA'
+title: 'A Proposed Role for Lymphatic Supermicrosurgery in the Management of Alzheimer''s Disease: A Primer for Reconstructive Microsurgeons'
+first_author: 'Hong'
+year: 2025
+journal: 'Archives of Plastic Surgery'
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

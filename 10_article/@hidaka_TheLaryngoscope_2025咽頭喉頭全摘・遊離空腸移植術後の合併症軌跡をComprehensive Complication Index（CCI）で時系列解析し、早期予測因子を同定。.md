@@ -4,6 +4,15 @@ tags:
 citekey: "hidaka_TheLaryngoscope_2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title_ja: '咽頭喉頭全摘・遊離空腸移植術後の合併症軌跡をComprehensive Complication Index（CCI）で時系列解析し、早期予測因子を同定。'
+title: 'Complication Trajectories in Total Pharyngolaryngectomy: Comprehensive Complication Index Analysis'
+first_author: 'Hidaka'
+year: 2025
+journal: 'The Laryngoscope'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

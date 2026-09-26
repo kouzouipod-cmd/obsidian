@@ -3,6 +3,14 @@ citekey: "lee_Radiol.CaseRep._2022a"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房切除後の外傷性神経腫の解説'
+title: 'Traumatic neuroma at the mastectomy site, unusual benign lesion, mimicking tumor recurrence: A report of two cases'
+first_author: 'Lee'
+year: 2022
+journal: 'Radiology Case Reports'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

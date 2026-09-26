@@ -60,6 +60,15 @@ Zotero Integration と同じ形式で出力する**ので、プラグインを�
 | それ以外 | `10_article\` |
 | 図・インフォグラフィック | `90_attachments\<citekey>\` |
 
+### 一覧表（`論文一覧.base`）とノートのプロパティ（2026-09-26）
+
+論文はフォルダで探さず、vault 直下の **`論文一覧.base`**（Obsidian標準のBases）で探す。ビューは「未読／領域別／プロジェクト別／最近追加／すべて」。対象は frontmatter に `citekey` がある全ノート（10_article・各プロジェクトフォルダ）。
+
+- 一覧の列になるプロパティ `title_ja` `title` `first_author` `year` `journal` `design` `n` `domain_ja` `topic_ja` は **`papers\sync_note_properties.js` が毎回上書きする**。手で直さない（元データの `library.json` を直す）。`build_vault_notes.ps1` の最後に自動で呼ばれる。`build_neuroma.ps1` の後は手で `node sync_note_properties.js` を実行する。
+- `domain` `topic` は無いときだけ補う。library に無い旧ノート19本の領域は `papers\legacy_note_meta.json` で決めている。
+- **`read`（既読）と `dateread`（取込日）はユーザーのもの。** `build_vault_notes.ps1 -Force` でも元の値を保つ（2026-09-26まで毎回 `read: false` と今日の日付に戻していた）。
+- **サブフォルダに分けない。** ビルダー、Actions、重複検出が `10_article` を前提にしている。
+
 ---
 
 ## 3. AI要約の書式（固定）

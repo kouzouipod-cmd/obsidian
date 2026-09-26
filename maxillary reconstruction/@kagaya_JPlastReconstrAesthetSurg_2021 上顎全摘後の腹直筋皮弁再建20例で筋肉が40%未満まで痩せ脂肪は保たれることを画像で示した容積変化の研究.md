@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: flap-volume-change
+title_ja: '上顎全摘後の腹直筋皮弁再建20例で筋肉が40%未満まで痩せ脂肪は保たれることを画像で示した容積変化の研究'
+title: 'Chronological flap volume and distribution changes after reconstruction of total maxillectomy defect using a rectus abdominis myocutaneous flap'
+first_author: 'Kagaya Y'
+year: 2021
+journal: 'J Plast Reconstr Aesthet Surg'
+design: 'Retrospective imaging study'
+n: 20
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

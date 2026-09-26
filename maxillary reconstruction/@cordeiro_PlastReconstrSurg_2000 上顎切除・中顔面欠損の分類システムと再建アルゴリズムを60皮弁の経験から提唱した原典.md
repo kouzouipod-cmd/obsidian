@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: classification
+title_ja: '上顎切除・中顔面欠損の分類システムと再建アルゴリズムを60皮弁の経験から提唱した原典'
+title: 'A classification system and algorithm for reconstruction of maxillectomy and midfacial defects'
+first_author: 'Cordeiro PG'
+year: 2000
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective case series'
+n: 60
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

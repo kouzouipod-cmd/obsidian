@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: double-flap-methodology
+title_ja: '広範な顎顔面欠損に対する同時2遊離皮弁22例とキメラ皮弁36例の適応と成績を整理した後方視的症例集積'
+title: 'Reconstructing complexity: Indications for simultaneous and chimeric free flaps in extensive maxillofacial defects'
+first_author: 'Fenske J'
+year: 2025
+journal: 'J Craniomaxillofac Surg'
+design: 'Retrospective series'
+n: 58
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

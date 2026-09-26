@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: flap-outcome-thrombophilia
+title_ja: '隠れた第V因子Leiden変異で皮弁を失った頭頸部3例に改変抗凝固プロトコルを適用し再建に成功した症例集積'
+title: 'Successful microvascular surgery in patients with thrombophilia in head and neck surgery: a case series'
+first_author: 'Faber J'
+year: 2024
+journal: 'J Med Case Rep'
+design: 'Case series with protocol'
+n: 3
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

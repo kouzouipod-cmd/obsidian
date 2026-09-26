@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '口腔の遊離皮弁再建後の咀嚼発音嚥下と歯科インプラント補綴の長期成績を一般歯科医の視点で整理したナラティブレビュー'
+title: 'Vascularized free flaps based oral reconstruction: a narrative review of dental functional outcomes'
+first_author: 'Alotaibi SM'
+year: 2026
+journal: 'Saudi Dent J'
+design: 'Narrative review'
+n: 73
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

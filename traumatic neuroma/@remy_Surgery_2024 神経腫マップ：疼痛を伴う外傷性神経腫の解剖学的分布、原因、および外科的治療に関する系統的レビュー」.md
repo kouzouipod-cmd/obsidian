@@ -3,6 +3,14 @@ citekey: "remy_Surgery_2024"
 dateread: '2026-08-20'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '神経腫マップ：疼痛を伴う外傷性神経腫の解剖学的分布、原因、および外科的治療に関する系統的レビュー」'
+title: 'The neuroma map: A systematic review of the anatomic distribution, etiologies, and surgical treatment of painful traumatic neuromas'
+first_author: 'Remy'
+year: 2024
+journal: 'Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

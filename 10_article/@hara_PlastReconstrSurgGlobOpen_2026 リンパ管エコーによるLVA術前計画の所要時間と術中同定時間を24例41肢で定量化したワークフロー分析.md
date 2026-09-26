@@ -6,6 +6,15 @@ dateread: '2026-09-15'
 read: false
 topic: lymphedema_general
 domain: lymphedema
+title_ja: 'リンパ管エコーによるLVA術前計画の所要時間と術中同定時間を24例41肢で定量化したワークフロー分析'
+title: 'Lymphatic Ultrasound Works: Time-efficient Planning and Decision-making for Lymphaticovenous Anastomosis-A Narrative Review With Workflow Analysis'
+first_author: 'Hara H'
+year: 2026
+journal: 'Plast Reconstr Surg Glob Open'
+design: 'Narrative review with retrospective workflow analysis'
+n: 24
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: 'リンパ浮腫・LVA 一般'
 ---
 > [!Data]
 > **PDF**

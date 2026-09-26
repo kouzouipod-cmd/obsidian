@@ -3,6 +3,13 @@ citekey: "mohan_J.Reconstr.Microsurg._2021"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title: 'A Cadaveric Anatomical and Histological Study of Recipient Intercostal Nerve Selection for Sensory Reinnervation in Autologous Breast Reconstruction'
+first_author: 'Mohan'
+year: 2021
+journal: 'Journal of Reconstructive Microsurgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

@@ -3,6 +3,14 @@ citekey: "longo_TheBreast_2022a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: 'BIA-ALCLのガイドライン'
+title: 'Clinical recommendations for diagnosis and treatment according to current updated knowledge on BIA-ALCL'
+first_author: 'Longo'
+year: 2022
+journal: 'The Breast'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

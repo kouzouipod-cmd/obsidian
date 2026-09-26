@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: high
 arm: flap-outcome-thrombophilia
+title_ja: '重大な微小血管合併症を起こした4例が事後に凝固能亢進と診断された経緯を提示し見落とされた患者側要因を指摘した臨床病理検討'
+title: 'Microvascular free flap failure caused by unrecognized hypercoagulability'
+first_author: 'Davison SP'
+year: 2009
+journal: 'Plast Reconstr Surg'
+design: 'Clinicopathologic conference (4 cases)'
+n: 4
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

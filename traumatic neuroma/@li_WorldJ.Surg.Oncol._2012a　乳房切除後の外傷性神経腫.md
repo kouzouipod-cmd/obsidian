@@ -3,6 +3,14 @@ citekey: "li_WorldJ.Surg.Oncol._2012a"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '乳房切除後の外傷性神経腫'
+title: 'Traumatic neuroma in a patient with breast cancer after mastectomy: a case report and review of the literature'
+first_author: 'Li'
+year: 2012
+journal: 'World Journal of Surgical Oncology'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

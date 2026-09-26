@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: wound_burn
 relevance: core
 arm: aps-skin-necrosis
+title_ja: '劇症型APSによる右手背の全層皮膚壊死を多職種チームによる84日間の保存的創傷管理で治癒させ手の機能も回復した症例報告'
+title: 'Conservative Management of Catastrophic Antiphospholipid Syndrome-Related Skin Necrosis: A Case Report'
+first_author: 'Niu N'
+year: 2020
+journal: 'Adv Skin Wound Care'
+design: 'Case report'
+n: 1
+domain_ja: '創傷治癒・熱傷'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

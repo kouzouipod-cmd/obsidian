@@ -4,6 +4,14 @@ tags:
 citekey: "hidaka_J.Surg.Oncol._"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title: 'Early Complications in Mandibular Reconstruction: Analysis Using Comprehensive Complication Index'
+first_author: 'Hidaka'
+year: 'Unknown'
+journal: 'Journal of Surgical Oncology'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

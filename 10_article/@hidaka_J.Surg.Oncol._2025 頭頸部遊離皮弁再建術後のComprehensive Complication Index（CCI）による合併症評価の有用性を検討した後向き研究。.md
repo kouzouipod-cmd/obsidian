@@ -4,6 +4,15 @@ tags:
 citekey: "hidaka_J.Surg.Oncol._2025"
 dateread: '2026-01-29'
 read: false
+topic: legacy_10article
+domain: head_neck
+title_ja: '頭頸部遊離皮弁再建術後のComprehensive Complication Index（CCI）による合併症評価の有用性を検討した後向き研究。'
+title: 'The Comprehensive Complication Index in Postoperative Assessment After Head and Neck Reconstruction'
+first_author: 'Hidaka'
+year: 2025
+journal: 'Journal of Surgical Oncology'
+domain_ja: '頭頸部再建'
+topic_ja: '旧ノート（Zotero Integration）'
 ---
 > [!Data]
 > **PDF**.

@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: wound_burn
 relevance: core
 arm: aps-skin-necrosis
+title_ja: '急性皮膚壊死の12の原因を鑑別として整理し早期診断と治療の手引きにまとめた総説'
+title: 'Acute Cutaneous Necrosis: A Guide to Early Diagnosis and Treatment'
+first_author: 'Karimi K'
+year: 2017
+journal: 'J Cutan Med Surg'
+design: 'Narrative review'
+n: 0
+domain_ja: '創傷治癒・熱傷'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

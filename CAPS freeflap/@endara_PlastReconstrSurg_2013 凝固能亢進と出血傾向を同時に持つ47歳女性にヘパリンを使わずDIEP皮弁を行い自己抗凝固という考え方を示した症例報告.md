@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: breast
 relevance: medium
 arm: flap-outcome-thrombophilia
+title_ja: '凝固能亢進と出血傾向を同時に持つ47歳女性にヘパリンを使わずDIEP皮弁を行い自己抗凝固という考え方を示した症例報告'
+title: 'Free flap breast reconstruction in the hypercoagulable patient with a concomitant bleeding diathesis'
+first_author: 'Endara M'
+year: 2013
+journal: 'Plast Reconstr Surg'
+design: 'Case report (letter)'
+n: 1
+domain_ja: '乳房再建'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

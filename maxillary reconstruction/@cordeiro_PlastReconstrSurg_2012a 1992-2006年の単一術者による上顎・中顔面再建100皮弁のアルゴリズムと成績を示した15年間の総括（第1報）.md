@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: selection-algorithm
+title_ja: '1992-2006年の単一術者による上顎・中顔面再建100皮弁のアルゴリズムと成績を示した15年間の総括（第1報）'
+title: 'A 15-year review of midface reconstruction after total and subtotal maxillectomy: part I. Algorithm and outcomes'
+first_author: 'Cordeiro PG'
+year: 2012
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective single-surgeon series'
+n: 100
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

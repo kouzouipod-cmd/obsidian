@@ -8,6 +8,15 @@ topic: caps_freeflap
 domain: microsurgery
 relevance: core
 arm: aps-case-report
+title_ja: '抗リン脂質抗体症候群の患者で舌再建のALT皮弁茎に大量血栓が生じ術中に前腕皮弁へ切り替えた症例報告'
+title: 'A massive arterial thrombosis of a free anterolateral thigh flap in a patient with antiphospholipid syndrome'
+first_author: 'Salgarello M'
+year: 2008
+journal: 'Microsurgery'
+design: 'Case report'
+n: 1
+domain_ja: 'マイクロサージャリー（領域横断）'
+topic_ja: '抗リン脂質抗体症候群と遊離皮弁'
 ---
 > [!Data]
 > **PDF**

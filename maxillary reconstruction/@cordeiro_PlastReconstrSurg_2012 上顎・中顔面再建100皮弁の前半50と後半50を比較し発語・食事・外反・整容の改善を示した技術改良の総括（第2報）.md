@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: flap-technique
+title_ja: '上顎・中顔面再建100皮弁の前半50と後半50を比較し発語・食事・外反・整容の改善を示した技術改良の総括（第2報）'
+title: 'A 15-year review of midface reconstruction after total and subtotal maxillectomy: part II. Technical modifications to maximize aesthetic and functional outcomes'
+first_author: 'Cordeiro PG'
+year: 2012
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective single-surgeon comparison (first vs second 50 flaps)'
+n: 100
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

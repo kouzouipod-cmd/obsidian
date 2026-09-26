@@ -3,6 +3,14 @@ citekey: "nguyen_J.Plast.Reconstr.Aesthet.Surg._2012a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '術後乳房神経腫の画像所見と診断'
+title: 'Intercostal neuroma as a source of pain after aesthetic and reconstructive breast implant surgery'
+first_author: 'Nguyen'
+year: 2012
+journal: 'Journal of Plastic, Reconstructive & Aesthetic Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

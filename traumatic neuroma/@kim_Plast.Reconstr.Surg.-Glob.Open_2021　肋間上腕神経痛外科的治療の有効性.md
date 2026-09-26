@@ -3,6 +3,14 @@ citekey: "kim_Plast.Reconstr.Surg.-Glob.Open_2021"
 dateread: '2026-06-07'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '肋間上腕神経痛外科的治療の有効性'
+title: 'Surgical Treatment of Intercostal Brachial Nerve Pain after Mastectomy and Axillary Dissection'
+first_author: 'Kim'
+year: 2021
+journal: 'Plastic and Reconstructive Surgery - Global Open'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

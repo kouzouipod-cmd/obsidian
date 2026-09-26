@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: review-overview
+title_ja: '複合的な口腔下顎欠損に対するマイクロサージャリー再建の骨皮弁と軟部皮弁の使い分けを整理した総説'
+title: 'Microsurgical reconstruction of complex oromandibular defects: An update'
+first_author: 'Mavrogenis AF'
+year: 2019
+journal: 'Injury'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: special-population
+title_ja: '中顔面・下顎の放射線性骨壊死の病態と重症度別の管理戦略を整理したレビュー'
+title: 'Osteoradionecrosis of the Midface and Mandible: Pathogenesis and Management'
+first_author: 'Vahidi N'
+year: 2020
+journal: 'Semin Plast Surg'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: head_neck_general
 domain: head_neck
+title_ja: '舌動脈の起始と走行の破格を外頸動脈1550側で統合しCTAに基づく外科的リスク分類を提案したスコーピングレビュー'
+title: 'Mapping the lingual artery: a scoping review and proposed imaging-informed risk classification for surgical and radiological practice'
+first_author: 'Landfald IC'
+year: 2026
+journal: 'Surg Radiol Anat'
+design: 'Scoping review'
+n: 1550
+domain_ja: '頭頸部再建'
+topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**

@@ -3,6 +3,14 @@ citekey: "vorstenbosch_Plast.Reconstr.Surg._2023a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '非ALCL性乳房インプラント皮膜病変'
+title: 'Clinical Implications and Management of Non-BIA-ALCL Breast Implant Capsular Pathology'
+first_author: 'Vorstenbosch'
+year: 2023
+journal: 'Plastic and Reconstructive Surgery'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

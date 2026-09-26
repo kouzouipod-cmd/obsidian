@@ -3,6 +3,14 @@ citekey: "alsharif_Am.J.Roentgenol._2016"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: '外傷後乳房神経腫の画像診断的特徴'
+title: 'Imaging Features Associated With Posttraumatic Breast Neuromas'
+first_author: 'AlSharif'
+year: 2016
+journal: 'American Journal of Roentgenology'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

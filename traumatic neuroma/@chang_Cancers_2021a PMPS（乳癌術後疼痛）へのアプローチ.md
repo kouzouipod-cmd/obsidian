@@ -3,6 +3,14 @@ citekey: "chang_Cancers_2021a"
 dateread: '2026-05-30'
 topic: traumatic_neuroma
 read: false
+domain: peripheral_nerve
+title_ja: 'PMPS（乳癌術後疼痛）へのアプローチ'
+title: 'A Targeted Approach to Post-Mastectomy Pain and Persistent Pain following Breast Cancer Treatment'
+first_author: 'Chang'
+year: 2021
+journal: 'Cancers'
+domain_ja: '末梢神経・神経痛'
+topic_ja: '外傷性神経腫'
 ---
  > [!Data]
 > **PDF**

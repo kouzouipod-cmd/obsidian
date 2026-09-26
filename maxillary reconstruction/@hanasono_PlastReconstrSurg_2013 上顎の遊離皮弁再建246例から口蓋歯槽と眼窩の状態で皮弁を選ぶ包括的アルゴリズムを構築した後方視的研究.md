@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: selection-algorithm
+title_ja: '上顎の遊離皮弁再建246例から口蓋歯槽と眼窩の状態で皮弁を選ぶ包括的アルゴリズムを構築した後方視的研究'
+title: 'A comprehensive algorithm for oncologic maxillary reconstruction'
+first_author: 'Hanasono MM'
+year: 2013
+journal: 'Plast Reconstr Surg'
+design: 'Retrospective series (algorithm development)'
+n: 246
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

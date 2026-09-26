@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: extended-defect
+title_ja: '上顎切除後の眼窩底を遊離皮弁で再建した34例の機能と整容を調べ骨再建なしで眼球位置異常が多かった後方視的研究'
+title: 'Orbital floor reconstruction with free flaps after maxillectomy'
+first_author: 'Sampathirao LMCSR'
+year: 2013
+journal: 'Craniomaxillofac Trauma Reconstr'
+design: 'Retrospective analysis + cross-sectional survey'
+n: 34
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

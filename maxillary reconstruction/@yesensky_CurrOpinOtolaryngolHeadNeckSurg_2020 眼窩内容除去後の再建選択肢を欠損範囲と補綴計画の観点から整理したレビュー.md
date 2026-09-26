@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: medium
 arm: extended-defect
+title_ja: '眼窩内容除去後の再建選択肢を欠損範囲と補綴計画の観点から整理したレビュー'
+title: 'Reconstructive options following orbital exenteration'
+first_author: 'Yesensky J'
+year: 2020
+journal: 'Curr Opin Otolaryngol Head Neck Surg'
+design: 'Review'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

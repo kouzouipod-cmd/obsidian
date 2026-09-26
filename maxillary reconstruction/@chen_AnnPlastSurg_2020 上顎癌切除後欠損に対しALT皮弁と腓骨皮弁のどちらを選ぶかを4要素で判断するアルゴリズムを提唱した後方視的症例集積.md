@@ -8,6 +8,14 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: selection-algorithm
+title_ja: '上顎癌切除後欠損に対しALT皮弁と腓骨皮弁のどちらを選ぶかを4要素で判断するアルゴリズムを提唱した後方視的症例集積'
+title: 'Use of Anterolateral Thigh Flap and Fibula Flap in Oncologic Maxillary Reconstruction: An Algorithm Approach'
+first_author: 'Chen SH'
+year: 2020
+journal: 'Ann Plast Surg'
+design: 'Retrospective case series'
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**

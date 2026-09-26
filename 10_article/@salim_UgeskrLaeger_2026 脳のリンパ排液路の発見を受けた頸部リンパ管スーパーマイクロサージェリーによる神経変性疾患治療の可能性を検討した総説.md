@@ -6,6 +6,15 @@ dateread: '2026-09-19'
 read: false
 topic: lymphedema_general
 domain: lymphedema
+title_ja: '脳のリンパ排液路の発見を受けた頸部リンパ管スーパーマイクロサージェリーによる神経変性疾患治療の可能性を検討した総説'
+title: 'Lymphatic supermicrosurgery in neurodegenerative disorders'
+first_author: 'Salim D'
+year: 2026
+journal: 'Ugeskr Laeger'
+design: 'Narrative review (Danish)'
+n: 0
+domain_ja: 'リンパ浮腫・LVA'
+topic_ja: 'リンパ浮腫・LVA 一般'
 ---
 > [!Data]
 > **PDF**

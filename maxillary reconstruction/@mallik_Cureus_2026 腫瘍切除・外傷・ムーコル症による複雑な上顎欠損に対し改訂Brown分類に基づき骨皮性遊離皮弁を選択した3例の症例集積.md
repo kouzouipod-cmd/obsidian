@@ -8,6 +8,15 @@ topic: maxillary_reconstruction
 domain: head_neck
 relevance: high
 arm: selection-algorithm
+title_ja: '腫瘍切除・外傷・ムーコル症による複雑な上顎欠損に対し改訂Brown分類に基づき骨皮性遊離皮弁を選択した3例の症例集積'
+title: 'Microvascular Osteocutaneous Free-Flap Reconstruction of Complex Maxillary Defects: A Two-Year Single-Center Experience'
+first_author: 'Mallik M'
+year: 2026
+journal: 'Cureus'
+design: 'Retrospective case series'
+n: 3
+domain_ja: '頭頸部再建'
+topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
