@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1097/PRS.0000000000013467
 
 # 1 AI要約
+![[90_attachments/brunetti_PlastReconstrSurg_2026/infographic.png]]
 
 
 ## 要約

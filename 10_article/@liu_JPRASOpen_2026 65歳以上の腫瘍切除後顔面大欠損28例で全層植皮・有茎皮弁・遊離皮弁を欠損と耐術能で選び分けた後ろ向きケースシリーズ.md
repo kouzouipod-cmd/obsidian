@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1016/j.jpra.2026.09.007
 
 # 1 AI要約
+![[90_attachments/liu_JPRASOpen_2026/infographic.png]]
 
 
 ## 要約

@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1002/oto2.70305
 
 # 1 AI要約
+![[90_attachments/abend_OTOOpen_2026/infographic.png]]
 
 
 ## 要約
