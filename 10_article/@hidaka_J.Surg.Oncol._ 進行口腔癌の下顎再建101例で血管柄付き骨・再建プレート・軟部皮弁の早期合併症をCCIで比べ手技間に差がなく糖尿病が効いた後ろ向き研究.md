@@ -1,20 +1,20 @@
 ---
 tags:
   - PMID/41992640
-citekey: "hidaka_J.Surg.Oncol._"
-dateread: '2026-01-29'
-read: false
+citekey: hidaka_J.Surg.Oncol._
+dateread: 2026-01-29
+read: true
 topic: head_neck_general
 domain: head_neck
-title_ja: '進行口腔癌の下顎再建101例で血管柄付き骨・再建プレート・軟部皮弁の早期合併症をCCIで比べ手技間に差がなく糖尿病が効いた後ろ向き研究'
-title: 'Early Complications in Mandibular Reconstruction: Analysis Using Comprehensive Complication Index.'
-first_author: 'Hidaka T'
+title_ja: 進行口腔癌の下顎再建101例で血管柄付き骨・再建プレート・軟部皮弁の早期合併症をCCIで比べ手技間に差がなく糖尿病が効いた後ろ向き研究
+title: "Early Complications in Mandibular Reconstruction: Analysis Using Comprehensive Complication Index."
+first_author: Hidaka T
 year: 2026
-journal: 'J Surg Oncol'
-design: 'Retrospective cohort'
+journal: J Surg Oncol
+design: Retrospective cohort
 n: 101
-domain_ja: '頭頸部再建'
-topic_ja: '頭頸部再建 一般'
+domain_ja: 頭頸部再建
+topic_ja: 頭頸部再建 一般
 ---
 > [!Data]
 > **PDF**

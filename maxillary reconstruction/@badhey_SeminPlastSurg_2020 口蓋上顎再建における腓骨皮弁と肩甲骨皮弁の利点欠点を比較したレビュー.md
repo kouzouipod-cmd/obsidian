@@ -1,21 +1,21 @@
 ---
 tags:
   - PMID/32390775
-citekey: "badhey_SeminPlastSurg_2020"
-dateread: '2026-09-24'
-read: false
+citekey: badhey_SeminPlastSurg_2020
+dateread: 2026-09-24
+read: true
 topic: maxillary_reconstruction
 domain: head_neck
 relevance: core
 arm: bone-flap-comparison
-title_ja: '口蓋上顎再建における腓骨皮弁と肩甲骨皮弁の利点欠点を比較したレビュー'
-title: 'Palatomaxillary Reconstruction: Fibula or Scapula'
-first_author: 'Badhey AK'
+title_ja: 口蓋上顎再建における腓骨皮弁と肩甲骨皮弁の利点欠点を比較したレビュー
+title: "Palatomaxillary Reconstruction: Fibula or Scapula"
+first_author: Badhey AK
 year: 2020
-journal: 'Semin Plast Surg'
-design: 'Review'
-domain_ja: '頭頸部再建'
-topic_ja: '上顎・中顔面再建'
+journal: Semin Plast Surg
+design: Review
+domain_ja: 頭頸部再建
+topic_ja: 上顎・中顔面再建
 ---
 > [!Data]
 > **PDF**
