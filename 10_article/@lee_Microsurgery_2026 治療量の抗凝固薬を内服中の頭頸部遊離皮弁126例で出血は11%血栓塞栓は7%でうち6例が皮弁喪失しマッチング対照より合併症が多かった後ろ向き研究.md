@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1002/micr.70298
 
 # 1 AI要約
+![[90_attachments/lee_Microsurgery_2026/infographic.png]]
 
 
 ## 要約

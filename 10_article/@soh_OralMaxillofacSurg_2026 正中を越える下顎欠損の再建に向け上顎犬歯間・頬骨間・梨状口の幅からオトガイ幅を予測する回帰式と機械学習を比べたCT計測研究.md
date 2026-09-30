@@ -22,6 +22,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1007/s10006-026-01644-3
 
 # 1 AI要約
+![[90_attachments/soh_OralMaxillofacSurg_2026/infographic.png]]
 
 
 ## 要約
