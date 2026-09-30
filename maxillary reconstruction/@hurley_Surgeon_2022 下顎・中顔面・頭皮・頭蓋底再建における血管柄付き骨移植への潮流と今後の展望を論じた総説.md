@@ -19,7 +19,7 @@ topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
-> [Hurley_2022_current_trends_craniofacial_reconstruction_Surgeon.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Hurley_2022_current_trends_craniofacial_reconstruction_Surgeon.pdf)
+> [hurley_Surgeon_2022 PDF](file://C:/Users/user/Zotero/storage/MEKXHY4X/Hurley%20et%20al.%20-%202022%20-%20Current%20trends%20in%20craniofacial%20reconstruction.pdf)
 > **Link**
 > https://doi.org/10.1016/j.surge.2022.04.004
 

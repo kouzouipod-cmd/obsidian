@@ -20,7 +20,7 @@ topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
-> [Yamamoto_2004_buttress_reconstruction_maxillectomy_defects_HeadNeck.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Yamamoto_2004_buttress_reconstruction_maxillectomy_defects_HeadNeck.pdf)
+> [yamamoto_HeadNeck_2004 PDF](file://C:/Users/user/Zotero/storage/46T3549Z/Yamamoto%20et%20al.%20-%202004%20-%20Surgical%20management%20of%20maxillectomy%20defects%20based%20on%20the%20concept%20of%20buttress%20reconstruction.pdf)
 > **Link**
 > https://doi.org/10.1002/hed.10366
 

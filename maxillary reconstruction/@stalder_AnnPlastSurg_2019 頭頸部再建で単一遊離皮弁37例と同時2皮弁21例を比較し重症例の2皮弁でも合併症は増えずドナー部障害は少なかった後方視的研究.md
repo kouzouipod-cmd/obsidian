@@ -20,7 +20,7 @@ topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
-> [Stalder_2019_single_vs_simultaneous_double_free_flaps_head_neck_AnnPlastSurg.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Stalder_2019_single_vs_simultaneous_double_free_flaps_head_neck_AnnPlastSurg.pdf)
+> [stalder_AnnPlastSurg_2019 PDF](file://C:/Users/user/Zotero/storage/Z7B9D5HY/Stalder%20et%20al.%20-%202019%20-%20Single%20Versus%20Simultaneous%20Double%20Free%20Flaps%20for%20Head%20and%20Neck%20Reconstruction%20Comparison%20of%20Flap%20Ou.pdf)
 > **Link**
 > https://doi.org/10.1097/SAP.0000000000001713
 

@@ -20,7 +20,7 @@ topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
-> [Kagaya_2021_RAMC_flap_volume_change_total_maxillectomy_JPRAS.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Kagaya_2021_RAMC_flap_volume_change_total_maxillectomy_JPRAS.pdf)
+> [kagaya_JPlastReconstrAesthetSurg_2021 PDF](file://C:/Users/user/Zotero/storage/3WWUHFBR/Kagaya%20et%20al.%20-%202021%20-%20Chronological%20flap%20volume%20and%20distribution%20changes%20after%20reconstruction%20of%20total%20maxillectomy%20defect.pdf)
 > **Link**
 > https://doi.org/10.1016/j.bjps.2021.05.021
 

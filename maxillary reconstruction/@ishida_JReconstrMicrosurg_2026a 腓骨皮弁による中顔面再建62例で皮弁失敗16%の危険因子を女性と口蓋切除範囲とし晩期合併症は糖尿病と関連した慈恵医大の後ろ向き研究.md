@@ -1,7 +1,7 @@
 ---
 tags:
   - PMID/40068892
-citekey: ishida_JReconstrMicrosurg_2026a
+citekey: "ishida_JReconstrMicrosurg_2026a"
 dateread: 2026-09-25
 read: true
 topic: maxillary_reconstruction

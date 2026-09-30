@@ -19,7 +19,7 @@ topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
-> [Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Mavrogenis_2019_oromandibular_microsurgical_update_Injury.pdf)
+> [mavrogenis_Injury_2019 PDF](file://C:/Users/user/Zotero/storage/5RAFW52I/Mavrogenis%20et%20al.%20-%202019%20-%20Microsurgical%20reconstruction%20of%20complex%20oromandibular%20defects%20An%20update.pdf)
 > **Link**
 > https://doi.org/10.1016/j.injury.2019.10.061
 
