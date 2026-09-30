@@ -2,7 +2,7 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-29 20:01  ／  全 94 件中 **取得済み 63 件**
+生成: 2026-09-30 16:11  ／  全 97 件中 **取得済み 63 件**
 
 ## 私が取得できる（PMC掲載）— 1 件
 
@@ -11,7 +11,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Sampathirao LMCSR 2013 Craniomaxillofac Trauma Reconstr** — PMC3721007（全文テキストは取得済み）
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.pdf`
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 27 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 30 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -33,6 +33,15 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Landfald IC 2026 Surg Radiol Anat**
   - https://doi.org/10.1007/s00276-026-03989-6
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Landfald_2026_lingual_artery_variants_scoping_review_SurgRadiolAnat.pdf`
+- **Lee AJ 2026 Microsurgery**
+  - https://doi.org/10.1002/micr.70298
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Lee_2026_therapeutic_anticoagulation_head_neck_free_flap_Microsurgery.pdf`
+- **Molinero-Mourelle P 2026 J Prosthet Dent**
+  - https://doi.org/10.1016/j.prosdent.2026.08.030
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\MolineroMourelle_2026_implants_fibula_mandible_SR_MA_JProsthetDent.pdf`
+- **Soh HY 2026 Oral Maxillofac Surg**
+  - https://doi.org/10.1007/s10006-026-01644-3
+  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Soh_2026_chin_width_prediction_regression_vs_random_forest_OMS.pdf`
 - **Urken ML 1998 Arch Otolaryngol Head Neck Surg**
   - https://doi.org/10.1001/archotol.124.1.46
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Urken_1998_oromandibular_reconstruction_210cases_ArchOtolaryngol.pdf`
