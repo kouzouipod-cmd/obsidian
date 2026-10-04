@@ -22,6 +22,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1016/j.prosdent.2026.08.030
 
 # 1 AI要約
+![[90_attachments/molinero-mourelle_JProsthetDent_2026/infographic.png]]
 
 
 ## 要約

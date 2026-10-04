@@ -22,6 +22,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.3390/life16091426
 
 # 1 AI要約
+![[90_attachments/dindelegan_LifeBasel_2026/infographic.png]]
 
 
 ## 要約
