@@ -17,7 +17,7 @@ topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**
-> [Dindelegan_2026_pharyngeal_reconstruction_PCF_total_laryngectomy_review_Life.pdf](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Dindelegan_2026_pharyngeal_reconstruction_PCF_total_laryngectomy_review_Life.pdf)
+> [dindelegan_LifeBasel_2026 PDF](file://C:/Users/user/Zotero/storage/T8D2ZIGF/Dindelegan%20et%20al.%20-%202026%20-%20Pharyngeal%20and%20Cervical%20Reconstruction%20and%20Fistula%20Management%20Following%20Total%20Laryngectomy%20Contempo.pdf)
 > **Link**
 > https://doi.org/10.3390/life16091426
 

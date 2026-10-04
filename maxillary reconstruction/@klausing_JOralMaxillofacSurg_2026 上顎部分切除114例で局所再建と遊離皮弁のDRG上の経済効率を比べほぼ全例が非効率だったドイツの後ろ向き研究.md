@@ -20,7 +20,7 @@ topic_ja: '上顎・中顔面再建'
 ---
 > [!Data]
 > **PDF**
-> [Klausing_2026_maxillary_reconstruction_DRG_economic_inefficiency_JOMS.pdf](file://C:/Users/user/claude/papers/maxillary_reconstruction/fulltext/Klausing_2026_maxillary_reconstruction_DRG_economic_inefficiency_JOMS.pdf)
+> [klausing_JOralMaxillofacSurg_2026 PDF](file://C:/Users/user/Zotero/storage/T9UR9MWN/Klausing%20et%20al.%20-%202026%20-%20Economic%20Inefficiency%20in%20Maxillary%20Reconstruction%20Patient-Specific%20Determinants%20and%20Implications%20fo.pdf)
 > **Link**
 > https://doi.org/10.1016/j.joms.2026.08.021
 

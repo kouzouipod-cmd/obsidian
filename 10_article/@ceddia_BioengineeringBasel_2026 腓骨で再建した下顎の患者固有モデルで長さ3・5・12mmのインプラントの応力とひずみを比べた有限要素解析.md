@@ -18,7 +18,7 @@ topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**
-> [Ceddia_2026_short_implants_fibula_mandible_FEA_Bioengineering.pdf](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Ceddia_2026_short_implants_fibula_mandible_FEA_Bioengineering.pdf)
+> [ceddia_BioengineeringBasel_2026 PDF](file://C:/Users/user/Zotero/storage/EFTTSWPJ/Ceddia%20et%20al.%20-%202026%20-%20Finite%20Element%20Analysis%20of%20Ultra-Short,%20Extra-Short,%20and%20Conventional%20Dental%20Implants%20in%20Fibula%20Free.pdf)
 > **Link**
 > https://doi.org/10.3390/bioengineering13091052
 

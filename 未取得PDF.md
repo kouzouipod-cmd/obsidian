@@ -2,7 +2,7 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-09-30 16:11  ／  全 97 件中 **取得済み 63 件**
+生成: 2026-10-03 22:16  ／  全 103 件中 **取得済み 70 件**
 
 ## 私が取得できる（PMC掲載）— 1 件
 
@@ -11,7 +11,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Sampathirao LMCSR 2013 Craniomaxillofac Trauma Reconstr** — PMC3721007（全文テキストは取得済み）
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Sampathirao_2013_orbital_floor_reconstruction_free_flaps_after_maxillectomy_CMTR.pdf`
 
-## ユーザーにお願いする（購読誌・PMC収載なし）— 30 件
+## ユーザーにお願いする（購読誌・PMC収載なし）— 29 件
 
 機関アクセスでダウンロードし、下のパスに置く。ファイル名はこのとおりにすること。
 
@@ -36,12 +36,6 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Lee AJ 2026 Microsurgery**
   - https://doi.org/10.1002/micr.70298
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Lee_2026_therapeutic_anticoagulation_head_neck_free_flap_Microsurgery.pdf`
-- **Molinero-Mourelle P 2026 J Prosthet Dent**
-  - https://doi.org/10.1016/j.prosdent.2026.08.030
-  - `C:\Users\user\claude\papers\head_neck_general\fulltext\MolineroMourelle_2026_implants_fibula_mandible_SR_MA_JProsthetDent.pdf`
-- **Soh HY 2026 Oral Maxillofac Surg**
-  - https://doi.org/10.1007/s10006-026-01644-3
-  - `C:\Users\user\claude\papers\head_neck_general\fulltext\Soh_2026_chin_width_prediction_regression_vs_random_forest_OMS.pdf`
 - **Urken ML 1998 Arch Otolaryngol Head Neck Surg**
   - https://doi.org/10.1001/archotol.124.1.46
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Urken_1998_oromandibular_reconstruction_210cases_ArchOtolaryngol.pdf`
@@ -54,6 +48,9 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - **Salim D 2026 Ugeskr Laeger**
   - https://doi.org/10.61409/V02260157
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Salim_2026_lymphatic_supermicrosurgery_neurodegeneration_review_UgeskrLaeger.pdf`
+- **Arcuri F 2026 J Craniofac Surg**
+  - https://doi.org/10.1097/SCS.0000000000013472
+  - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Arcuri_2026_oronasal_communication_classification_algorithm_JCraniofacSurg.pdf`
 - **Bao M 2024 J Craniofac Surg**
   - https://doi.org/10.1097/SCS.0000000000010036
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Bao_2024_flowthrough_fibula_ALT_maxillary_JCraniofacSurg.pdf`
@@ -124,7 +121,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
 
-## 取得済み — 63 件
+## 取得済み — 70 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -148,6 +145,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Wang TY 2012 Plast Reconstr Surg
 - Wu K 2022 J Oral Maxillofac Surg
 - Abend A 2026 OTO Open
+- Adams G 2026 Laryngoscope
 - Alotaibi SM 2026 Saudi Dent J
 - Alves AS 2026 JPRAS Open
 - Brown JS 2016 Lancet Oncol
@@ -155,15 +153,19 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Cárdenas Serres C 2026 J Clin Med
 - Ceddia M 2026 Bioengineering (Basel)
 - Dindelegan MG 2026 Life (Basel)
+- Gaikwad S 2025 J Maxillofac Oral Surg
 - Guevara-Carvajal SA 2026 JPRAS Open
 - Heene S 2026 Front Oncol
 - Hidaka T 2026 J Surg Oncol
 - Liu X 2026 JPRAS Open
 - Ma Z 2026 Front Oncol
 - Maglitto F 2026 J Clin Med
+- Molinero-Mourelle P 2026 J Prosthet Dent
+- Soh HY 2026 Oral Maxillofac Surg
 - Stigger T 2026 JPRAS Open
 - Tasi LZ 2026 Otolaryngol Head Neck Surg
 - Vega Morales AQ 2026 Cureus
+- Vuppala R 2026 World J Otorhinolaryngol Head Neck Surg
 - Zou H 2026 Medicina (Kaunas)
 - Hara H 2026 Plast Reconstr Surg Glob Open
 - Lilja C 2026 JPRAS Open
@@ -179,6 +181,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Mallik M 2026 Cureus
 - Mavrogenis AF 2019 Injury
 - Miyamoto S 2024 Oral Maxillofac Surg
+- Ochoa E 2026 Laryngoscope
 - Rogers SN 2022 Eur Arch Otorhinolaryngol
 - Stalder MW 2019 Ann Plast Surg
 - Tsuge I 2022 Plast Reconstr Surg Glob Open
@@ -189,3 +192,4 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Yamamoto Y 2004 Head Neck
 - Dastagir K 2026 Plast Reconstr Surg Glob Open
 - Takagi S 2026 Plast Reconstr Surg Glob Open
+- Laborde KJ 1982 J Hand Surg Am

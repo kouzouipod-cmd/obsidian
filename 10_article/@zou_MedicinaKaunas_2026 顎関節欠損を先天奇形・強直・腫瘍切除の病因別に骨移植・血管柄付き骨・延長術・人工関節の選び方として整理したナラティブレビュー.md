@@ -17,7 +17,7 @@ topic_ja: '頭頸部再建 一般'
 ---
 > [!Data]
 > **PDF**
-> [Zou_2026_TMJ_defect_reconstruction_strategy_review_Medicina.pdf](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Zou_2026_TMJ_defect_reconstruction_strategy_review_Medicina.pdf)
+> [zou_MedicinaKaunas_2026 PDF](file://C:/Users/user/Zotero/storage/GJF8HE9B/Zou%20et%20al.%20-%202026%20-%20Temporomandibular%20Joint%20Defects%20Etiology%20and%20Reconstruction%20Strategy%20A%20Narrative%20Review..pdf)
 > **Link**
 > https://doi.org/10.3390/medicina62091754
 
