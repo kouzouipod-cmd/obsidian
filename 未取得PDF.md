@@ -193,3 +193,15 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Dastagir K 2026 Plast Reconstr Surg Glob Open
 - Takagi S 2026 Plast Reconstr Surg Glob Open
 - Laborde KJ 1982 J Hand Surg Am
+
+
+## 追加分（2026-10-04・今回1件のみ）
+
+既存の集計値は上記の生成時点のまま。今回の追記は次の1件（PDF未取得）。
+
+- **Agolli L 2027 Clin Transl Radiat Oncol 62:101288** — PMC13631610
+  - [DOI](https://doi.org/10.1016/j.ctro.2026.101288) ／ [PubMed](https://pubmed.ncbi.nlm.nih.gov/42828129/)
+  - [[@agolli_ClinTranslRadiatOncol_2027 局所進行咽頭・喉頭癌の手術＋術後照射と根治照射を122例で比較した傾向スコア研究|Agolli 2027]]
+  - 保存先：`C:\Users\user\claude\papers\head_neck_general\fulltext\Agolli_2027_surgery_adjuvant_vs_definitive_RT_CTRO.pdf`
+  - PMC正規PDF URLはHTML中間ページ（1817バイト）を返したため、PDFとして保存・添付していない。CC BY 4.0の本文テキストは確認済み。
+  - Zotero登録済み：WRYHS55Y（Head & Neck）。後日PDF取得時はこの既存アイテムに添付し、再登録しない。
