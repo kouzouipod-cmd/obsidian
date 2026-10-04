@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1007/s12663-025-02629-7
 
 # 1 AI要約
+![[90_attachments/gaikwad_JMaxillofacOralSurg_2025/infographic.png]]
 
 
 ## 要約

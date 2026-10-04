@@ -28,6 +28,7 @@ domain: head_neck
 > https://doi.org/10.1016/j.ctro.2026.101288
 
 # 1 AI要約
+![[90_attachments/agolli_ClinTranslRadiatOncol_2027/infographic.png]]
 
 
 ## 要約

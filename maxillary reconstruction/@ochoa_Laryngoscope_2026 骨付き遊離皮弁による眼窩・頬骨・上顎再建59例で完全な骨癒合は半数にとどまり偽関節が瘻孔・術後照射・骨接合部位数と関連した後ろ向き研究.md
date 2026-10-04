@@ -25,6 +25,7 @@ topic_ja: '上顎・中顔面再建'
 > https://doi.org/10.1002/lary.70965
 
 # 1 AI要約
+![[90_attachments/ochoa_Laryngoscope_2026/infographic.png]]
 
 
 ## 要約

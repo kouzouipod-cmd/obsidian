@@ -23,6 +23,7 @@ topic_ja: '末梢神経・神経痛 一般'
 > https://doi.org/10.1016/S0363-5023(82)80086-5
 
 # 1 AI要約
+![[90_attachments/laborde_JHandSurgAm_1982/infographic.png]]
 
 
 ## 要約
