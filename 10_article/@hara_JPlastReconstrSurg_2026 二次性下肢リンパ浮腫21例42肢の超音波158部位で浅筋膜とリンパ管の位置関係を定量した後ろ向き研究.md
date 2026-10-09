@@ -28,6 +28,7 @@ domain: lymphedema
 > https://doi.org/10.53045/jprs.2025-0106
 
 # 1 AI要約
+![[90_attachments/hara_JPlastReconstrSurg_2026/infographic.png]]
 
 
 ## 要約
