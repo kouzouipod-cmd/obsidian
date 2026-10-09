@@ -48,6 +48,12 @@ topic_ja: '旧ノート（Zotero Integration）'
 - [[Comprehensive Complication Index]]
 - [[早期予測]]
 
+### 関連論文との位置付け（2026-10-06追記）
+
+[[@kondo_JPlastReconstrAesthetSurg_2025 遊離空腸移植78例の術中写真で空腸動静脈の位置関係と受容血管を検討した後ろ向き研究|Kondo 2025]] は遊離空腸の動静脈配置を術中写真で記述し、本研究は術後の合併症負荷をCCIで時系列評価する。本文Resultsでは血行不全6/161例（3.7%）、5例救済・1例喪失（0.6%）と報告されるが、Kondoの配置型との関連は検証されていない。術中の配置確認と術後観察という異なる段階を扱う関連論文として読む。
+
+本研究のPOD2 CCI閾値8.7は感度86.7%・特異度93.8%。ただしDiscussion（本文3190–3191頁）は、重篤な事象が生じる前の予見ではなく、既に起きた早期のCCI上昇を含む後ろ向き評価であると説明する。介入による転帰改善や前向き予測性能は今後の検証課題である。根拠は既存PDFのZotero抽出テキスト（Results、Discussion）と[PubMed PMID 40119752](https://pubmed.ncbi.nlm.nih.gov/40119752/)、[DOI](https://doi.org/10.1002/lary.32149)。Kondoは抄録のみ確認済み。
+
 # 2 Citation
 Hidaka, Takeaki and Miyamoto, Shimpei and Fukunaga, Yutaka and Oshima, Azusa and Shinozaki, Takeshi and Matsuura, Kazuto and Higashino, Takuya. Complication Trajectories in Total Pharyngolaryngectomy: Comprehensive Complication Index Analysis. The Laryngoscope. 2025;135:3186--3192.
 

@@ -205,3 +205,46 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - 保存先：`C:\Users\user\claude\papers\head_neck_general\fulltext\Agolli_2027_surgery_adjuvant_vs_definitive_RT_CTRO.pdf`
   - PMC正規PDF URLはHTML中間ページ（1817バイト）を返したため、PDFとして保存・添付していない。CC BY 4.0の本文テキストは確認済み。
   - Zotero登録済み：WRYHS55Y（Head & Neck）。後日PDF取得時はこの既存アイテムに添付し、再登録しない。
+
+
+## 追加分（2026-10-06・今回1件のみ）
+
+既存の集計値は上記の生成時点のまま。今回の追記は次の1件（PDF未取得）。Hidaka 2025（10.1002/lary.32149）はZoteroの既存PDF実体を確認済みで、この対象に含めない。
+
+- **Kondo A 2025 J Plast Reconstr Aesthet Surg 101:84–89**
+  - [[@kondo_JPlastReconstrAesthetSurg_2025 遊離空腸移植78例の術中写真で空腸動静脈の位置関係と受容血管を検討した後ろ向き研究|Kondo 2025]]
+  - [DOI](https://doi.org/10.1016/j.bjps.2024.11.058) ／ [PubMed](https://pubmed.ncbi.nlm.nih.gov/39709877/)
+  - 出版社の[公開著者原稿](https://www.sciencedirect.com/science/article/am/pii/S1748681524007691)はHTTP 403のHTMLを返し、本文・PDFは未取得。ノートはPubMed抄録に基づく。
+  - 保存先：`C:\Users\user\claude\papers\head_neck_general\fulltext\Kondo_2025_jejunal_vessel_position_JPRAS.pdf`
+  - Zotero登録済み：5H67ES8K（Head & Neck）。機関アクセス等でPDFを取得できた場合はこの既存アイテムに添付し、再登録しない。
+
+
+## 追加分（2026-10-09・今回2件のみ）
+
+既存の集計値は上記の生成時点のまま。以下はPDFのみ未取得で、PMC本文XMLは確認・保存済み。
+
+- **Garajei A 2026 JPRAS Open 52:496-499**
+  - [[@garajei_JPRASOpen_2026 下口唇全切除後の前腕皮弁から真皮スリングを採取し2年の口腔機能と生活の質を評価した1例報告|Garajei A 2026]]
+  - [DOI](https://doi.org/10.1016/j.jpra.2026.09.013) ／ [PubMed](https://pubmed.ncbi.nlm.nih.gov/42835475/) ／ [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC13635401/)
+  - PMC PDFはHTML中間ページ、出版社URLもHTML応答のためPDFとして保存・添付していない。
+  - 保存予定：`C:\Users\user\claude\papers\head_neck_general\fulltext\Garajei_2026_dermal_sling_lower_lip_JPRASOpen.pdf`
+  - Zotero PSHS5MGK 登録済み。後日取得時はこのアイテムへ添付し、再登録しない。
+
+- **Nguyen DH 2026 Arch Plast Surg 53(5):427-438**
+  - [[@nguyen_ArchPlastSurg_2026 健常7体とAD1体の献体で髄膜から頸部へのリンパ路とLNVA候補を探索し臨床有効性は検証しない解剖研究|Nguyen DH 2026]]
+  - [DOI](https://doi.org/10.1055/a-2897-0477) ／ [PubMed](https://pubmed.ncbi.nlm.nih.gov/42835887/) ／ [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC13638242/)
+  - PMC PDFはHTML中間ページ、出版社URLもHTML応答のためPDFとして保存・添付していない。
+  - 保存予定：`C:\Users\user\claude\papers\head_neck_general\fulltext\Nguyen_2026_brain_cervical_lymphatic_mapping_APS.pdf`
+  - Zotero Z6JPM7B9 登録済み。後日取得時はこのアイテムへ添付し、再登録しない。
+
+
+## 追加確認（2026-10-09・Al-Qurayshi）
+
+既存の集計値は上記の生成時点のまま。今回追加2報のうち、Sunは出版社PDF取得・Zotero添付済み。以下1報の本文・PDFは未取得。
+
+- **Al-Qurayshi Z 2026 Head Neck**（オンライン先行公開2026-10-06、巻号頁未付与）
+  - [[@al-qurayshi_HeadNeck_2026 喉頭全摘後の傍肩甲遊離皮弁再建28例で救済手術13例と咽頭皮膚瘻6例を報告し他皮弁との優劣は検証しない後ろ向き症例集積|Al-Qurayshi 2026]]
+  - [DOI](https://doi.org/10.1002/hed.70502) ／ [PubMed](https://pubmed.ncbi.nlm.nih.gov/42839736/)
+  - PMCなし。書誌・抄録のみ確認。出版社本文はアクセス確認できず、PDFを取得できていない。購入や機関ログインは実施していない。
+  - 保存予定：C:/Users/user/claude/papers/head_neck_general/fulltext/AlQurayshi_2026_parascapular_laryngectomy_HeadNeck.pdf
+  - Zotero 2LH7MDWF 登録済み。合法に入手後はこの既存アイテムへ添付し、再登録しない。
