@@ -23,7 +23,7 @@ domain: head_neck
 ---
 > [!Data]
 > **PDF**
-> PDF未取得。PMC本文XMLを確認済み（本文リンクは末尾）。
+> [取得済みPDF](file://C:/Users/user/claude/papers/head_neck_general/fulltext/Nguyen_2026_brain_cervical_lymphatic_mapping_APS.pdf)（私用ライブラリ保存済み・Zotero添付待ち）
 > **Link**
 > https://doi.org/10.1055/a-2897-0477
 
@@ -51,7 +51,7 @@ domain: head_neck
 - 非認知症の新鮮凍結献体3体で髄膜観察、別の健常頭部3体で頭頸部経路をマッピング。全体の検体数は限界節に健常7体・AD1体と明記。
 - ICG蛍光、H&E、CD31・D2-40、βアミロイド免疫染色。
 - 健常献体でLevel IIリンパ節と近傍静脈のLNVAをSymaniで模擬実施。
-- PMC本文を確認。PDF未取得、図・動画は目視評価していない。
+- PMC本文と完成版PDFの全文テキストを確認。PDF先頭ページ、表1・利益相反・資金開示欄は目視照合。解剖・組織画像や動画の詳細な目視評価はしていない。
 
 ### **結果**
 - 髄膜注入後に頭蓋底からLevel II深頸リンパ節への蛍光を観察。deep digastric pointとLevel IIに近傍静脈を確認。
@@ -67,9 +67,18 @@ domain: head_neck
 
 #### 出典と確認範囲
 
-PubMedによる書誌・原文抄録：[PMID 42835887](https://pubmed.ncbi.nlm.nih.gov/42835887/)、[DOI](https://doi.org/10.1055/a-2897-0477)。本文：[PMC PMC13638242](https://pmc.ncbi.nlm.nih.gov/articles/PMC13638242/)のMethods、Results、Discussionと図表キャプション。本文XMLは確認済みだがPDFは未取得。図・動画そのものは未確認。電子公開2026-08-21、誌面2026年53(5):427-438。CC BY 4.0。原文XMLと抽出本文を私用ライブラリに保存。既存論文との比較は既存ノートを根拠とする整理であり、新論文の直接比較結果ではない。
+PubMedによる書誌・原文抄録：[PMID 42835887](https://pubmed.ncbi.nlm.nih.gov/42835887/)、[DOI](https://doi.org/10.1055/a-2897-0477)。本文：[PMC PMC13638242](https://pmc.ncbi.nlm.nih.gov/articles/PMC13638242/)のMethods、Results、Discussionと図表キャプション。本文XMLに加え、2026-10-09に取得済みPDFの本文・表1と資金開示を確認。図・動画そのものの詳細な視覚的評価は未実施。電子公開2026-08-21、誌面2026年53(5):427-438。CC BY 4.0。原文XMLと抽出本文を私用ライブラリに保存。既存論文との比較は既存ノートを根拠とする整理であり、新論文の直接比較結果ではない。
 
 - 後続の[[@sun_FrontAgingNeurosci_2026 ADへの深頸部リンパ静脈再建を組織弁とリンパ節と集合リンパ管の3標的に分け臨床効果未確立として検証条件を整理した総説|Sun 2026]]は本献体研究を直接引用し、解剖学的候補の同定と生体での方向性ある流れ・治療効果の検証を区別する。3種類の吻合対象と3・6・12か月の持続的開存評価を提案するナラティブレビューであり、本研究に臨床有効性の証拠を追加するものではない。
+
+
+
+#### PDF確認による補足（2026-10-09）
+
+- Downloadsの完成版PDF（12ページ、誌面427〜438頁）でタイトル・DOI・本文・表1を照合。健常7体＋AD1体、ICGの非特異性、模擬吻合にとどまるという既存要約の結論は変わらない。
+- **標的の区別：表1（436頁）はdeep digastric pointをリンパ節なし・LVAのみとし、Level IIはLVAまたはLNVAと記載する。** 抄録の候補標的の表現から両部位を一律にLNVAの標的と解釈しない。安全性に関する表中の利点・欠点は検証済みの臨床転帰ではない。
+- **資金開示の補足：437頁Funding InformationにD.H.N.とJ.P.H.がMMIから研究者主導試験向けの教育助成を受けたと明記。** 既記載のJ.P.H.のコンサルティング関係、MMI負担の医学ライティング支援に加えて記録する。
+- 原ダウンロードは保持し、私用ライブラリへコピー保存。Zoteroの既存アイテムZ6JPM7B9へのPDF添付は未実施（現在利用可能なローカルAPIは読み取り専用、画面操作ツールなし）。
 
 ### **キーワード**
 - #brain_lymphatics, #cadaveric_study, #LNVA, #ICG, #surgical_anatomy

@@ -221,7 +221,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 
 ## 追加分（2026-10-09・今回2件のみ）
 
-既存の集計値は上記の生成時点のまま。以下はPDFのみ未取得で、PMC本文XMLは確認・保存済み。
+既存の集計値は上記の生成時点のまま。当初2件のうちGarajeiはPDF未取得。Nguyenは2026-10-09にPDF取得済みへ更新（Zotero添付のみ待ち）。両論文のPMC本文XMLは確認・保存済み。
 
 - **Garajei A 2026 JPRAS Open 52:496-499**
   - [[@garajei_JPRASOpen_2026 下口唇全切除後の前腕皮弁から真皮スリングを採取し2年の口腔機能と生活の質を評価した1例報告|Garajei A 2026]]
@@ -230,12 +230,12 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - 保存予定：`C:\Users\user\claude\papers\head_neck_general\fulltext\Garajei_2026_dermal_sling_lower_lip_JPRASOpen.pdf`
   - Zotero PSHS5MGK 登録済み。後日取得時はこのアイテムへ添付し、再登録しない。
 
-- **Nguyen DH 2026 Arch Plast Surg 53(5):427-438**
+- **Nguyen DH 2026 Arch Plast Surg 53(5):427-438 — PDF取得済み（2026-10-09）**
   - [[@nguyen_ArchPlastSurg_2026 健常7体とAD1体の献体で髄膜から頸部へのリンパ路とLNVA候補を探索し臨床有効性は検証しない解剖研究|Nguyen DH 2026]]
   - [DOI](https://doi.org/10.1055/a-2897-0477) ／ [PubMed](https://pubmed.ncbi.nlm.nih.gov/42835887/) ／ [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC13638242/)
-  - PMC PDFはHTML中間ページ、出版社URLもHTML応答のためPDFとして保存・添付していない。
-  - 保存予定：`C:\Users\user\claude\papers\head_neck_general\fulltext\Nguyen_2026_brain_cervical_lymphatic_mapping_APS.pdf`
-  - Zotero Z6JPM7B9 登録済み。後日取得時はこのアイテムへ添付し、再登録しない。
+  - ユーザーがダウンロードした12ページPDFのタイトル・DOI・本文を照合し、下記へコピー保存済み。元ファイルは保持。
+  - 保存先：`C:\Users\user\claude\papers\head_neck_general\fulltext\Nguyen_2026_brain_cervical_lymphatic_mapping_APS.pdf`
+  - Zotero Z6JPM7B9 登録済み。PDFは取得済みだが、この既存アイテムへのコピー添付のみ未実施。再ダウンロード・親アイテムの再登録は不要。
 
 
 ## 追加確認（2026-10-09・Al-Qurayshi）
