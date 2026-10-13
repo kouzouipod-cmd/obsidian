@@ -28,6 +28,7 @@ domain: head_neck
 > https://doi.org/10.1016/j.jpra.2026.09.013
 
 # 1 AI要約
+![[90_attachments/garajei_JPRASOpen_2026/infographic.png]]
 
 
 ## 要約

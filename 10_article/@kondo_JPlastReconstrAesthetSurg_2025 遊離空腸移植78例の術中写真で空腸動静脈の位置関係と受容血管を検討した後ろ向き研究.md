@@ -27,6 +27,7 @@ domain: head_neck
 > https://doi.org/10.1016/j.bjps.2024.11.058
 
 # 1 AI要約
+![[90_attachments/kondo_JPlastReconstrAesthetSurg_2025/infographic.png]]
 
 
 ## 要約

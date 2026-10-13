@@ -28,6 +28,7 @@ domain: head_neck
 > https://doi.org/10.1055/a-2897-0477
 
 # 1 AI要約
+![[90_attachments/nguyen_ArchPlastSurg_2026/infographic.png]]
 
 
 ## 要約

@@ -28,6 +28,7 @@ domain: lymphedema
 > https://doi.org/10.3389/fnagi.2026.1945322
 
 # 1 AI要約
+![[90_attachments/sun_FrontAgingNeurosci_2026/infographic.png]]
 
 
 ## 要約
