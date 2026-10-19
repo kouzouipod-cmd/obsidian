@@ -23,6 +23,7 @@ topic_ja: 'リンパ浮腫・LVA 一般'
 > https://doi.org/10.1097/GOX.0000000000008181
 
 # 1 AI要約
+![[90_attachments/fabi_PlastReconstrSurgGlobOpen_2026/infographic.png]]
 
 
 ## 要約

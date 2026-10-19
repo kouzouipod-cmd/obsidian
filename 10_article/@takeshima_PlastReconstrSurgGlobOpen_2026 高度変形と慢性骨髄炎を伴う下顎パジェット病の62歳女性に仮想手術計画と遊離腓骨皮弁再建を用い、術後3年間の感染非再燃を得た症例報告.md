@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1097/GOX.0000000000008204
 
 # 1 AI要約
+![[90_attachments/takeshima_PlastReconstrSurgGlobOpen_2026/infographic.png]]
 
 
 ## 要約

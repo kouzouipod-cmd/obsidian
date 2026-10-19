@@ -22,6 +22,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1016/j.bjoms.2026.07.009
 
 # 1 AI要約
+![[90_attachments/ramchandani_BrJOralMaxillofacSurg_2026/infographic.png]]
 
 
 ## 要約

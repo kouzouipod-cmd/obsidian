@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1002/lio2.70588
 
 # 1 AI要約
+![[90_attachments/bonaventure_LaryngoscopeInvestigOtolaryngol_2026/infographic.png]]
 
 
 ## 要約

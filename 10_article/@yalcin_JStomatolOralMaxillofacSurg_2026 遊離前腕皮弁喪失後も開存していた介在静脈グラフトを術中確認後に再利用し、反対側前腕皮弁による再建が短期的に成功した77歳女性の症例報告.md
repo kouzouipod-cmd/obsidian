@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1016/j.jormas.2026.103045
 
 # 1 AI要約
+![[90_attachments/yalcin_JStomatolOralMaxillofacSurg_2026/infographic.png]]
 
 
 ## 要約

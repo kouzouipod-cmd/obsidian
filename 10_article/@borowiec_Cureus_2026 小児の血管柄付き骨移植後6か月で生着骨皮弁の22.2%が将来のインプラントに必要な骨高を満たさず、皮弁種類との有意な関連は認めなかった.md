@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.7759/cureus.116159
 
 # 1 AI要約
+![[90_attachments/borowiec_Cureus_2026/infographic.png]]
 
 
 ## 要約

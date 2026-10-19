@@ -22,6 +22,7 @@ topic_ja: '乳房再建・インプラント 一般'
 > https://doi.org/10.1007/s00266-026-06365-2
 
 # 1 AI要約
+![[90_attachments/brown_AestheticPlastSurg_2026/infographic.png]]
 
 
 ## 要約
