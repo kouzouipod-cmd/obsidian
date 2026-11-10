@@ -2,7 +2,7 @@
 
 pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手で編集しない。
 
-生成: 2026-10-19 16:25  ／  全 122 件中 **取得済み 79 件**
+生成: 2026-11-03 11:18  ／  全 124 件中 **取得済み 80 件**
 
 ## 私が取得できる（PMC掲載）— 3 件
 
@@ -131,7 +131,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - https://doi.org/10.1097/SCS.0000000000008399
   - `C:\Users\user\claude\papers\maxillary_reconstruction\fulltext\Yu_2021_complete_bilateral_maxillary_defects_free_flaps_JCraniofacSurg.pdf`
 
-## 入手困難（依頼しない・記録のみ）— 3 件
+## 入手困難（依頼しない・記録のみ）— 4 件
 
 試して取れなかったもの。**このリストにある論文のPDFはユーザーに依頼しないこと。**
 必要になったら図書館の文献複写依頼（ILL）で取り寄せる。
@@ -144,12 +144,17 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
   - https://pubmed.ncbi.nlm.nih.gov/1896529/
   - 1989年・1991年のPlast Reconstr Surg。Ovidの機関アクセスが電子化以前の巻号に及ばない。2026-09-15にユーザーが試みて不可。必要ならILL（図書館の文献複写依頼）。1991年はdiscussion(586-7)も併せて依頼すること。
   - `C:\Users\user\claude\papers\head_neck_general\fulltext\Hidalgo_1991_aesthetic_bone_shaping_mandible_PRS.pdf`
+
 - **Keane K 2026 bioRxiv**
   - https://doi.org/10.64898/2026.08.04.742795
   - PMCにPDFなし（プレプリント）。全文はbioRxivで公開。
   - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Keane_2026_cholesterol_lymphatic_contractility_bioRxiv.pdf`
+- **Suzuki Y 2027 JPRAS Open**
+  - https://doi.org/10.1016/j.jpra.2026.10.015
+  - 自動取得保留（2026-11-03）。PMC PDFがreCAPTCHAを表示したため停止。出版社PDFも取得できず。PDF不存在とは判断していない。PMC HTML/PubMed MCPで全文確認済み（CC BY-NC-ND 4.0）。アクセス可能になればPDFを確認して添付する。
+  - `C:\Users\user\claude\papers\lymphedema_general\fulltext\Suzuki_2027_digital_lymphatics_photoacoustic_JPRASOpen.pdf`
 
-## 取得済み — 79 件
+## 取得済み — 80 件
 
 - Asai E 2010 Microsurgery
 - Davison SP 2009 Plast Reconstr Surg
@@ -183,6 +188,7 @@ pwsh -File C:\Users\user\claude\papers\pdf_status.ps1 で再生成する。手�
 - Cárdenas Serres C 2026 J Clin Med
 - Ceddia M 2026 Bioengineering (Basel)
 - Dindelegan MG 2026 Life (Basel)
+- Füzes A 2026 Orv Hetil
 - Gaikwad S 2025 J Maxillofac Oral Surg
 - Guevara-Carvajal SA 2026 JPRAS Open
 - Heene S 2026 Front Oncol
