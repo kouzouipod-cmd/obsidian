@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.3389/fonc.2026.1897431
 
 # 1 AI要約
+![[90_attachments/panchal_FrontOncol_2026/infographic.png]]
 
 
 ## 要約

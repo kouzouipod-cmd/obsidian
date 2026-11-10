@@ -23,6 +23,7 @@ topic_ja: 'リンパ浮腫・LVA 一般'
 > https://doi.org/10.1016/j.jpra.2026.10.015
 
 # 1 AI要約
+![[90_attachments/suzuki_JPRASOpen_2027/infographic.png]]
 
 
 ## 要約

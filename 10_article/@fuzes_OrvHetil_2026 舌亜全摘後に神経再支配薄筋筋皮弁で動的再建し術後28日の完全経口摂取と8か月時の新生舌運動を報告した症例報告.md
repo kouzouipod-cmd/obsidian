@@ -23,6 +23,7 @@ topic_ja: '頭頸部再建 一般'
 > https://doi.org/10.1556/650.2026.33652
 
 # 1 AI要約
+![[90_attachments/fuzes_OrvHetil_2026/infographic.png]]
 
 
 ## 要約

@@ -166,7 +166,7 @@ def generate_infographic(
 
         # Generate content with image
         response = client.models.generate_content(
-            model="gemini-3-pro-image-preview",
+            model="gemini-3-pro-image",
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_modalities=["TEXT", "IMAGE"]
